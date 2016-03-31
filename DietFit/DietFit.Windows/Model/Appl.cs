@@ -8,7 +8,7 @@ namespace DietFit.Model
 {
     public static class Appl
     {
-
+        //
         private static List<Utilizador> utilizadores = new List<Utilizador>();
         private static Utilizador lastLoggedUser;
 
