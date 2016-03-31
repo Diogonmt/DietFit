@@ -1,0 +1,110 @@
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\bin\Debug\App.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\bin\Debug\MainPage.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\bin\Debug\DietFit.WindowsPhone.xr.xml
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\bin\Debug\DietFit.WindowsPhone.exe
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\bin\Debug\DietFit.WindowsPhone.pdb
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\bin\Debug\resources.pri
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\bin\Debug\AppxManifest.xml
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\bin\Debug\DietFit.WindowsPhone.build.appxrecipe
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\App.g.i.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\App.g.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\MainPage.g.i.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\MainPage.g.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\App.xaml
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\MainPage.xaml
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\App.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\MainPage.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\DietFit.WindowsPhone.exe
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\DietFit.WindowsPhone.pdb
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\priconfig.xml
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\priconfig.xml.intermediate
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\layout.resfiles
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\layout.resfiles.intermediate
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\resources.resfiles
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\resources.resfiles.intermediate
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\pri.resfiles
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\pri.resfiles.intermediate
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\qualifiers.txt
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\ProjectArchitectures.txt
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\App.g.i.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\App.g.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\App.xaml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\App.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\DietFit.WindowsPhone.exe
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\DietFit.WindowsPhone.pdb
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\LoginPhone.g.i.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\LoginPhone.g.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\LoginPhone.xaml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\LoginPhone.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\bin\Debug\App.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\bin\Debug\Views\LoginPhone.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\bin\Debug\DietFit.WindowsPhone.xr.xml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\bin\Debug\DietFit.WindowsPhone.exe
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\bin\Debug\DietFit.WindowsPhone.pdb
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\bin\Debug\resources.pri
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\bin\Debug\AppxManifest.xml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\bin\Debug\DietFit.WindowsPhone.build.appxrecipe
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\priconfig.xml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\priconfig.xml.intermediate
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\layout.resfiles
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\layout.resfiles.intermediate
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\resources.resfiles
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\resources.resfiles.intermediate
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\pri.resfiles
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\pri.resfiles.intermediate
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\qualifiers.txt
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\ProjectArchitectures.txt
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\AmbientePhone.g.i.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\AmbientePhone.g.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\CriarContaPhone.g.i.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\CriarContaPhone.g.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\AmbientePhone.xaml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\CriarContaPhone.xaml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\AmbientePhone.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\CriarContaPhone.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\MenuPhone.g.i.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\MenuPhone.g.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\MotivacaoPhone.g.i.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\MotivacaoPhone.g.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\NotasPhone.g.i.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\NotasPhone.g.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\MotivacaoPhone.xaml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\MotivacaoPhone.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\MenuPhone.xaml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\NotasPhone.xaml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\MenuPhone.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\NotasPhone.xbf
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\App.g.i.cs
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\App.g.cs
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\AmbientePhone.g.i.cs
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\AmbientePhone.g.cs
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\MenuPhone.g.i.cs
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\MenuPhone.g.cs
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\LoginPhone.g.i.cs
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\LoginPhone.g.cs
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\MotivacaoPhone.g.i.cs
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\MotivacaoPhone.g.cs
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\NotasPhone.g.i.cs
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\NotasPhone.g.cs
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\App.xaml
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\AmbientePhone.xaml
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\MenuPhone.xaml
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\LoginPhone.xaml
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\MotivacaoPhone.xaml
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\NotasPhone.xaml
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\App.xbf
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\AmbientePhone.xbf
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\MenuPhone.xbf
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\LoginPhone.xbf
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\MotivacaoPhone.xbf
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\Views\NotasPhone.xbf
+C:\Users\Mário\Desktop\ISMAI\DietFit Mario\DietFit\DietFit\DietFit\DietFit.WindowsPhone\obj\Debug\XamlSaveStateFile.xml

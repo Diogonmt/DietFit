@@ -1,0 +1,81 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DietFit.Views"
+    xmlns:common="using:DietFit.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Model="using:DietFit.Model"
+    x:Name="pageRoot"
+    x:Class="DietFit.Views.AdminPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Mode=Self}}"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/fundo.png"/>
+        </Grid.Background>
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Rectangle Fill="#FF232323" Height="130" Stroke="White" VerticalAlignment="Top"/>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+				Style="{StaticResource NavigationBackButtonNormalStyle}"
+				VerticalAlignment="Top"
+				AutomationProperties.Name="Back"
+				AutomationProperties.AutomationId="BackButton"
+				AutomationProperties.ItemType="Navigation Button"/>
+        </Grid>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="448" Margin="53,58,0,0" Grid.Row="1" VerticalAlignment="Top" Width="403" SelectionChanged="listBox_SelectionChanged"/>
+        <TextBlock x:Name="pNome" HorizontalAlignment="Left" Margin="648,83,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Primeiro Nome" VerticalAlignment="Top" Width="254" Height="37" FontSize="20"/>
+        <TextBlock x:Name="uNome" HorizontalAlignment="Left" Margin="648,155,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Último Nome" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="cAltura" HorizontalAlignment="Left" Margin="648,224,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Altura" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="cPeso" HorizontalAlignment="Left" Margin="648,284,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Peso" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="cAltura1" HorizontalAlignment="Left" Margin="648,354,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Altura" VerticalAlignment="Top" Height="22" FontSize="20"/>
+        <TextBlock x:Name="cObjetivo" HorizontalAlignment="Left" Margin="648,422,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Objetivo" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="cPeqAlm" HorizontalAlignment="Left" Margin="1024,83,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Pequeno Almoço" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="1024,116,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="332" Height="32"/>
+        <TextBlock x:Name="cLanMan" HorizontalAlignment="Left" Margin="1024,164,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Lanche da Manha" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="1024,196,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="332"/>
+        <TextBlock x:Name="cAlmoco" HorizontalAlignment="Left" Margin="1024,242,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Almoço" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="1024,274,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="332" Height="28"/>
+        <TextBlock x:Name="cLanTarde" HorizontalAlignment="Left" Margin="1024,321,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Lanche da Tarde" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Margin="1024,354,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="332"/>
+        <TextBlock x:Name="cJantar" HorizontalAlignment="Left" Margin="1024,402,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Jantar" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Margin="1024,430,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontFamily="Global User Interface" Width="332" Height="20" RenderTransformOrigin="0.5,0.5" Grid.Row="1"/>
+        <TextBlock x:Name="cCeia" HorizontalAlignment="Left" Margin="1024,480,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Ceia" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Margin="1024,509,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontFamily="Global User Interface" Width="332"/>
+        <Button x:Name="okButton" Content="OK" HorizontalAlignment="Left" Margin="1304,583,0,0" Grid.Row="1" VerticalAlignment="Top" Click="okButton_Click"/>
+        <TextBlock x:Name="textPrim" HorizontalAlignment="Left" Margin="648,116,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="32" Width="180" FontSize="18.667"/>
+        <TextBlock x:Name="textUlt" HorizontalAlignment="Left" Margin="648,184,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="35" Width="180" FontSize="18.667"/>
+        <TextBlock x:Name="textAltura" HorizontalAlignment="Left" Margin="648,253,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="31" Width="180"/>
+        <TextBlock x:Name="textPeso" HorizontalAlignment="Left" Margin="648,321,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="33" Width="180" FontSize="18.667"/>
+        <TextBlock x:Name="textAltura1" HorizontalAlignment="Left" Margin="648,381,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="36" Width="180" FontSize="18.667"/>
+        <TextBlock x:Name="textObj" HorizontalAlignment="Left" Margin="648,451,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="39" Width="180" FontSize="18.667"/>
+    </Grid>
+</Page>

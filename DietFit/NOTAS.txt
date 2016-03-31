@@ -1,0 +1,2 @@
+Haver mais diversidade nas refeiçoes. Ou seja, nao ser sempre igual todos os dias.
+Na lista do admin, haver pesquisa de filtros para encontrar o utilizador.

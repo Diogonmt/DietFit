@@ -1,0 +1,21 @@
+ if (tb_Pwd.Password != tb_PwdRepeat.Password)
+            {
+                var pw = new Windows.UI.Popups.MessageDialog("Palavras passe não coincidem");
+            }
+            else if (tb_User.Text.Equals("") || tb_Nome.Text.Equals("") || tb_Apelido.Text.Equals("")
+                || tb_Peso.Text.Equals("") || tb_Altura.Text.Equals("") || tb_Email.Text.Equals(""))
+            {
+                new Windows.UI.Popups.MessageDialog("Não preecheu todos os campos");
+            }
+            else if (!tb_Email.Text.Contains("@") || !tb_Email.Text.Contains("."))
+            {
+                new Windows.UI.Popups.MessageDialog("O campo do email não foi bem preenchido");
+            }
+            else if (Appl.getUtilizadorByMail(tb_Email.Text) != null)
+            {
+                new Windows.UI.Popups.MessageDialog("Já existe uma conta com este email");
+            }
+            else if (Appl.getUtilizadorByUser(tb_User.Text) != null)
+            {
+                new Windows.UI.Popups.MessageDialog("Já existe uma conta com este username");
+            }

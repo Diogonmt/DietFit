@@ -1,0 +1,216 @@
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\App.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Ambiente.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Autores.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\CriarConta.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Login.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\MyUserControl1.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\DietFit.Windows.xr.xml
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\DietFit.Windows.exe
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\DietFit.Windows.pdb
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\resources.pri
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\AppxManifest.xml
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\DietFit.Windows.build.appxrecipe
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\App.g.i.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\App.g.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Ambiente.g.i.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Ambiente.g.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Autores.g.i.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Autores.g.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\CriarConta.g.i.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\CriarConta.g.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Login.g.i.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Login.g.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MyUserControl1.g.i.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MyUserControl1.g.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\App.xaml
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Ambiente.xaml
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Autores.xaml
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\CriarConta.xaml
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Login.xaml
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MyUserControl1.xaml
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\App.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Ambiente.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Autores.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\CriarConta.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Login.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MyUserControl1.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\DietFit.Windows.exe
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\DietFit.Windows.pdb
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\priconfig.xml
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\priconfig.xml.intermediate
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\layout.resfiles
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\layout.resfiles.intermediate
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\resources.resfiles
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\resources.resfiles.intermediate
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\pri.resfiles
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\pri.resfiles.intermediate
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\qualifiers.txt
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\AdminPage.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\AdminPage.g.i.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\AdminPage.g.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\AdminPage.xaml
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\AdminPage.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Menu.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Menu.g.i.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Menu.g.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Menu.xaml
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Menu.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Notas.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Notas.g.i.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Notas.g.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Notas.xaml
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Notas.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Motivacao.g.i.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Motivacao.g.cs
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Motivacao.xaml
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Motivacao.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Motivacao.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\App.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\AdminPage.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Ambiente.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Autores.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\CriarConta.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Motivacao.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Login.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Menu.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\MyUserControl1.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Notas.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\DietFit.Windows.xr.xml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\DietFit.Windows.exe
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\DietFit.Windows.pdb
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\resources.pri
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\AppxManifest.xml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\DietFit.Windows.build.appxrecipe
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\App.g.i.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\App.g.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\AdminPage.g.i.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\AdminPage.g.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Ambiente.g.i.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Ambiente.g.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Autores.g.i.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Autores.g.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\CriarConta.g.i.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\CriarConta.g.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Motivacao.g.i.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Motivacao.g.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Login.g.i.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Login.g.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Menu.g.i.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Menu.g.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MyUserControl1.g.i.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MyUserControl1.g.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Notas.g.i.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Notas.g.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\App.xaml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\AdminPage.xaml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Ambiente.xaml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Autores.xaml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\CriarConta.xaml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Motivacao.xaml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Login.xaml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Menu.xaml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MyUserControl1.xaml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Notas.xaml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\App.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\AdminPage.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Ambiente.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Autores.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\CriarConta.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Motivacao.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Login.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Menu.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MyUserControl1.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Notas.xbf
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\DietFit.Windows.exe
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\DietFit.Windows.pdb
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\priconfig.xml
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\priconfig.xml.intermediate
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\layout.resfiles
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\layout.resfiles.intermediate
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\resources.resfiles
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\resources.resfiles.intermediate
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\pri.resfiles
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\pri.resfiles.intermediate
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\qualifiers.txt
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Marcos Azevedo\Desktop\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\ProjectArchitectures.txt
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\App.xbf
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\AdminPage.xbf
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Ambiente.xbf
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Autores.xbf
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\CriarConta.xbf
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Motivacao.xbf
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Login.xbf
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Menu.xbf
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\MyUserControl1.xbf
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Notas.xbf
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\DietFit.Windows.xr.xml
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\DietFit.Windows.exe
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\DietFit.Windows.pdb
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\resources.pri
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\AppxManifest.xml
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\DietFit.Windows.build.appxrecipe
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\App.g.i.cs
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\App.g.cs
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\AdminPage.g.i.cs
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\AdminPage.g.cs
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Ambiente.g.i.cs
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Ambiente.g.cs
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Autores.g.i.cs
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Autores.g.cs
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\CriarConta.g.i.cs
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\CriarConta.g.cs
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Motivacao.g.i.cs
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Motivacao.g.cs
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Login.g.i.cs
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Login.g.cs
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Menu.g.i.cs
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Menu.g.cs
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MyUserControl1.g.i.cs
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MyUserControl1.g.cs
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Notas.g.i.cs
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Notas.g.cs
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\XamlTypeInfo.g.cs
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\App.xaml
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\AdminPage.xaml
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Ambiente.xaml
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Autores.xaml
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\CriarConta.xaml
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Motivacao.xaml
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Login.xaml
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Menu.xaml
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MyUserControl1.xaml
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Notas.xaml
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\App.xbf
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\AdminPage.xbf
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Ambiente.xbf
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Autores.xbf
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\CriarConta.xbf
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Motivacao.xbf
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Login.xbf
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Menu.xbf
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MyUserControl1.xbf
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Notas.xbf
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\XamlSaveStateFile.xml
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\DietFit.Windows.exe
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\DietFit.Windows.pdb
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\priconfig.xml
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\priconfig.xml.intermediate
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\layout.resfiles
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\layout.resfiles.intermediate
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\resources.resfiles
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\resources.resfiles.intermediate
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\pri.resfiles
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\pri.resfiles.intermediate
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\qualifiers.txt
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\qualifiers.txt.intermediate
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\ProjectArchitectures.txt
