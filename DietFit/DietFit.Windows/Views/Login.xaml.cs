@@ -52,12 +52,18 @@ namespace DietFit.Views
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
             this.navigationHelper.SaveState += navigationHelper_SaveState;
-            Utilizador admin = new Utilizador();
-            admin.setPnome("Admin");
-            admin.setPassword("1234");
-            admin.setUsername("admin");
-            admin.setIsAdmin(true);
-            Appl.addUser(admin);
+            Utilizador nutricionista = new Utilizador();
+            nutricionista.setPnome("nutricionista");
+            nutricionista.setPassword("1234");
+            nutricionista.setUsername("nutricionista");
+            nutricionista.setIsnutricionista(true);
+            Appl.addUser(nutricionista);
+            Utilizador pt = new Utilizador();
+            pt.setPnome("pt");
+            pt.setPassword("1234");
+            pt.setUsername("pt");
+            pt.setIspt(true);
+            Appl.addUser(pt);
         }
 
 
@@ -101,9 +107,13 @@ namespace DietFit.Views
             {
                 if (u.getPassword().Equals(this.txtcaixa_Pwdr.Password))
                 {
-                    if (u.getIsAdmin())
+                    if (u.getIsnutricionista())
                     {
                         this.Frame.Navigate(typeof(Views.AdminPage));
+                    }
+                    else if(u.getIspt())
+                    {
+                        this.Frame.Navigate(typeof(Views.BasicPage1));
                     }
                     else {
                         Appl.setLastLoggedUser(u);
