@@ -17,7 +17,8 @@ namespace DietFit.Model
         private String objetivo;
         private String eMail;
         private Plano plano;
-        private bool isAdmin;
+        private bool isnutricionista;
+        private bool ispt;
         private String notas;
 
         public Utilizador()
@@ -31,7 +32,8 @@ namespace DietFit.Model
             objetivo = "";
             eMail = "";
             plano = new Plano();
-            isAdmin = false;
+            isnutricionista = false;
+            ispt = false;
             notas = "";
         }
 
@@ -111,13 +113,21 @@ namespace DietFit.Model
         {
             return this.objetivo;
         }
-        public void setIsAdmin(bool b)
+        public void setIsnutricionista(bool b)
         {
-            isAdmin = b;
+            isnutricionista = b;
         }
-        public bool getIsAdmin()
+        public bool getIsnutricionista()
         {
-            return isAdmin;
+            return isnutricionista;
+        }
+        public void setIspt(bool b)
+        {
+            ispt = b;
+        }
+        public bool getIspt()
+        {
+            return ispt;
         }
         public String getNotas()
         {
