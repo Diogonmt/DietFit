@@ -17,6 +17,8 @@ namespace DietFit.Model
         private String objetivo;
         private String eMail;
         private Plano plano;
+        private Plano plano2;
+        private Plano plano3;
         private bool isnutricionista;
         private bool ispt;
         private String notas;
@@ -32,6 +34,8 @@ namespace DietFit.Model
             objetivo = "";
             eMail = "";
             plano = new Plano();
+            plano2 = new Plano();
+            plano3 = new Plano();
             isnutricionista = false;
             ispt = false;
             notas = "";
@@ -73,6 +77,14 @@ namespace DietFit.Model
         {
             this.plano = plano;
         }
+        public void setPlano2(Plano plano2)
+        {
+            this.plano2 = plano2;
+        }
+        public void setPlano3(Plano plano3)
+        {
+            this.plano3 = plano3;
+        }
         public void setNotas(String notas)
         {
             this.notas = notas;
@@ -88,6 +100,14 @@ namespace DietFit.Model
         public Plano getPlano()
         {
             return this.plano;
+        }
+        public Plano getPlano2()
+        {
+            return this.plano2;
+        }
+        public Plano getPlano3()
+        {
+            return this.plano3;
         }
         public String getPnome()
         {
