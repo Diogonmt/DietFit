@@ -22,6 +22,7 @@ Views\Autores.xbf
 Views\CriarConta.xbf
 Views\Login.xbf
 Views\Menu.xbf
-Views\Motivacao.xbf
 Views\MyUserControl1.xbf
 Views\Notas.xbf
+Views\PlanoFisico.xbf
+Views\PtPage.xbf

@@ -1,4 +1,5 @@
 ﻿using DietFit.Common;
+using DietFit.Controllers;
 using DietFit.Model;
 using System;
 using System.Collections.Generic;
@@ -27,8 +28,14 @@ namespace DietFit.Views
 
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
+        private UtilizadorInfoController controller;
         private Utilizador user;
         private Plano plano;
+        private Plano plano2;
+        private Plano plano3;
+        private bool dieta1Clicked;
+        private bool dieta2Clicked;
+        private bool dieta3Clicked;
 
         /// <summary>
         /// This can be changed to a strongly typed view model.
@@ -52,31 +59,22 @@ namespace DietFit.Views
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
-            this.navigationHelper.SaveState += navigationHelper_SaveState;
-            this.user = Appl.getLastLoggedUser();
+            this.navigationHelper.SaveState += navigationHelper_SaveState;            
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            controller = (UtilizadorInfoController)e.Parameter;
+
+            user = controller.getUser();
             this.plano = user.getPlano();
-            this.txt_Nome.Text=user.getPnome();
+            this.plano2 = user.getPlano2();
+            this.plano3 = user.getPlano3();
+            this.txt_Nome.Text = user.getPnome();
             this.txt_Altura.Text = user.getAltura().ToString();
             this.txt_Mail.Text = user.getMail();
             this.txt_Peso.Text = user.getPeso().ToString();
             this.txt_Objetivo.Text = user.getObjetivo();
-
-            Plano p = user.getPlano();
-            this.textBlock.Text = p.getPalmoço();
-            this.textBlock1.Text = p.getLmanha();
-            this.textBlock2.Text = p.getAlmoço();
-            this.textBlock3.Text = p.getLtarde();
-            this.textBlock4.Text = p.getJantar();
-            this.textBlock5.Text = p.getCeia();
-        }
-
-        public Ambiente(Utilizador u)
-        {
-            this.InitializeComponent();
-            this.navigationHelper = new NavigationHelper(this);
-            this.navigationHelper.LoadState += navigationHelper_LoadState;
-            this.navigationHelper.SaveState += navigationHelper_SaveState;
-            this.user = u;
         }
 
         /// <summary>
@@ -117,10 +115,6 @@ namespace DietFit.Views
         /// The navigation parameter is available in the LoadState method 
         /// in addition to page state preserved during an earlier session.
 
-        protected override void OnNavigatedTo(NavigationEventArgs e)
-        {
-            navigationHelper.OnNavigatedTo(e);
-        }
 
         protected override void OnNavigatedFrom(NavigationEventArgs e)
         {
@@ -136,7 +130,7 @@ namespace DietFit.Views
 
         private void btn_Logout_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Views.Login));
+            this.Frame.Navigate(typeof(Views.Login), controller.getApp());
         }
 
         private void textBlock2_SelectionChanged(object sender, RoutedEventArgs e)
@@ -147,6 +141,36 @@ namespace DietFit.Views
         private void textBlock3_SelectionChanged(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void dietaN1_Click(object sender, RoutedEventArgs e)
+        {
+                this.textBlock.Text = plano.getPalmoço();
+                this.textBlock1.Text = plano.getLmanha();
+                this.textBlock2.Text = plano.getAlmoço();
+                this.textBlock3.Text = plano.getLtarde();
+                this.textBlock4.Text = plano.getJantar();
+                this.textBlock5.Text = plano.getCeia();
+        }
+
+        private void dietaN2_Click(object sender, RoutedEventArgs e)
+        {
+            this.textBlock.Text = plano2.getPalmoço();
+            this.textBlock1.Text = plano2.getLmanha();
+            this.textBlock2.Text = plano2.getAlmoço();
+            this.textBlock3.Text = plano2.getLtarde();
+            this.textBlock4.Text = plano2.getJantar();
+            this.textBlock5.Text = plano2.getCeia();
+        }
+
+        private void dietaN3_Click(object sender, RoutedEventArgs e)
+        {
+            this.textBlock.Text = plano3.getPalmoço();
+            this.textBlock1.Text = plano3.getLmanha();
+            this.textBlock2.Text = plano3.getAlmoço();
+            this.textBlock3.Text = plano3.getLtarde();
+            this.textBlock4.Text = plano3.getJantar();
+            this.textBlock5.Text = plano3.getCeia();
         }
     }
 }

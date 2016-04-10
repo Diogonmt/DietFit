@@ -32,10 +32,10 @@
                 <RowDefinition Height="100"/>
             </Grid.RowDefinitions>
 
-            <StackPanel Grid.Row="0">
+            <StackPanel Grid.Row="0" Height="687" VerticalAlignment="Top" Grid.RowSpan="2">
                 <Rectangle HorizontalAlignment="Center" Height="230" Margin="0,50,0,0" RadiusY="134" RadiusX="134" Stroke="White" VerticalAlignment="Top" Width="230">
                     <Rectangle.Fill>
-                        <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/diogo.jpg"/>
+                        <ImageBrush Stretch="None"/>
                     </Rectangle.Fill>
                 </Rectangle>
                 <TextBlock x:Name="txt_Nome" Text="Nome" Margin="0,20,0,0" FontSize="32" TextAlignment="Center" />
@@ -43,9 +43,12 @@
                 <TextBlock x:Name="txt_Peso" TextWrapping="Wrap" Text="Peso" HorizontalAlignment="Center" FontSize="33.333" Margin="141,0,140,0"/>
                 <TextBlock x:Name="txt_Mail" TextWrapping="Wrap" Text="E-mail" FontSize="33.333" HorizontalAlignment="Center"/>
                 <TextBlock x:Name="txt_Objetivo" TextWrapping="Wrap" Text="Objetivo" FontSize="33.333" HorizontalAlignment="Center"/>
+                <Button x:ConnectionId='5' x:Name="dietaN1" Content="Dieta 1" HorizontalAlignment="Right" VerticalAlignment="Stretch" Height="50" Width="350"                      />
+                <Button x:ConnectionId='6' x:Name="dietaN2" Content="Dieta 2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="50"                      />
+                <Button x:ConnectionId='7' x:Name="dietaN3" Content="Dieta 3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="50"                      />
             </StackPanel>
-            <StackPanel Grid.Row="1">
-                <Button x:ConnectionId='3' x:Name="btn_Logout" Content="Terminar Sessão" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,0"                         />
+            <StackPanel Grid.Row="1" Margin="0,24,0,0">
+                <Button x:ConnectionId='3' x:Name="btn_Logout" Content="Terminar Sessão" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="104,0"                         />
             </StackPanel>
         </Grid>
         <TextBlock x:Name="PlanoAlimentar" Grid.Column="1" HorizontalAlignment="Left" Margin="73,33,0,0" TextWrapping="Wrap" Text="Plano Alimentar" VerticalAlignment="Top" FontSize="40"/>

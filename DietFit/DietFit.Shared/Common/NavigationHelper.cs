@@ -364,7 +364,7 @@ namespace DietFit.Common
             {
                 this.SaveState(this, new SaveStateEventArgs(pageState));
             }
-            frameState[_pageKey] = pageState;
+            //frameState[_pageKey] = pageState;
         }
 
         #endregion

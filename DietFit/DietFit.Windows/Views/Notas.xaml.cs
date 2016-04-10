@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using DietFit.Model;
+using DietFit.Controllers;
 
 // The Basic Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234237
 
@@ -27,6 +28,8 @@ namespace DietFit.Views
 
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
+        private UtilizadorInfoController controller;
+        private Utilizador user;
 
         /// <summary>
         /// This can be changed to a strongly typed view model.
@@ -52,7 +55,14 @@ namespace DietFit.Views
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
             this.navigationHelper.SaveState += navigationHelper_SaveState;
-            this.textBlock.Text = Appl.getLastLoggedUser().getNotas();
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            controller = (UtilizadorInfoController)e.Parameter;
+            user = controller.getUser();
+
+            this.textBlock.Text = user.getNotas();
         }
 
         /// <summary>
@@ -92,12 +102,7 @@ namespace DietFit.Views
         /// and <see cref="Common.NavigationHelper.SaveState"/>.
         /// The navigation parameter is available in the LoadState method 
         /// in addition to page state preserved during an earlier session.
-
-        protected override void OnNavigatedTo(NavigationEventArgs e)
-        {
-            navigationHelper.OnNavigatedTo(e);
-        }
-
+        
         protected override void OnNavigatedFrom(NavigationEventArgs e)
         {
             navigationHelper.OnNavigatedFrom(e);
@@ -112,7 +117,7 @@ namespace DietFit.Views
 
         private void textBlock_SelectionChanged(object sender, RoutedEventArgs e)
         {
-            Appl.getLastLoggedUser().setNotas(textBlock.Text);
+            user.setNotas(textBlock.Text);
         }
     }
 }

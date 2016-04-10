@@ -53,14 +53,14 @@
     			IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
         </Grid>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="187,398,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Plano Alimentar" VerticalAlignment="Top" Height="39" Width="246" FontSize="32" FontWeight="Bold" Foreground="#FF4B4B4B"/>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="713,398,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Notas" VerticalAlignment="Top" Foreground="#FF4B4B4B" Height="39" Width="176" FontSize="32" FontWeight="Bold"/>
-        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="1124,398,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Motivação" VerticalAlignment="Top" Height="39" Width="185" FontSize="32" FontWeight="Bold" Foreground="#FF4B4B4B"/>
-        <Button x:ConnectionId='1' x:Name="pNotas" Content="" HorizontalAlignment="Left" Margin="628,57,0,0" Grid.Row="1" VerticalAlignment="Top" Width="264" Height="271"                     >
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="713,398,0,0" Grid.Row="1" TextWrapping="Wrap" Text="  Contactar Nutricionsta" VerticalAlignment="Top" Foreground="#FF4B4B4B" Height="69" Width="194" FontSize="32" FontWeight="Bold"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="1152,398,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Plano Físico" VerticalAlignment="Top" Height="39" Width="185" FontSize="32" FontWeight="Bold" Foreground="#FF4B4B4B"/>
+        <Button x:ConnectionId='1' x:Name="pNotas" Content="" HorizontalAlignment="Left" Margin="672,57,0,0" Grid.Row="1" VerticalAlignment="Top" Width="264" Height="271"                     >
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/notas.png"/>
             </Button.Background>
         </Button>
-        <Button x:ConnectionId='2' x:Name="pMotivacao" Content="" HorizontalAlignment="Left" Margin="1073,57,0,0" Grid.Row="1" VerticalAlignment="Top" Width="272" Height="271"                         >
+        <Button x:ConnectionId='2' x:Name="pMotivacao" Content="" HorizontalAlignment="Left" Margin="1101,57,-7,0" Grid.Row="1" VerticalAlignment="Top" Width="272" Height="271"                         >
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/motivacao.png"/>
             </Button.Background>

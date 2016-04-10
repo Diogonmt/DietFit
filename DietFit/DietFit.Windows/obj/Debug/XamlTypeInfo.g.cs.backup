@@ -124,7 +124,7 @@ namespace DietFit.DietFit_Windows_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[16];
+            _typeNameTable = new string[17];
             _typeNameTable[0] = "DietFit.Views.AdminPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -135,14 +135,15 @@ namespace DietFit.DietFit_Windows_XamlTypeInfo
             _typeNameTable[7] = "Windows.UI.Xaml.DependencyObject";
             _typeNameTable[8] = "DietFit.Views.Ambiente";
             _typeNameTable[9] = "DietFit.Views.Autores";
-            _typeNameTable[10] = "DietFit.Views.CriarConta";
-            _typeNameTable[11] = "DietFit.Views.ItemsPage1";
-            _typeNameTable[12] = "DietFit.Views.Login";
-            _typeNameTable[13] = "DietFit.Views.Menu";
-            _typeNameTable[14] = "DietFit.Views.MyUserControl1";
-            _typeNameTable[15] = "DietFit.Views.Notas";
+            _typeNameTable[10] = "DietFit.Views.BasicPage1";
+            _typeNameTable[11] = "DietFit.Views.CriarConta";
+            _typeNameTable[12] = "DietFit.Views.ItemsPage1";
+            _typeNameTable[13] = "DietFit.Views.Login";
+            _typeNameTable[14] = "DietFit.Views.Menu";
+            _typeNameTable[15] = "DietFit.Views.MyUserControl1";
+            _typeNameTable[16] = "DietFit.Views.Notas";
 
-            _typeTable = new global::System.Type[16];
+            _typeTable = new global::System.Type[17];
             _typeTable[0] = typeof(global::DietFit.Views.AdminPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -153,12 +154,13 @@ namespace DietFit.DietFit_Windows_XamlTypeInfo
             _typeTable[7] = typeof(global::Windows.UI.Xaml.DependencyObject);
             _typeTable[8] = typeof(global::DietFit.Views.Ambiente);
             _typeTable[9] = typeof(global::DietFit.Views.Autores);
-            _typeTable[10] = typeof(global::DietFit.Views.CriarConta);
-            _typeTable[11] = typeof(global::DietFit.Views.ItemsPage1);
-            _typeTable[12] = typeof(global::DietFit.Views.Login);
-            _typeTable[13] = typeof(global::DietFit.Views.Menu);
-            _typeTable[14] = typeof(global::DietFit.Views.MyUserControl1);
-            _typeTable[15] = typeof(global::DietFit.Views.Notas);
+            _typeTable[10] = typeof(global::DietFit.Views.BasicPage1);
+            _typeTable[11] = typeof(global::DietFit.Views.CriarConta);
+            _typeTable[12] = typeof(global::DietFit.Views.ItemsPage1);
+            _typeTable[13] = typeof(global::DietFit.Views.Login);
+            _typeTable[14] = typeof(global::DietFit.Views.Menu);
+            _typeTable[15] = typeof(global::DietFit.Views.MyUserControl1);
+            _typeTable[16] = typeof(global::DietFit.Views.Notas);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -197,12 +199,13 @@ namespace DietFit.DietFit_Windows_XamlTypeInfo
         private object Activate_3_ObservableDictionary() { return new global::DietFit.Common.ObservableDictionary(); }
         private object Activate_8_Ambiente() { return new global::DietFit.Views.Ambiente(); }
         private object Activate_9_Autores() { return new global::DietFit.Views.Autores(); }
-        private object Activate_10_CriarConta() { return new global::DietFit.Views.CriarConta(); }
-        private object Activate_11_ItemsPage1() { return new global::DietFit.Views.ItemsPage1(); }
-        private object Activate_12_Login() { return new global::DietFit.Views.Login(); }
-        private object Activate_13_Menu() { return new global::DietFit.Views.Menu(); }
-        private object Activate_14_MyUserControl1() { return new global::DietFit.Views.MyUserControl1(); }
-        private object Activate_15_Notas() { return new global::DietFit.Views.Notas(); }
+        private object Activate_10_BasicPage1() { return new global::DietFit.Views.BasicPage1(); }
+        private object Activate_11_CriarConta() { return new global::DietFit.Views.CriarConta(); }
+        private object Activate_12_ItemsPage1() { return new global::DietFit.Views.ItemsPage1(); }
+        private object Activate_13_Login() { return new global::DietFit.Views.Login(); }
+        private object Activate_14_Menu() { return new global::DietFit.Views.Menu(); }
+        private object Activate_15_MyUserControl1() { return new global::DietFit.Views.MyUserControl1(); }
+        private object Activate_16_Notas() { return new global::DietFit.Views.Notas(); }
         private void MapAdd_3_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
@@ -283,52 +286,61 @@ namespace DietFit.DietFit_Windows_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 10:   //  DietFit.Views.CriarConta
+            case 10:   //  DietFit.Views.BasicPage1
                 userType = new global::DietFit.DietFit_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_10_CriarConta;
+                userType.Activator = Activate_10_BasicPage1;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 11:   //  DietFit.Views.ItemsPage1
+            case 11:   //  DietFit.Views.CriarConta
                 userType = new global::DietFit.DietFit_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_11_ItemsPage1;
+                userType.Activator = Activate_11_CriarConta;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 12:   //  DietFit.Views.Login
+            case 12:   //  DietFit.Views.ItemsPage1
                 userType = new global::DietFit.DietFit_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_12_Login;
+                userType.Activator = Activate_12_ItemsPage1;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 13:   //  DietFit.Views.Menu
+            case 13:   //  DietFit.Views.Login
                 userType = new global::DietFit.DietFit_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_13_Menu;
+                userType.Activator = Activate_13_Login;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 14:   //  DietFit.Views.MyUserControl1
+            case 14:   //  DietFit.Views.Menu
+                userType = new global::DietFit.DietFit_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_14_Menu;
+                userType.AddMemberName("DefaultViewModel");
+                userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 15:   //  DietFit.Views.MyUserControl1
                 userType = new global::DietFit.DietFit_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_14_MyUserControl1;
+                userType.Activator = Activate_15_MyUserControl1;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 15:   //  DietFit.Views.Notas
+            case 16:   //  DietFit.Views.Notas
                 userType = new global::DietFit.DietFit_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_15_Notas;
+                userType.Activator = Activate_16_Notas;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
@@ -369,52 +381,62 @@ namespace DietFit.DietFit_Windows_XamlTypeInfo
             var that = (global::DietFit.Views.Autores)instance;
             return that.NavigationHelper;
         }
-        private object get_6_CriarConta_DefaultViewModel(object instance)
+        private object get_6_BasicPage1_DefaultViewModel(object instance)
+        {
+            var that = (global::DietFit.Views.BasicPage1)instance;
+            return that.DefaultViewModel;
+        }
+        private object get_7_BasicPage1_NavigationHelper(object instance)
+        {
+            var that = (global::DietFit.Views.BasicPage1)instance;
+            return that.NavigationHelper;
+        }
+        private object get_8_CriarConta_DefaultViewModel(object instance)
         {
             var that = (global::DietFit.Views.CriarConta)instance;
             return that.DefaultViewModel;
         }
-        private object get_7_CriarConta_NavigationHelper(object instance)
+        private object get_9_CriarConta_NavigationHelper(object instance)
         {
             var that = (global::DietFit.Views.CriarConta)instance;
             return that.NavigationHelper;
         }
-        private object get_8_ItemsPage1_DefaultViewModel(object instance)
+        private object get_10_ItemsPage1_DefaultViewModel(object instance)
         {
             var that = (global::DietFit.Views.ItemsPage1)instance;
             return that.DefaultViewModel;
         }
-        private object get_9_ItemsPage1_NavigationHelper(object instance)
+        private object get_11_ItemsPage1_NavigationHelper(object instance)
         {
             var that = (global::DietFit.Views.ItemsPage1)instance;
             return that.NavigationHelper;
         }
-        private object get_10_Login_DefaultViewModel(object instance)
+        private object get_12_Login_DefaultViewModel(object instance)
         {
             var that = (global::DietFit.Views.Login)instance;
             return that.DefaultViewModel;
         }
-        private object get_11_Login_NavigationHelper(object instance)
+        private object get_13_Login_NavigationHelper(object instance)
         {
             var that = (global::DietFit.Views.Login)instance;
             return that.NavigationHelper;
         }
-        private object get_12_Menu_DefaultViewModel(object instance)
+        private object get_14_Menu_DefaultViewModel(object instance)
         {
             var that = (global::DietFit.Views.Menu)instance;
             return that.DefaultViewModel;
         }
-        private object get_13_Menu_NavigationHelper(object instance)
+        private object get_15_Menu_NavigationHelper(object instance)
         {
             var that = (global::DietFit.Views.Menu)instance;
             return that.NavigationHelper;
         }
-        private object get_14_Notas_DefaultViewModel(object instance)
+        private object get_16_Notas_DefaultViewModel(object instance)
         {
             var that = (global::DietFit.Views.Notas)instance;
             return that.DefaultViewModel;
         }
-        private object get_15_Notas_NavigationHelper(object instance)
+        private object get_17_Notas_NavigationHelper(object instance)
         {
             var that = (global::DietFit.Views.Notas)instance;
             return that.NavigationHelper;
@@ -463,64 +485,76 @@ namespace DietFit.DietFit_Windows_XamlTypeInfo
                 xamlMember.Getter = get_5_Autores_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
+            case "DietFit.Views.BasicPage1.DefaultViewModel":
+                userType = (global::DietFit.DietFit_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DietFit.Views.BasicPage1");
+                xamlMember = new global::DietFit.DietFit_Windows_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "DietFit.Common.ObservableDictionary");
+                xamlMember.Getter = get_6_BasicPage1_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "DietFit.Views.BasicPage1.NavigationHelper":
+                userType = (global::DietFit.DietFit_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DietFit.Views.BasicPage1");
+                xamlMember = new global::DietFit.DietFit_Windows_XamlTypeInfo.XamlMember(this, "NavigationHelper", "DietFit.Common.NavigationHelper");
+                xamlMember.Getter = get_7_BasicPage1_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
             case "DietFit.Views.CriarConta.DefaultViewModel":
                 userType = (global::DietFit.DietFit_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DietFit.Views.CriarConta");
                 xamlMember = new global::DietFit.DietFit_Windows_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "DietFit.Common.ObservableDictionary");
-                xamlMember.Getter = get_6_CriarConta_DefaultViewModel;
+                xamlMember.Getter = get_8_CriarConta_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "DietFit.Views.CriarConta.NavigationHelper":
                 userType = (global::DietFit.DietFit_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DietFit.Views.CriarConta");
                 xamlMember = new global::DietFit.DietFit_Windows_XamlTypeInfo.XamlMember(this, "NavigationHelper", "DietFit.Common.NavigationHelper");
-                xamlMember.Getter = get_7_CriarConta_NavigationHelper;
+                xamlMember.Getter = get_9_CriarConta_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "DietFit.Views.ItemsPage1.DefaultViewModel":
                 userType = (global::DietFit.DietFit_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DietFit.Views.ItemsPage1");
                 xamlMember = new global::DietFit.DietFit_Windows_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "DietFit.Common.ObservableDictionary");
-                xamlMember.Getter = get_8_ItemsPage1_DefaultViewModel;
+                xamlMember.Getter = get_10_ItemsPage1_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "DietFit.Views.ItemsPage1.NavigationHelper":
                 userType = (global::DietFit.DietFit_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DietFit.Views.ItemsPage1");
                 xamlMember = new global::DietFit.DietFit_Windows_XamlTypeInfo.XamlMember(this, "NavigationHelper", "DietFit.Common.NavigationHelper");
-                xamlMember.Getter = get_9_ItemsPage1_NavigationHelper;
+                xamlMember.Getter = get_11_ItemsPage1_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "DietFit.Views.Login.DefaultViewModel":
                 userType = (global::DietFit.DietFit_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DietFit.Views.Login");
                 xamlMember = new global::DietFit.DietFit_Windows_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "DietFit.Common.ObservableDictionary");
-                xamlMember.Getter = get_10_Login_DefaultViewModel;
+                xamlMember.Getter = get_12_Login_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "DietFit.Views.Login.NavigationHelper":
                 userType = (global::DietFit.DietFit_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DietFit.Views.Login");
                 xamlMember = new global::DietFit.DietFit_Windows_XamlTypeInfo.XamlMember(this, "NavigationHelper", "DietFit.Common.NavigationHelper");
-                xamlMember.Getter = get_11_Login_NavigationHelper;
+                xamlMember.Getter = get_13_Login_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "DietFit.Views.Menu.DefaultViewModel":
                 userType = (global::DietFit.DietFit_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DietFit.Views.Menu");
                 xamlMember = new global::DietFit.DietFit_Windows_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "DietFit.Common.ObservableDictionary");
-                xamlMember.Getter = get_12_Menu_DefaultViewModel;
+                xamlMember.Getter = get_14_Menu_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "DietFit.Views.Menu.NavigationHelper":
                 userType = (global::DietFit.DietFit_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DietFit.Views.Menu");
                 xamlMember = new global::DietFit.DietFit_Windows_XamlTypeInfo.XamlMember(this, "NavigationHelper", "DietFit.Common.NavigationHelper");
-                xamlMember.Getter = get_13_Menu_NavigationHelper;
+                xamlMember.Getter = get_15_Menu_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "DietFit.Views.Notas.DefaultViewModel":
                 userType = (global::DietFit.DietFit_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DietFit.Views.Notas");
                 xamlMember = new global::DietFit.DietFit_Windows_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "DietFit.Common.ObservableDictionary");
-                xamlMember.Getter = get_14_Notas_DefaultViewModel;
+                xamlMember.Getter = get_16_Notas_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "DietFit.Views.Notas.NavigationHelper":
                 userType = (global::DietFit.DietFit_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DietFit.Views.Notas");
                 xamlMember = new global::DietFit.DietFit_Windows_XamlTypeInfo.XamlMember(this, "NavigationHelper", "DietFit.Common.NavigationHelper");
-                xamlMember.Getter = get_15_Notas_NavigationHelper;
+                xamlMember.Getter = get_17_Notas_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             }

@@ -1,4 +1,5 @@
 ﻿using DietFit.Common;
+using DietFit.Controllers;
 using DietFit.Model;
 using System;
 using System.Collections.Generic;
@@ -24,7 +25,8 @@ namespace DietFit.Views
     /// </summary>
     public sealed partial class CriarConta : Page
     {
-        private Utilizador user;
+
+        private CriarContaController controller;
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
 
@@ -52,7 +54,6 @@ namespace DietFit.Views
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
             this.navigationHelper.SaveState += navigationHelper_SaveState;
-            this.user = new Utilizador();
             comboBox_Copy1.Items.Add("Ganhar Peso");
             comboBox_Copy1.Items.Add("Manter Peso");
             comboBox_Copy1.Items.Add("Perder Peso");
@@ -66,6 +67,11 @@ namespace DietFit.Views
             comboBox.Items.Add("7");
         }
 
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            this.controller = (CriarContaController)e.Parameter;
+        }
+
         /// <summary>
         /// Populates the page with content passed during navigation. Any saved state is also
         /// provided when recreating a page from a prior session.
@@ -77,7 +83,7 @@ namespace DietFit.Views
         /// <see cref="Frame.Navigate(Type, Object)"/> when this page was initially requested and
         /// a dictionary of state preserved by this page during an earlier
         /// session. The state will be null the first time a page is visited.</param>
-        private void navigationHelper_LoadState(object sender, LoadStateEventArgs e)
+        private void navigationHelper_LoadState(object loader, LoadStateEventArgs e)
         {
         }
 
@@ -103,11 +109,7 @@ namespace DietFit.Views
         /// and <see cref="Common.NavigationHelper.SaveState"/>.
         /// The navigation parameter is available in the LoadState method 
         /// in addition to page state preserved during an earlier session.
-
-        protected override void OnNavigatedTo(NavigationEventArgs e)
-        {
-            navigationHelper.OnNavigatedTo(e);
-        }
+        
 
         protected override void OnNavigatedFrom(NavigationEventArgs e)
         {
@@ -131,14 +133,6 @@ namespace DietFit.Views
             {
                 textErro.Text=("O campo do email não foi bem preenchido");
             }
-            else if (Appl.getUtilizadorByMail(tb_Email.Text) != null)
-            {
-               textErro.Text=("Já existe uma conta com este email");
-            }
-            else if (Appl.getUtilizadorByUser(tb_User.Text) != null)
-            {
-                new Windows.UI.Popups.MessageDialog("Já existe uma conta com este username");
-            }
            /* else if(comboBox.SelectedValue == null)
             {
                 new Windows.UI.Popups.MessageDialog("Insira um objetivo");
@@ -147,6 +141,7 @@ namespace DietFit.Views
             {
                 var dialog = new Windows.UI.Popups.MessageDialog("Registo efetuado com sucesso");
                 dialog.Commands.Add(new Windows.UI.Popups.UICommand("Fechar"));
+                Utilizador user = new Utilizador();
                 user.setPnome(this.tb_Nome.Text);
                 user.setPassword(this.tb_Pwd.Password);
                 user.setUsername(this.tb_User.Text);
@@ -154,11 +149,20 @@ namespace DietFit.Views
                 user.setMail(this.tb_Email.Text);
                 user.setObjetivo(this.comboBox_Copy1.SelectedItem.ToString());
                 // user.setPeso(double.Parse(this.txt_Peso.Text, System.Globalization.CultureInfo.InvariantCulture)); 
-                Appl.addUser(user);
+
+                if (controller.valida(user))
+                {
+                    controller.registaUtilizador();
+                }
+                else
+                {
+                    //avisar que utilizador ja esta registado
+                }
 
                 //dialog.ShowAsync();
 
-                this.Frame.Navigate(typeof(Views.Login));
+                this.Frame.Navigate(typeof(Views.Login), controller.getApp());
+
             }
         }
 

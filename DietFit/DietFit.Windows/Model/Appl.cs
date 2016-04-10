@@ -6,23 +6,28 @@ using System.Threading.Tasks;
 
 namespace DietFit.Model
 {
-    public static class Appl
+    public class Appl
     {
         //
-        private static List<Utilizador> utilizadores = new List<Utilizador>();
-        private static Utilizador lastLoggedUser;
+        private static List<Utilizador> utilizadores;
 
-        public static void addUser(Utilizador user)
+        public Appl()
+        {
+            utilizadores = new List<Utilizador>();
+
+        }
+
+        public void addUser(Utilizador user)
         {
             utilizadores.Add(user);
         }
 
-        public static List<Utilizador> getUtilizadores()
+        public List<Utilizador> getUtilizadores()
         {
             return utilizadores;
         }
 
-        public static Utilizador getUtilizadorByUser(String username)
+        public Utilizador getUtilizadorByUser(String username)
         {
             foreach (Utilizador u in utilizadores)
             {
@@ -35,7 +40,7 @@ namespace DietFit.Model
         }
 
 
-        public static Utilizador getUtilizadorByMail(String mail)
+        public Utilizador getUtilizadorByMail(String mail)
         {
             foreach (Utilizador u in utilizadores)
             {
@@ -46,17 +51,5 @@ namespace DietFit.Model
             }
             return null;
         }
-
-        public static void setLastLoggedUser(Utilizador user)
-        {
-            lastLoggedUser = user;
-        }
-        public static Utilizador getLastLoggedUser()
-        {
-            return lastLoggedUser;
-        }
-
-
-
     }
 }

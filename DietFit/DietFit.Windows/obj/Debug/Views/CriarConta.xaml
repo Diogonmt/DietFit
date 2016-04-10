@@ -8,7 +8,7 @@
     xmlns:common="using:DietFit.Common"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d" Height="2509" Margin="0,-14,0,14">
+    mc:Ignorable="d" Height="2452" Margin="0,-14,0,14">
 
     <Page.Resources>
         <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
@@ -22,7 +22,7 @@
     -->
     <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Margin="0,0,0,1554">
 
-        <Grid Height="911" >
+        <Grid Height="917" >
             <Grid.Background>
                 <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/fundo.png"/>
             </Grid.Background>
@@ -106,7 +106,7 @@
             </Grid>
             <TextBlock x:Name="textErro" HorizontalAlignment="Left" Margin="182,274,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="131" Width="187" FontSize="18.667" Foreground="#FFFD0707" FontWeight="Bold"/>
             <Canvas Margin="766,651,400,80" Grid.Row="1"/>
-            <ComboBox x:Name="comboBox" Margin="1045,651,121,80" Grid.Row="1" Width="200" Height="40"/>
+            <ComboBox x:Name="comboBox" Margin="907,645,259,92" Grid.Row="1" Width="200" Height="40"/>
 
 
         </Grid>

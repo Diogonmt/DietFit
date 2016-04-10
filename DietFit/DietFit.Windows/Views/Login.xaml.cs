@@ -1,4 +1,5 @@
 ﻿using DietFit.Common;
+using DietFit.Controllers;
 using DietFit.Model;
 using System;
 using System.Collections.Generic;
@@ -27,6 +28,7 @@ namespace DietFit.Views
 
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
+        private Appl app;
 
         /// <summary>
         /// This can be changed to a strongly typed view model.
@@ -52,20 +54,32 @@ namespace DietFit.Views
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
             this.navigationHelper.SaveState += navigationHelper_SaveState;
-            Utilizador nutricionista = new Utilizador();
-            nutricionista.setPnome("nutricionista");
-            nutricionista.setPassword("1234");
-            nutricionista.setUsername("nutricionista");
-            nutricionista.setIsnutricionista(true);
-            Appl.addUser(nutricionista);
-            Utilizador pt = new Utilizador();
-            pt.setPnome("pt");
-            pt.setPassword("1234");
-            pt.setUsername("pt");
-            pt.setIspt(true);
-            Appl.addUser(pt);
         }
 
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            try {
+                this.app = (Appl)e.Parameter;
+            }catch(InvalidCastException i)
+            {
+                if (app == null)
+                {
+                    this.app = new Appl();
+                    Utilizador nutricionista = new Utilizador();
+                    nutricionista.setPnome("nutricionista");
+                    nutricionista.setPassword("1234");
+                    nutricionista.setUsername("nutricionista");
+                    nutricionista.setIsnutricionista(true);
+                    this.app.addUser(nutricionista);
+                    Utilizador pt = new Utilizador();
+                    pt.setPnome("pt");
+                    pt.setPassword("1234");
+                    pt.setUsername("pt");
+                    pt.setIspt(true);
+                    this.app.addUser(pt);
+                }
+            }
+        }
 
         private void navigationHelper_LoadState(object sender, LoadStateEventArgs e)
         {
@@ -76,29 +90,21 @@ namespace DietFit.Views
         {
         }
 
-        #region NavigationHelper registration
-
-
-        protected override void OnNavigatedTo(NavigationEventArgs e)
-        {
-            navigationHelper.OnNavigatedTo(e);
-        }
-
         protected override void OnNavigatedFrom(NavigationEventArgs e)
         {
             navigationHelper.OnNavigatedFrom(e);
         }
-
-        #endregion
+        
 
         private void CriarConta(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(CriarConta));
+            CriarContaController controller = new CriarContaController(app);
+            this.Frame.Navigate(typeof(CriarConta), controller);
         }
 
         private void Entrar(object sender, RoutedEventArgs e)
         {
-            Utilizador u = Appl.getUtilizadorByUser(this.txtcaixa_User.Text);
+            Utilizador u = app.getUtilizadorByUser(this.txtcaixa_User.Text);
             if (u == null)
             {
                 //pop up user nao existe
@@ -109,16 +115,17 @@ namespace DietFit.Views
                 {
                     if (u.getIsnutricionista())
                     {
-                        this.Frame.Navigate(typeof(Views.AdminPage));
+                        CriarPlanoNutricionalController cpnc = new CriarPlanoNutricionalController(app, u);
+                        this.Frame.Navigate(typeof(Views.AdminPage), cpnc);
                     }
                     else if(u.getIspt())
                     {
-                        this.Frame.Navigate(typeof(Views.BasicPage1));
+                        CriarPlanoTreinoController cptc = new CriarPlanoTreinoController(app, u);
+                        this.Frame.Navigate(typeof(Views.BasicPage1), cptc);
                     }
                     else {
-                        Appl.setLastLoggedUser(u);
-                        this.Frame.Navigate(typeof(Views.Menu));
-                        Ambiente ambiente = new Ambiente(u);
+                        UtilizadorInfoController uic = new UtilizadorInfoController(app, u);
+                        this.Frame.Navigate(typeof(Views.Menu), uic);
                     }
                 }
                 else

@@ -1,4 +1,6 @@
 ﻿using DietFit.Common;
+using DietFit.Controllers;
+using DietFit.Model;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -26,6 +28,7 @@ namespace DietFit.Views
 
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
+        private UtilizadorInfoController controller;
 
         /// <summary>
         /// This can be changed to a strongly typed view model.
@@ -53,7 +56,10 @@ namespace DietFit.Views
             this.navigationHelper.SaveState += navigationHelper_SaveState;
         }
 
-      
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            controller = (UtilizadorInfoController)e.Parameter;
+        }
 
         /// <summary>
         /// Populates the page with content passed during navigation. Any saved state is also
@@ -92,12 +98,7 @@ namespace DietFit.Views
         /// and <see cref="Common.NavigationHelper.SaveState"/>.
         /// The navigation parameter is available in the LoadState method 
         /// in addition to page state preserved during an earlier session.
-
-        protected override void OnNavigatedTo(NavigationEventArgs e)
-        {
-            navigationHelper.OnNavigatedTo(e);
-        }
-
+        
         protected override void OnNavigatedFrom(NavigationEventArgs e)
         {
             navigationHelper.OnNavigatedFrom(e);
@@ -112,15 +113,15 @@ namespace DietFit.Views
 
         private void pImagem_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Views.Ambiente));
+            this.Frame.Navigate(typeof(Views.Ambiente), controller);
         }
         private void pNotas_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Views.Notas));
+            this.Frame.Navigate(typeof(Views.Notas), controller);
         }
         private void pMotivacao_Click(object sender, RoutedEventArgs e)
         { 
-            this.Frame.Navigate(typeof(Views.ItemsPage1));
+            this.Frame.Navigate(typeof(Views.ItemsPage1), controller);
         }
     }
 }

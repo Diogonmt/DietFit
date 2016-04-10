@@ -77,6 +77,9 @@
         <TextBlock x:Name="textPeso" HorizontalAlignment="Left" Margin="648,321,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="33" Width="180" FontSize="18.667"/>
         <TextBlock x:Name="textAltura1" HorizontalAlignment="Left" Margin="648,381,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="36" Width="180" FontSize="18.667"/>
         <TextBlock x:Name="textObj" HorizontalAlignment="Left" Margin="648,451,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="39" Width="180" FontSize="18.667"/>
+        <Button x:ConnectionId='3' x:Name="dieta1" Content="Dieta 1" HorizontalAlignment="Left" Margin="1024,10,0,0" Grid.Row="1" VerticalAlignment="Top"                     />
+        <Button x:ConnectionId='4' x:Name="dieta2" Content="Dieta 2" HorizontalAlignment="Left" Margin="1142,0,0,580" VerticalAlignment="Bottom"                      Grid.Row="1"/>
+        <Button x:Name="dieta3" Content="Dieta3" HorizontalAlignment="Left" Margin="1259,10,0,0" Grid.Row="1" VerticalAlignment="Top"/>
     </Grid>
 </Page>
 

@@ -106,7 +106,13 @@
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\CriarContaController.cs" />
+    <Compile Include="Controllers\CriarPlanoNutricionalController.cs" />
+    <Compile Include="Controllers\CriarPlanoTreinoController.cs" />
+    <Compile Include="Controllers\UtilizadorInfoController.cs" />
     <Compile Include="Model\Appl.cs" />
+    <Compile Include="Model\Exercicio.cs" />
+    <Compile Include="Model\Fisico.cs" />
     <Compile Include="Model\Plano.cs" />
     <Compile Include="Model\Utilizador.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -115,9 +121,12 @@
     </Compile>
     <Compile Include="Views\Ambiente.xaml.cs" />
     <Compile Include="Views\Autores.xaml.cs" />
+    <Compile Include="Views\PtPage.xaml.cs">
+      <DependentUpon>PtPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\CriarConta.xaml.cs" />
-    <Compile Include="Views\Motivacao.xaml.cs">
-      <DependentUpon>Motivacao.xaml</DependentUpon>
+    <Compile Include="Views\PlanoFisico.xaml.cs">
+      <DependentUpon>PlanoFisico.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Login.xaml.cs" />
     <Compile Include="Views\Menu.xaml.cs">
@@ -165,11 +174,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Views\PtPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\CriarConta.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Views\Motivacao.xaml">
+    <Page Include="Views\PlanoFisico.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
