@@ -1,4 +1,6 @@
 ﻿using DietFit.Common;
+using DietFit.Controllers;
+using DietFit.Model;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -26,6 +28,8 @@ namespace DietFit.Views
 
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
+        private CriarPlanoTreinoController controller;
+        private Appl app;
 
         /// <summary>
         /// This can be changed to a strongly typed view model.
@@ -51,6 +55,24 @@ namespace DietFit.Views
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
             this.navigationHelper.SaveState += navigationHelper_SaveState;
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            controller = (CriarPlanoTreinoController)e.Parameter;
+            app = controller.getApp();
+            fillList();
+        }
+
+        private void fillList()
+        {
+            foreach (Utilizador u in app.getUtilizadores())
+            {
+                if (!u.getIsnutricionista() && !u.getIspt())
+                {
+                    listBox.Items.Add(u.getUserName());
+                }
+            }
         }
 
         /// <summary>
@@ -90,12 +112,7 @@ namespace DietFit.Views
         /// and <see cref="Common.NavigationHelper.SaveState"/>.
         /// The navigation parameter is available in the LoadState method 
         /// in addition to page state preserved during an earlier session.
-
-        protected override void OnNavigatedTo(NavigationEventArgs e)
-        {
-            navigationHelper.OnNavigatedTo(e);
-        }
-
+        
         protected override void OnNavigatedFrom(NavigationEventArgs e)
         {
             navigationHelper.OnNavigatedFrom(e);
