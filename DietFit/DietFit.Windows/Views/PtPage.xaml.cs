@@ -30,6 +30,21 @@ namespace DietFit.Views
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
         private CriarPlanoTreinoController controller;
         private Appl app;
+        private Utilizador user;
+        private Fisico dia1;
+        private Fisico dia2;
+        private Fisico dia3;
+        private Fisico dia4;
+        private Fisico dia5;
+        private Fisico dia6;
+        private Exercicio exercicio;
+        private Exercicio series;
+        private Exercicio repeticao;
+        private bool dia1Clicked;
+        private bool dia2Clicked;
+        private bool dia3Clicked;
+        private bool dia4Clicked;
+        private bool dia6Clicked;
 
         /// <summary>
         /// This can be changed to a strongly typed view model.

@@ -107,5 +107,6 @@
         <TextBox x:Name="textBoxex66" HorizontalAlignment="Left" Margin="1025,528,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Width="313" TextChanged="textBoxex44_Copy1_TextChanged"/>
         <TextBox x:Name="textBoxzm66" HorizontalAlignment="Left" Margin="1025,560,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Width="313"/>
         <TextBox x:Name="textBoxs66" HorizontalAlignment="Left" Margin="1025,592,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="313" BorderBrush="#FF0C0C0C"/>
+        <Button x:Name="button" Content="Atualizar" HorizontalAlignment="Left" Margin="699,572,0,0" Grid.Row="1" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Background="White" Foreground="#FF0C0C0C"/>
     </Grid>
 </Page>

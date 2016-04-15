@@ -26,7 +26,7 @@ namespace DietFit.Controllers
 
         public void plano1(Plano p)
         {
-            this.user.setPlano(p);
+            this.user.setPlano(p); 
         }
 
         public void plano2(Plano p)

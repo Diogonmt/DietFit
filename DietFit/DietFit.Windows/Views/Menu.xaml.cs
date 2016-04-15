@@ -121,7 +121,7 @@ namespace DietFit.Views
         }
         private void pMotivacao_Click(object sender, RoutedEventArgs e)
         { 
-            this.Frame.Navigate(typeof(Views.ItemsPage1), controller);
+            this.Frame.Navigate(typeof(Views.PlanoFisico), controller);
         }
     }
 }
