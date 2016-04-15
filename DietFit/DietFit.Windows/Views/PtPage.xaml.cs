@@ -30,20 +30,13 @@ namespace DietFit.Views
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
         private CriarPlanoTreinoController controller;
         private Appl app;
+        private Fisico userPlano;
         private Utilizador user;
-        private Fisico dia1;
-        private Fisico dia2;
-        private Fisico dia3;
-        private Fisico dia4;
-        private Fisico dia5;
-        private Fisico dia6;
-        private Exercicio exercicio;
-        private Exercicio series;
-        private Exercicio repeticao;
         private bool dia1Clicked;
         private bool dia2Clicked;
         private bool dia3Clicked;
         private bool dia4Clicked;
+        private bool dia5Clicked;
         private bool dia6Clicked;
 
         /// <summary>
@@ -72,11 +65,8 @@ namespace DietFit.Views
             this.navigationHelper.SaveState += navigationHelper_SaveState;
         }
 
-        protected override void OnNavigatedTo(NavigationEventArgs e)
+        private void textBoxex44_Copy1_TextChanged(object sender, TextChangedEventArgs e)
         {
-            controller = (CriarPlanoTreinoController)e.Parameter;
-            app = controller.getApp();
-            fillList();
         }
 
         private void fillList()
@@ -89,6 +79,16 @@ namespace DietFit.Views
                 }
             }
         }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            controller = (CriarPlanoTreinoController)e.Parameter;
+            app = controller.getApp();
+            this.userPlano = new Fisico();
+            fillList();
+        }
+
+       
 
         /// <summary>
         /// Populates the page with content passed during navigation. Any saved state is also
@@ -135,9 +135,148 @@ namespace DietFit.Views
 
         #endregion
 
-        private void textBoxex44_Copy1_TextChanged(object sender, TextChangedEventArgs e)
-        {
+      
 
+        private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            controller.setUtilizador((String)listBox.SelectedItem);
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            controller.setPlano(this.userPlano);
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            dia1Clicked = true;
+            dia2Clicked=false;
+            dia3Clicked = false; 
+            dia4Clicked=false;
+            dia5Clicked=false;
+            dia6Clicked=false;
+           
+    }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            dia1Clicked = false;
+            dia2Clicked = true;
+            dia3Clicked = false; 
+            dia4Clicked = false;
+            dia5Clicked = false;
+            dia6Clicked = false;
+        }
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+           
+        }
+
+        private void button4_Click(object sender, RoutedEventArgs e)
+        {
+           
+        }
+        private void button5_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void button6_Click(object sender, RoutedEventArgs e)
+        {
+           
+        }
+
+        private void button7_Click(object sender, RoutedEventArgs e)
+        {
+            List<Exercicio> exercicios = new List<Exercicio>();
+            exercicios.Add(new Exercicio(textBoxex11.Text, textBoxs11.Text, textBoxzm11.Text));
+            exercicios.Add(new Exercicio(textBoxex22.Text, textBoxs22.Text, textBoxzm22.Text));
+            exercicios.Add(new Exercicio(textBoxex33.Text, textBoxs33.Text, textBoxzm33.Text));
+            exercicios.Add(new Exercicio(textBoxex44.Text, textBoxs44.Text, textBoxzm44.Text));
+            exercicios.Add(new Exercicio(textBoxex55.Text, textBoxs55.Text, textBoxzm55.Text));
+            exercicios.Add(new Exercicio(textBoxex66.Text, textBoxs66.Text, textBoxzm66.Text));
+            if (this.dia1Clicked)
+            {
+                this.userPlano.setDia1(exercicios);
+            }
+            else if (this.dia2Clicked)
+            {
+                this.userPlano.setDia2(exercicios);
+            }
+            else if (this.dia3Clicked)
+            {
+                this.userPlano.setDia3(exercicios);
+            }
+            else if (this.dia4Clicked)
+            {
+                this.userPlano.setDia4(exercicios);
+            }
+            else if (this.dia5Clicked)
+            {
+                this.userPlano.setDia5(exercicios);
+            }
+            else if (this.dia6Clicked)
+            {
+                this.userPlano.setDia6(exercicios);
+            }
+            textBoxex11.Text = "";
+            textBoxzm11.Text = "";
+            textBoxs11.Text = "";
+            textBoxex22.Text = "";
+            textBoxzm22.Text = "";
+            textBoxs22.Text = "";
+            textBoxex33.Text = "";
+            textBoxzm33.Text = "";
+            textBoxs33.Text = "";
+            textBoxex44.Text = "";
+            textBoxzm44.Text ="";
+            textBoxs44.Text = "";
+            textBoxex55.Text = "";
+            textBoxzm55.Text = "";
+            textBoxs55.Text = "";
+            textBoxex66.Text = "";
+            textBoxzm66.Text = "";
+            textBoxs66.Text = "";
+        }
+
+        private void button3_Click_1(object sender, RoutedEventArgs e)
+        {
+            dia1Clicked = false;
+            dia2Clicked = false;
+            dia3Clicked = true;
+            dia4Clicked = false;
+            dia5Clicked = false;
+            dia6Clicked = false;
+        }
+
+        private void button4_Click_1(object sender, RoutedEventArgs e)
+        {
+            dia1Clicked = false;
+            dia2Clicked = false;
+            dia3Clicked = false;
+            dia4Clicked = true;
+            dia5Clicked = false;
+            dia6Clicked = false;
+        }
+
+        private void button5_Click_1(object sender, RoutedEventArgs e)
+        {
+            dia1Clicked = false;
+            dia2Clicked = false;
+            dia3Clicked = false;
+            dia4Clicked = false;
+            dia5Clicked = true;
+            dia6Clicked = false;
+        }
+
+        private void button6_Click_1(object sender, RoutedEventArgs e)
+        {
+            dia1Clicked = false;
+            dia2Clicked = false;
+            dia3Clicked = false;
+            dia4Clicked = false;
+            dia5Clicked = false;
+            dia6Clicked = true;
         }
     }
 }

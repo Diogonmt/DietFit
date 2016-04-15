@@ -24,6 +24,11 @@ namespace DietFit.Controllers
             this.user = this.app.getUtilizadorByUser(username);
         }
 
+        public void setPlano(Fisico plano)
+        {
+            this.user.setPlanoTreino(plano);
+        }
+
         public Utilizador getPT()
         {
             return pt;

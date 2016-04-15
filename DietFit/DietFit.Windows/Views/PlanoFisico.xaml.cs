@@ -32,20 +32,6 @@ namespace DietFit.Views
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
         private UtilizadorInfoController controller;
         private Utilizador user;
-        private Fisico dia1;
-        private Fisico dia2;
-        private Fisico dia3;
-        private Fisico dia4;
-        private Fisico dia5;
-        private Fisico dia6;
-        private Exercicio exercicio;
-        private Exercicio series;
-        private Exercicio repeticao;
-        private bool dia1Clicked;
-        private bool dia2Clicked;
-        private bool dia3Clicked;
-        private bool dia4Clicked;
-        private bool dia6Clicked;
 
         /// <summary>
         /// This can be changed to a strongly typed view model.
@@ -55,6 +41,10 @@ namespace DietFit.Views
             get { return this.defaultViewModel; }
         }
 
+        private void textBoxex44_TextChanged(object sender, TextChangedEventArgs e)
+        {
+        }
+
         /// <summary>
         /// NavigationHelper is used on each page to aid in navigation and 
         /// process lifetime management
@@ -62,6 +52,10 @@ namespace DietFit.Views
         public NavigationHelper NavigationHelper
         {
             get { return this.navigationHelper; }
+        }
+
+        private void textBoxex44_Copy1_TextChanged(object sender, TextChangedEventArgs e)
+        {
         }
 
         public PlanoFisico()
@@ -82,6 +76,11 @@ namespace DietFit.Views
             // to change from showing two panes to showing a single pane
             Window.Current.SizeChanged += Window_SizeChanged;
             this.InvalidateVisualState();
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            controller = (UtilizadorInfoController)e.Parameter;
         }
 
         void itemListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -127,6 +126,11 @@ namespace DietFit.Views
 
                 }
             }
+        }
+
+        private void textBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         /// <summary>
@@ -257,17 +261,178 @@ namespace DietFit.Views
         /// and <see cref="Common.NavigationHelper.SaveState"/>.
         /// The navigation parameter is available in the LoadState method 
         /// in addition to page state preserved during an earlier session.
-
-        protected override void OnNavigatedTo(NavigationEventArgs e)
-        {
-            navigationHelper.OnNavigatedTo(e);
-        }
-
+        
         protected override void OnNavigatedFrom(NavigationEventArgs e)
         {
             navigationHelper.OnNavigatedFrom(e);
         }
 
         #endregion
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Fisico plano = controller.getUser().getPlanoTreino();
+            textBoxex11.Text = plano.pDia1()[0].getExercicio();
+            textBoxzm11.Text = plano.pDia1()[0].getZonaMuscular();
+            textBoxs11.Text = plano.pDia1()[0].getSeRep();
+            textBoxex22.Text = plano.pDia1()[1].getExercicio();
+            textBoxzm22.Text = plano.pDia1()[1].getZonaMuscular();
+            textBoxs22.Text = plano.pDia1()[1].getSeRep();
+            textBoxex33.Text = plano.pDia1()[2].getExercicio();
+            textBoxzm33.Text = plano.pDia1()[2].getZonaMuscular();
+            textBoxs33.Text = plano.pDia1()[2].getSeRep();
+            textBoxex44.Text = plano.pDia1()[3].getExercicio();
+            textBoxzm44.Text = plano.pDia1()[3].getZonaMuscular();
+            textBoxs44.Text = plano.pDia1()[3].getSeRep();
+            textBoxex55.Text = plano.pDia1()[4].getExercicio();
+            textBoxzm55.Text = plano.pDia1()[4].getZonaMuscular();
+            textBoxs55.Text = plano.pDia1()[4].getSeRep();
+            textBoxex66.Text = plano.pDia1()[5].getExercicio();
+            textBoxzm66.Text = plano.pDia1()[5].getZonaMuscular();
+            textBoxs66.Text = plano.pDia1()[5].getSeRep();
+
+        }
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+           
+        }
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+           
+        }
+        private void button4_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+        private void button5_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+        private void button6_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        
+
+        private void txt_Objetivo_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, RoutedEventArgs e)
+        {
+            Fisico plano = controller.getUser().getPlanoTreino();
+            textBoxex11.Text = plano.pDia2()[0].getExercicio();
+            textBoxzm11.Text = plano.pDia2()[0].getZonaMuscular();
+            textBoxs11.Text = plano.pDia2()[0].getSeRep();
+            textBoxex22.Text = plano.pDia2()[1].getExercicio();
+            textBoxzm22.Text = plano.pDia2()[1].getZonaMuscular();
+            textBoxs22.Text = plano.pDia2()[1].getSeRep();
+            textBoxex33.Text = plano.pDia2()[2].getExercicio();
+            textBoxzm33.Text = plano.pDia2()[2].getZonaMuscular();
+            textBoxs33.Text = plano.pDia2()[2].getSeRep();
+            textBoxex44.Text = plano.pDia2()[3].getExercicio();
+            textBoxzm44.Text = plano.pDia2()[3].getZonaMuscular();
+            textBoxs44.Text = plano.pDia2()[3].getSeRep();
+            textBoxex55.Text = plano.pDia2()[4].getExercicio();
+            textBoxzm55.Text = plano.pDia2()[4].getZonaMuscular();
+            textBoxs55.Text = plano.pDia2()[4].getSeRep();
+            textBoxex66.Text = plano.pDia2()[5].getExercicio();
+            textBoxzm66.Text = plano.pDia2()[5].getZonaMuscular();
+            textBoxs66.Text = plano.pDia2()[5].getSeRep();
+        }
+
+        private void button3_Click_1(object sender, RoutedEventArgs e)
+        {
+            Fisico plano = controller.getUser().getPlanoTreino();
+            textBoxex11.Text = plano.pDia3()[0].getExercicio();
+            textBoxzm11.Text = plano.pDia3()[0].getZonaMuscular();
+            textBoxs11.Text = plano.pDia3()[0].getSeRep();
+            textBoxex22.Text = plano.pDia3()[1].getExercicio();
+            textBoxzm22.Text = plano.pDia3()[1].getZonaMuscular();
+            textBoxs22.Text = plano.pDia3()[1].getSeRep();
+            textBoxex33.Text = plano.pDia3()[2].getExercicio();
+            textBoxzm33.Text = plano.pDia3()[2].getZonaMuscular();
+            textBoxs33.Text = plano.pDia3()[2].getSeRep();
+            textBoxex44.Text = plano.pDia3()[3].getExercicio();
+            textBoxzm44.Text = plano.pDia3()[3].getZonaMuscular();
+            textBoxs44.Text = plano.pDia3()[3].getSeRep();
+            textBoxex55.Text = plano.pDia3()[4].getExercicio();
+            textBoxzm55.Text = plano.pDia3()[4].getZonaMuscular();
+            textBoxs55.Text = plano.pDia3()[4].getSeRep();
+            textBoxex66.Text = plano.pDia3()[5].getExercicio();
+            textBoxzm66.Text = plano.pDia3()[5].getZonaMuscular();
+            textBoxs66.Text = plano.pDia3()[5].getSeRep();
+        }
+
+        private void button4_Click_1(object sender, RoutedEventArgs e)
+        {
+            Fisico plano = controller.getUser().getPlanoTreino();
+            textBoxex11.Text = plano.pDia4()[0].getExercicio();
+            textBoxzm11.Text = plano.pDia4()[0].getZonaMuscular();
+            textBoxs11.Text = plano.pDia4()[0].getSeRep();
+            textBoxex22.Text = plano.pDia4()[1].getExercicio();
+            textBoxzm22.Text = plano.pDia4()[1].getZonaMuscular();
+            textBoxs22.Text = plano.pDia4()[1].getSeRep();
+            textBoxex33.Text = plano.pDia4()[2].getExercicio();
+            textBoxzm33.Text = plano.pDia4()[2].getZonaMuscular();
+            textBoxs33.Text = plano.pDia4()[2].getSeRep();
+            textBoxex44.Text = plano.pDia4()[3].getExercicio();
+            textBoxzm44.Text = plano.pDia4()[3].getZonaMuscular();
+            textBoxs44.Text = plano.pDia4()[3].getSeRep();
+            textBoxex55.Text = plano.pDia4()[4].getExercicio();
+            textBoxzm55.Text = plano.pDia4()[4].getZonaMuscular();
+            textBoxs55.Text = plano.pDia4()[4].getSeRep();
+            textBoxex66.Text = plano.pDia4()[5].getExercicio();
+            textBoxzm66.Text = plano.pDia4()[5].getZonaMuscular();
+            textBoxs66.Text = plano.pDia4()[5].getSeRep();
+        }
+
+        private void button5_Click_1(object sender, RoutedEventArgs e)
+        {
+            Fisico plano = controller.getUser().getPlanoTreino();
+            textBoxex11.Text = plano.pDia5()[0].getExercicio();
+            textBoxzm11.Text = plano.pDia5()[0].getZonaMuscular();
+            textBoxs11.Text = plano.pDia5()[0].getSeRep();
+            textBoxex22.Text = plano.pDia5()[1].getExercicio();
+            textBoxzm22.Text = plano.pDia5()[1].getZonaMuscular();
+            textBoxs22.Text = plano.pDia5()[1].getSeRep();
+            textBoxex33.Text = plano.pDia5()[2].getExercicio();
+            textBoxzm33.Text = plano.pDia5()[2].getZonaMuscular();
+            textBoxs33.Text = plano.pDia5()[2].getSeRep();
+            textBoxex44.Text = plano.pDia5()[3].getExercicio();
+            textBoxzm44.Text = plano.pDia5()[3].getZonaMuscular();
+            textBoxs44.Text = plano.pDia5()[3].getSeRep();
+            textBoxex55.Text = plano.pDia5()[4].getExercicio();
+            textBoxzm55.Text = plano.pDia5()[4].getZonaMuscular();
+            textBoxs55.Text = plano.pDia5()[4].getSeRep();
+            textBoxex66.Text = plano.pDia5()[5].getExercicio();
+            textBoxzm66.Text = plano.pDia5()[5].getZonaMuscular();
+            textBoxs66.Text = plano.pDia5()[5].getSeRep();
+        }
+
+        private void button6_Click_1(object sender, RoutedEventArgs e)
+        {
+            Fisico plano = controller.getUser().getPlanoTreino();
+            textBoxex11.Text = plano.pDia6()[0].getExercicio();
+            textBoxzm11.Text = plano.pDia6()[0].getZonaMuscular();
+            textBoxs11.Text = plano.pDia6()[0].getSeRep();
+            textBoxex22.Text = plano.pDia6()[1].getExercicio();
+            textBoxzm22.Text = plano.pDia6()[1].getZonaMuscular();
+            textBoxs22.Text = plano.pDia6()[1].getSeRep();
+            textBoxex33.Text = plano.pDia6()[2].getExercicio();
+            textBoxzm33.Text = plano.pDia6()[2].getZonaMuscular();
+            textBoxs33.Text = plano.pDia6()[2].getSeRep();
+            textBoxex44.Text = plano.pDia6()[3].getExercicio();
+            textBoxzm44.Text = plano.pDia6()[3].getZonaMuscular();
+            textBoxs44.Text = plano.pDia6()[3].getSeRep();
+            textBoxex55.Text = plano.pDia6()[4].getExercicio();
+            textBoxzm55.Text = plano.pDia6()[4].getZonaMuscular();
+            textBoxs55.Text = plano.pDia6()[4].getSeRep();
+            textBoxex66.Text = plano.pDia6()[5].getExercicio();
+            textBoxzm66.Text = plano.pDia6()[5].getZonaMuscular();
+            textBoxs66.Text = plano.pDia6()[5].getSeRep();
+        }
     }
 }

@@ -215,5 +215,11 @@ namespace DietFit.Views
             dieta2WasClicked = true;
             dieta3WasClicked = false;
         }
+        private void dieta3_Click(object sender, RoutedEventArgs e)
+        {
+            dieta1WasClicked = false;
+            dieta2WasClicked = false;
+            dieta3WasClicked = true;
+        }
     }
 }

@@ -145,6 +145,7 @@ namespace DietFit.Views
 
         private void dietaN1_Click(object sender, RoutedEventArgs e)
         {
+                
                 this.textBlock.Text = plano.getPalmoço();
                 this.textBlock1.Text = plano.getLmanha();
                 this.textBlock2.Text = plano.getAlmoço();
@@ -155,6 +156,7 @@ namespace DietFit.Views
 
         private void dietaN2_Click(object sender, RoutedEventArgs e)
         {
+           
             this.textBlock.Text = plano2.getPalmoço();
             this.textBlock1.Text = plano2.getLmanha();
             this.textBlock2.Text = plano2.getAlmoço();
@@ -165,6 +167,7 @@ namespace DietFit.Views
 
         private void dietaN3_Click(object sender, RoutedEventArgs e)
         {
+            
             this.textBlock.Text = plano3.getPalmoço();
             this.textBlock1.Text = plano3.getLmanha();
             this.textBlock2.Text = plano3.getAlmoço();

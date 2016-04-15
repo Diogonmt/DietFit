@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DietFit.Model
 {
-    class Fisico
+    public class Fisico
     {
         private List<Exercicio> dia1;
         private List<Exercicio> dia2;
@@ -56,6 +56,34 @@ namespace DietFit.Model
             return dia7;
         }
 
+        public void setDia1(List<Exercicio> dia1)
+        {
+            this.dia1 = dia1;
+        }
+        public void setDia2(List<Exercicio> dia2)
+        {
+            this.dia2 = dia2;
+        }
+        public void setDia3(List<Exercicio> dia3)
+        {
+            this.dia3 = dia3;
+        }
+        public void setDia4(List<Exercicio> dia4)
+        {
+            this.dia4 = dia4;
+        }
+        public void setDia5(List<Exercicio> dia5)
+        {
+            this.dia5 = dia5;
+        }
+        public void setDia6(List<Exercicio> dia6)
+        {
+            this.dia6 = dia6;
+        }
+        public void setDia7(List<Exercicio> dia7)
+        {
+            this.dia7 = dia7;
+        }
     }
 
 }

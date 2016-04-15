@@ -6,53 +6,52 @@ using System.Threading.Tasks;
 
 namespace DietFit.Model
 {
-    class Exercicio
+    public class Exercicio
     {
         public String exercicio;
-        public String descanso;
-        public int series;
-        public int repeticoes;
+        public String zonaMuscular;
+        public String seRep;
 
         public Exercicio()
         {
             exercicio = "";
-            descanso = "";
-            series = 0;
-            repeticoes = 0;
+            zonaMuscular = "";
+            seRep = "";
+        }
+
+        public Exercicio(String exercicio, String seRep, String zonaMuscular)
+        {
+            this.exercicio = exercicio;
+            this.seRep = seRep;
+            this.zonaMuscular = zonaMuscular;
         }
 
         public void setExercicio(String exercicio)
         {
             this.exercicio = exercicio;
         }
-        public void setDescanso(String descanso)
+        public void setZonaMuscular(String zonaMuscular)
         {
-            this.descanso = descanso;
+            this.zonaMuscular = zonaMuscular;
         }
-        public void setSeries(int series)
+        public void setSeries(String seRep)
         {
-            this.series = series;
+            this.seRep = seRep;
         }
-        public void setRepeticoes(int repeticoes)
-        {
-            this.repeticoes = repeticoes;
-        }
+      
 
         public String getExercicio()
         {
             return this.exercicio;
         }
-        public String getDescanso()
+        public String getZonaMuscular()
         {
-            return this.descanso;
+            return this.zonaMuscular;
         }
-        public int getSeries()
+        public String getSeRep()
         {
-            return this.series;
+            return this.seRep;
         }
-        public int getRepeticoes()
-        {
-            return this.repeticoes;
-        }
+       
     }
 }
