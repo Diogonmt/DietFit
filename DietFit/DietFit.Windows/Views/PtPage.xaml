@@ -53,7 +53,7 @@
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
         </Grid>
         <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="448" Margin="68,124,0,0" Grid.Row="1" VerticalAlignment="Top" Width="356"/>
-        <TextBlock x:Name="pNome" HorizontalAlignment="Left" Margin="519,104,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Primeiro Nome" VerticalAlignment="Top" Width="254" Height="37" FontSize="20"/>
+        <TextBlock x:Name="pNome" HorizontalAlignment="Left" Margin="519,104,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Primeiro Nome" VerticalAlignment="Top" Width="254" Height="37" FontSize="20" SelectionHighlightColor="Black" Foreground="White"/>
         <TextBlock x:Name="uNome" HorizontalAlignment="Left" Margin="519,176,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Último Nome" VerticalAlignment="Top" FontSize="20"/>
         <TextBlock x:Name="cAltura" HorizontalAlignment="Left" Margin="519,245,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Altura" VerticalAlignment="Top" FontSize="20"/>
         <TextBlock x:Name="cPeso" HorizontalAlignment="Left" Margin="519,305,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Peso" VerticalAlignment="Top" FontSize="20"/>
@@ -65,15 +65,47 @@
         <TextBlock x:Name="textPeso" HorizontalAlignment="Left" Margin="519,342,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="33" Width="180" FontSize="18.667"/>
         <TextBlock x:Name="textAltura1" HorizontalAlignment="Left" Margin="519,402,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="36" Width="180" FontSize="18.667"/>
         <TextBlock x:Name="textObj" HorizontalAlignment="Left" Margin="519,472,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="39" Width="180" FontSize="18.667"/>
-        <TextBlock x:Name="cDia1" HorizontalAlignment="Left" Margin="926,11,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Dia 1" VerticalAlignment="Top" FontSize="20"/>
-        <TextBox x:Name="textBoxd1" HorizontalAlignment="Left" Margin="926,40,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="430" Height="80"/>
-        <TextBlock x:Name="cDia2" HorizontalAlignment="Left" Margin="926,122,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Dia 2" VerticalAlignment="Top" FontSize="20"/>
-        <TextBox x:Name="textBoxd2" HorizontalAlignment="Left" Margin="926,151,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="430" Height="80"/>
-        <TextBlock x:Name="cDia3" HorizontalAlignment="Left" Margin="926,236,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Dia 3" VerticalAlignment="Top" FontSize="20"/>
-        <TextBox x:Name="textBoxd3" HorizontalAlignment="Left" Margin="926,260,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="430" Height="77"/>
-        <TextBlock x:Name="cDia4" HorizontalAlignment="Left" Margin="926,341,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Dia 4" VerticalAlignment="Top" FontSize="20"/>
-        <TextBox x:Name="textBoxd4" HorizontalAlignment="Left" Margin="926,365,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="430" Height="81"/>
-        <TextBlock x:Name="cDia5" HorizontalAlignment="Left" Margin="926,447,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Dia 5" VerticalAlignment="Top" FontSize="20"/>
-        <TextBox x:Name="textBoxd5" HorizontalAlignment="Left" Margin="926,469,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontFamily="Global User Interface" Width="430" Height="83" RenderTransformOrigin="0.5,0.5" Grid.Row="1"/>
+        <Button x:Name="button1" Content="Dia 1" HorizontalAlignment="Left" Margin="740,125,0,0" Grid.Row="1" VerticalAlignment="Top" Background="#FFFFF9F9" Foreground="Black" Width="80" BorderBrush="Black"/>
+        <Button x:Name="button2" Content="Dia 2" HorizontalAlignment="Left" Margin="740,195,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" Foreground="Black" Width="80" BorderBrush="Black"/>
+        <Button x:Name="button3" Content="Dia 3" HorizontalAlignment="Left" Margin="740,264,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" Foreground="Black" Width="80" BorderBrush="Black"/>
+        <Button x:Name="button4" Content="Dia 4" HorizontalAlignment="Left" Margin="740,332,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black" Width="80"/>
+        <Button x:Name="button5" Content="Dia 5" HorizontalAlignment="Left" Margin="740,400,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black" Width="80"/>
+        <Button x:Name="button6" Content="Dia 6" HorizontalAlignment="Left" Margin="740,464,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black" Width="80"/>
+        <TextBox x:Name="textBoxex1" HorizontalAlignment="Left" Margin="902,15,0,0" TextWrapping="Wrap" Text="Exercício:" VerticalAlignment="Top" BorderBrush="Black" Width="123" Grid.Row="1"/>
+        <TextBox x:Name="textBoxzm1" HorizontalAlignment="Left" Margin="902,47,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Zona muscular:" VerticalAlignment="Top" BorderBrush="Black"/>
+        <TextBox x:Name="textBoxs1" HorizontalAlignment="Left" Margin="902,79,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Séries/Reps:" VerticalAlignment="Top" Background="White" BorderBrush="#FF0C0C0C" Width="123"/>
+        <TextBox x:Name="textBoxex11" HorizontalAlignment="Left" Margin="1025,15,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Width="313" Grid.Row="1"/>
+        <TextBox x:Name="textBoxzm11" HorizontalAlignment="Left" Margin="1025,47,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Width="313"/>
+        <TextBox x:Name="textBoxs11" HorizontalAlignment="Left" Margin="1025,79,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="313" BorderBrush="#FF0C0C0C"/>
+        <TextBox x:Name="textBoxex2" HorizontalAlignment="Left" Margin="902,117,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Exercício:" VerticalAlignment="Top" BorderBrush="Black" Width="123"/>
+        <TextBox x:Name="textBoxzm2" HorizontalAlignment="Left" Margin="902,149,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Zona muscular:" VerticalAlignment="Top" BorderBrush="Black"/>
+        <TextBox x:Name="textBoxs2" HorizontalAlignment="Left" Margin="902,181,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Séries/Reps:" VerticalAlignment="Top" Background="White" BorderBrush="#FF0C0C0C" Width="123"/>
+        <TextBox x:Name="textBoxex22" HorizontalAlignment="Left" Margin="1025,117,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Width="313"/>
+        <TextBox x:Name="textBoxzm22" HorizontalAlignment="Left" Margin="1025,149,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Width="313"/>
+        <TextBox x:Name="textBoxs22" HorizontalAlignment="Left" Margin="1025,181,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="313" BorderBrush="#FF0C0C0C"/>
+        <TextBox x:Name="textBoxex3" HorizontalAlignment="Left" Margin="902,219,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Exercício:" VerticalAlignment="Top" BorderBrush="Black" Width="123"/>
+        <TextBox x:Name="textBoxzm3" HorizontalAlignment="Left" Margin="902,251,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Zona muscular:" VerticalAlignment="Top" BorderBrush="Black"/>
+        <TextBox x:Name="textBoxs3" HorizontalAlignment="Left" Margin="902,283,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Séries/Reps:" VerticalAlignment="Top" Background="White" BorderBrush="#FF0C0C0C" Width="123"/>
+        <TextBox x:Name="textBoxex33" HorizontalAlignment="Left" Margin="1025,219,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Width="313"/>
+        <TextBox x:Name="textBoxzm33" HorizontalAlignment="Left" Margin="1025,251,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Width="313"/>
+        <TextBox x:Name="textBoxs33" HorizontalAlignment="Left" Margin="1025,283,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="313" BorderBrush="#FF0C0C0C"/>
+        <TextBox x:Name="textBoxex4" HorizontalAlignment="Left" Margin="902,322,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Exercício:" VerticalAlignment="Top" BorderBrush="Black" Width="123"/>
+        <TextBox x:Name="textBoxzm4" HorizontalAlignment="Left" Margin="902,354,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Zona muscular:" VerticalAlignment="Top" BorderBrush="Black"/>
+        <TextBox x:Name="textBoxs4" HorizontalAlignment="Left" Margin="902,386,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Séries/Reps:" VerticalAlignment="Top" Background="White" BorderBrush="#FF0C0C0C" Width="123"/>
+        <TextBox x:Name="textBoxex44" HorizontalAlignment="Left" Margin="1025,322,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Width="313"/>
+        <TextBox x:Name="textBoxzm44" HorizontalAlignment="Left" Margin="1025,354,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Width="313"/>
+        <TextBox x:Name="textBoxs44" HorizontalAlignment="Left" Margin="1025,386,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="313" BorderBrush="#FF0C0C0C"/>
+        <TextBox x:Name="textBoxex5" HorizontalAlignment="Left" Margin="902,424,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Exercício:" VerticalAlignment="Top" BorderBrush="Black" Width="123"/>
+        <TextBox x:Name="textBoxzm5" HorizontalAlignment="Left" Margin="902,456,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Zona muscular:" VerticalAlignment="Top" BorderBrush="Black"/>
+        <TextBox x:Name="textBoxs5" HorizontalAlignment="Left" Margin="902,488,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Séries/Reps:" VerticalAlignment="Top" Background="White" BorderBrush="#FF0C0C0C" Width="123"/>
+        <TextBox x:Name="textBoxex55" HorizontalAlignment="Left" Margin="1025,424,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Width="313" TextChanged="textBoxex44_Copy1_TextChanged"/>
+        <TextBox x:Name="textBoxzm55" HorizontalAlignment="Left" Margin="1025,456,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Width="313"/>
+        <TextBox x:Name="textBoxs55" HorizontalAlignment="Left" Margin="1025,488,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="313" BorderBrush="#FF0C0C0C"/>
+        <TextBox x:Name="textBoxex6" HorizontalAlignment="Left" Margin="902,528,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Exercício:" VerticalAlignment="Top" BorderBrush="Black" Width="123"/>
+        <TextBox x:Name="textBoxzm6" HorizontalAlignment="Left" Margin="902,560,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Zona muscular:" VerticalAlignment="Top" BorderBrush="Black"/>
+        <TextBox x:Name="textBoxs6" HorizontalAlignment="Left" Margin="902,592,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Séries/Reps:" VerticalAlignment="Top" Background="White" BorderBrush="#FF0C0C0C" Width="123"/>
+        <TextBox x:Name="textBoxex66" HorizontalAlignment="Left" Margin="1025,528,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Width="313" TextChanged="textBoxex44_Copy1_TextChanged"/>
+        <TextBox x:Name="textBoxzm66" HorizontalAlignment="Left" Margin="1025,560,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Width="313"/>
+        <TextBox x:Name="textBoxs66" HorizontalAlignment="Left" Margin="1025,592,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="313" BorderBrush="#FF0C0C0C"/>
     </Grid>
 </Page>

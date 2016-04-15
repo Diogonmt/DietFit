@@ -119,5 +119,10 @@ namespace DietFit.Views
         }
 
         #endregion
+
+        private void textBoxex44_Copy1_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
