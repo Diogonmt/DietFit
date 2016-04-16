@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-04-10T20:09:42.687</Modified>
+      <Modified>2016-04-16T20:03:22.596</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\DietFit.Windows.exe">
       <PackagePath>DietFit.Windows.exe</PackagePath>
-      <Modified>2016-04-10T20:15:24.558</Modified>
+      <Modified>2016-04-16T20:59:24.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\Assets\dietfit.png">
       <PackagePath>Assets\dietfit.png</PackagePath>
@@ -100,55 +100,59 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\DietFit.Windows.xr.xml">
       <PackagePath>DietFit.Windows.xr.xml</PackagePath>
-      <Modified>2016-04-04T11:02:47.230</Modified>
+      <Modified>2016-04-16T20:01:57.941</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2016-03-30T15:16:28.000</Modified>
+      <Modified>2016-04-15T22:03:41.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\AdminPage.xbf">
       <PackagePath>Views\AdminPage.xbf</PackagePath>
-      <Modified>2016-04-04T11:18:25.314</Modified>
+      <Modified>2016-04-16T20:18:03.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Ambiente.xbf">
       <PackagePath>Views\Ambiente.xbf</PackagePath>
-      <Modified>2016-04-04T11:02:47.584</Modified>
+      <Modified>2016-04-15T22:03:41.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Autores.xbf">
       <PackagePath>Views\Autores.xbf</PackagePath>
-      <Modified>2016-03-30T15:16:28.000</Modified>
+      <Modified>2016-04-15T22:03:41.956</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\PtPage.xbf">
-      <PackagePath>Views\PtPage.xbf</PackagePath>
-      <Modified>2016-04-03T14:26:06.589</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\CriarConta.xbf">
-      <PackagePath>Views\CriarConta.xbf</PackagePath>
-      <Modified>2016-04-02T23:46:04.748</Modified>
+    <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Historico.xbf">
+      <PackagePath>Views\Historico.xbf</PackagePath>
+      <Modified>2016-04-16T20:18:03.349</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\PlanoFisico.xbf">
       <PackagePath>Views\PlanoFisico.xbf</PackagePath>
-      <Modified>2016-04-04T11:02:47.590</Modified>
+      <Modified>2016-04-16T20:18:03.354</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\PtPage.xbf">
+      <PackagePath>Views\PtPage.xbf</PackagePath>
+      <Modified>2016-04-16T20:18:03.360</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\CriarConta.xbf">
+      <PackagePath>Views\CriarConta.xbf</PackagePath>
+      <Modified>2016-04-15T22:03:41.962</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Login.xbf">
       <PackagePath>Views\Login.xbf</PackagePath>
-      <Modified>2016-03-30T15:16:28.000</Modified>
+      <Modified>2016-04-15T22:03:41.964</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Menu.xbf">
       <PackagePath>Views\Menu.xbf</PackagePath>
-      <Modified>2016-04-04T11:02:47.594</Modified>
+      <Modified>2016-04-15T22:03:41.966</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\MyUserControl1.xbf">
       <PackagePath>Views\MyUserControl1.xbf</PackagePath>
-      <Modified>2016-03-30T15:16:28.000</Modified>
+      <Modified>2016-04-15T22:03:41.969</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Notas.xbf">
       <PackagePath>Views\Notas.xbf</PackagePath>
-      <Modified>2016-04-04T11:02:47.598</Modified>
+      <Modified>2016-04-15T22:03:41.971</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-04-10T20:09:42.024</Modified>
+      <Modified>2016-04-16T20:03:21.956</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

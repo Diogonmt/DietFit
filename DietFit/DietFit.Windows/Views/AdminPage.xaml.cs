@@ -191,6 +191,7 @@ namespace DietFit.Views
         private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             Utilizador user = app.getUtilizadorByUser((String)listBox.SelectedItem);
+            controller.setUtilizador((String)listBox.SelectedItem);
             if (user != null)
             {
                 this.textPrim.Text = user.getPnome();
@@ -220,6 +221,17 @@ namespace DietFit.Views
             dieta1WasClicked = false;
             dieta2WasClicked = false;
             dieta3WasClicked = true;
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Views.Historico), controller.getUtilizador());
+        }
+
+        private void buttonpL_Click(object sender, RoutedEventArgs e)
+        {
+            UtilizadorInfoController c = new UtilizadorInfoController(this.app, this.controller.getUtilizador());
+            this.Frame.Navigate(typeof(Views.PlanoFisico), c);
         }
     }
 }

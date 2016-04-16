@@ -109,5 +109,6 @@
         <TextBox x:Name="textBoxs66" HorizontalAlignment="Left" Margin="1025,592,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="313" BorderBrush="#FF0C0C0C"/>
         <Button x:Name="button" Content="Atualizar" HorizontalAlignment="Left" Margin="699,572,0,0" Grid.Row="1" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Background="White" Foreground="#FF0C0C0C" Click="button_Click" Width="121"/>
         <Button x:Name="button7" Content="Confirmar" HorizontalAlignment="Left" Margin="740,32,0,0" VerticalAlignment="Top" Width="121" Background="White" BorderBrush="Black" Foreground="Black" Grid.Row="1" Click="button7_Click"/>
+        <Button x:Name="button8" Content="Historico" HorizontalAlignment="Left" Margin="547,572,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black" Click="button8_Click"/>
     </Grid>
 </Page>

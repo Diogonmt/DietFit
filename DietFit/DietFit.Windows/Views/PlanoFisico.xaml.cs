@@ -31,7 +31,6 @@ namespace DietFit.Views
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
         private UtilizadorInfoController controller;
-        private Utilizador user;
 
         /// <summary>
         /// This can be changed to a strongly typed view model.
@@ -128,9 +127,10 @@ namespace DietFit.Views
             }
         }
 
+       
+
         private void textBlock_SelectionChanged(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
         }
 
         /// <summary>
@@ -433,6 +433,16 @@ namespace DietFit.Views
             textBoxex66.Text = plano.pDia6()[5].getExercicio();
             textBoxzm66.Text = plano.pDia6()[5].getZonaMuscular();
             textBoxs66.Text = plano.pDia6()[5].getSeRep();
+        }
+
+        private void backButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Views.Login), controller.getApp());
         }
     }
 }

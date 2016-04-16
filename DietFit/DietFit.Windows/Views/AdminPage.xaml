@@ -80,5 +80,7 @@
         <Button x:Name="dieta1" Content="Dieta 1" HorizontalAlignment="Left" Margin="1024,10,0,0" Grid.Row="1" VerticalAlignment="Top" Click="dieta1_Click"/>
         <Button x:Name="dieta2" Content="Dieta 2" HorizontalAlignment="Left" Margin="1142,0,0,580" VerticalAlignment="Bottom" Click="dieta2_Click" Grid.Row="1"/>
         <Button x:Name="dieta3" Content="Dieta3" HorizontalAlignment="Left" Margin="1259,10,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Button x:Name="buttonpL" Content="Ver plano físico" HorizontalAlignment="Left" Margin="557,541,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black" Click="buttonpL_Click"/>
+        <Button x:Name="button" Content="Histórico Plano Físico" HorizontalAlignment="Left" Margin="753,541,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="#FF0C0C0C" Foreground="Black" Click="button_Click"/>
     </Grid>
 </Page>

@@ -88,14 +88,17 @@
     <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Autores.xbf">
       <PackagePath>Views\Autores.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Historico.xbf">
+      <PackagePath>Views\Historico.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\PlanoFisico.xbf">
+      <PackagePath>Views\PlanoFisico.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\PtPage.xbf">
       <PackagePath>Views\PtPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\CriarConta.xbf">
       <PackagePath>Views\CriarConta.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\PlanoFisico.xbf">
-      <PackagePath>Views\PlanoFisico.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Login.xbf">
       <PackagePath>Views\Login.xbf</PackagePath>

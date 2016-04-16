@@ -12,6 +12,7 @@ namespace DietFit.Controllers
 
         private Appl app;
         private Utilizador nutricionista, user;
+        
 
         public CriarPlanoNutricionalController(Appl app, Utilizador nutri)
         {
@@ -37,6 +38,11 @@ namespace DietFit.Controllers
         public void plano3(Plano p)
         {
             this.user.setPlano3(p);
+        }
+
+        public Utilizador getUtilizador()
+        {
+            return user;
         }
 
         public Utilizador getNutricionista()

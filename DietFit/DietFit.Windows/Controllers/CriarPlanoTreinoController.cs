@@ -34,6 +34,11 @@ namespace DietFit.Controllers
             return pt;
         }
 
+        public Utilizador getUser()
+        {
+            return user;
+        }
+
         public Appl getApp()
         {
             return app;

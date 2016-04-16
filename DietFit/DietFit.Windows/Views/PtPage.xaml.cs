@@ -278,5 +278,10 @@ namespace DietFit.Views
             dia5Clicked = false;
             dia6Clicked = true;
         }
+
+        private void button8_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Views.Historico), controller.getUser());
+        }
     }
 }

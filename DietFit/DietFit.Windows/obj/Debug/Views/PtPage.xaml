@@ -52,7 +52,7 @@
             <TextBlock x:Name="pageTitle" Text="Personal Trainer" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
         </Grid>
-        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="448" Margin="68,124,0,0" Grid.Row="1" VerticalAlignment="Top" Width="356"/>
+        <ListBox x:ConnectionId='1' x:Name="listBox" HorizontalAlignment="Left" Height="448" Margin="68,124,0,0" Grid.Row="1" VerticalAlignment="Top" Width="356"                                            />
         <TextBlock x:Name="pNome" HorizontalAlignment="Left" Margin="519,104,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Primeiro Nome" VerticalAlignment="Top" Width="254" Height="37" FontSize="20" SelectionHighlightColor="Black" Foreground="White"/>
         <TextBlock x:Name="uNome" HorizontalAlignment="Left" Margin="519,176,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Último Nome" VerticalAlignment="Top" FontSize="20"/>
         <TextBlock x:Name="cAltura" HorizontalAlignment="Left" Margin="519,245,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Altura" VerticalAlignment="Top" FontSize="20"/>
@@ -65,12 +65,12 @@
         <TextBlock x:Name="textPeso" HorizontalAlignment="Left" Margin="519,342,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="33" Width="180" FontSize="18.667"/>
         <TextBlock x:Name="textAltura1" HorizontalAlignment="Left" Margin="519,402,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="36" Width="180" FontSize="18.667"/>
         <TextBlock x:Name="textObj" HorizontalAlignment="Left" Margin="519,472,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="39" Width="180" FontSize="18.667"/>
-        <Button x:Name="button1" Content="Dia 1" HorizontalAlignment="Left" Margin="740,125,0,0" Grid.Row="1" VerticalAlignment="Top" Background="#FFFFF9F9" Foreground="Black" Width="80" BorderBrush="Black"/>
-        <Button x:Name="button2" Content="Dia 2" HorizontalAlignment="Left" Margin="740,195,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" Foreground="Black" Width="80" BorderBrush="Black"/>
-        <Button x:Name="button3" Content="Dia 3" HorizontalAlignment="Left" Margin="740,264,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" Foreground="Black" Width="80" BorderBrush="Black"/>
-        <Button x:Name="button4" Content="Dia 4" HorizontalAlignment="Left" Margin="740,332,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black" Width="80"/>
-        <Button x:Name="button5" Content="Dia 5" HorizontalAlignment="Left" Margin="740,400,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black" Width="80"/>
-        <Button x:Name="button6" Content="Dia 6" HorizontalAlignment="Left" Margin="740,464,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black" Width="80"/>
+        <Button x:ConnectionId='2' x:Name="button1" Content="Dia 1" HorizontalAlignment="Left" Margin="740,125,0,0" Grid.Row="1" VerticalAlignment="Top" Background="#FFFFF9F9" Foreground="Black" Width="80" BorderBrush="Black"                      />
+        <Button x:ConnectionId='3' x:Name="button2" Content="Dia 2" HorizontalAlignment="Left" Margin="740,195,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" Foreground="Black" Width="80" BorderBrush="Black"                      />
+        <Button x:ConnectionId='4' x:Name="button3" Content="Dia 3" HorizontalAlignment="Left" Margin="740,264,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" Foreground="Black" Width="80" BorderBrush="Black"                        />
+        <Button x:ConnectionId='5' x:Name="button4" Content="Dia 4" HorizontalAlignment="Left" Margin="740,332,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black" Width="80"                        />
+        <Button x:ConnectionId='6' x:Name="button5" Content="Dia 5" HorizontalAlignment="Left" Margin="740,400,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black" Width="80"                        />
+        <Button x:ConnectionId='7' x:Name="button6" Content="Dia 6" HorizontalAlignment="Left" Margin="740,464,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black" Width="80"                        />
         <TextBox x:Name="textBoxex1" HorizontalAlignment="Left" Margin="902,15,0,0" TextWrapping="Wrap" Text="Exercício:" VerticalAlignment="Top" BorderBrush="Black" Width="123" Grid.Row="1"/>
         <TextBox x:Name="textBoxzm1" HorizontalAlignment="Left" Margin="902,47,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Zona muscular:" VerticalAlignment="Top" BorderBrush="Black"/>
         <TextBox x:Name="textBoxs1" HorizontalAlignment="Left" Margin="902,79,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Séries/Reps:" VerticalAlignment="Top" Background="White" BorderBrush="#FF0C0C0C" Width="123"/>
@@ -98,15 +98,18 @@
         <TextBox x:Name="textBoxex5" HorizontalAlignment="Left" Margin="902,424,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Exercício:" VerticalAlignment="Top" BorderBrush="Black" Width="123"/>
         <TextBox x:Name="textBoxzm5" HorizontalAlignment="Left" Margin="902,456,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Zona muscular:" VerticalAlignment="Top" BorderBrush="Black"/>
         <TextBox x:Name="textBoxs5" HorizontalAlignment="Left" Margin="902,488,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Séries/Reps:" VerticalAlignment="Top" Background="White" BorderBrush="#FF0C0C0C" Width="123"/>
-        <TextBox x:ConnectionId='1' x:Name="textBoxex55" HorizontalAlignment="Left" Margin="1025,424,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Width="313"                                            />
+        <TextBox x:ConnectionId='8' x:Name="textBoxex55" HorizontalAlignment="Left" Margin="1025,424,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Width="313"                                            />
         <TextBox x:Name="textBoxzm55" HorizontalAlignment="Left" Margin="1025,456,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Width="313"/>
         <TextBox x:Name="textBoxs55" HorizontalAlignment="Left" Margin="1025,488,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="313" BorderBrush="#FF0C0C0C"/>
         <TextBox x:Name="textBoxex6" HorizontalAlignment="Left" Margin="902,528,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Exercício:" VerticalAlignment="Top" BorderBrush="Black" Width="123"/>
         <TextBox x:Name="textBoxzm6" HorizontalAlignment="Left" Margin="902,560,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Zona muscular:" VerticalAlignment="Top" BorderBrush="Black"/>
         <TextBox x:Name="textBoxs6" HorizontalAlignment="Left" Margin="902,592,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Séries/Reps:" VerticalAlignment="Top" Background="White" BorderBrush="#FF0C0C0C" Width="123"/>
-        <TextBox x:ConnectionId='2' x:Name="textBoxex66" HorizontalAlignment="Left" Margin="1025,528,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Width="313"                                            />
+        <TextBox x:ConnectionId='9' x:Name="textBoxex66" HorizontalAlignment="Left" Margin="1025,528,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Width="313"                                            />
         <TextBox x:Name="textBoxzm66" HorizontalAlignment="Left" Margin="1025,560,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Width="313"/>
         <TextBox x:Name="textBoxs66" HorizontalAlignment="Left" Margin="1025,592,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="313" BorderBrush="#FF0C0C0C"/>
+        <Button x:ConnectionId='10' x:Name="button" Content="Atualizar" HorizontalAlignment="Left" Margin="699,572,0,0" Grid.Row="1" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Background="White" Foreground="#FF0C0C0C"                      Width="121"/>
+        <Button x:ConnectionId='11' x:Name="button7" Content="Confirmar" HorizontalAlignment="Left" Margin="740,32,0,0" VerticalAlignment="Top" Width="121" Background="White" BorderBrush="Black" Foreground="Black" Grid.Row="1"                      />
+        <Button x:ConnectionId='12' x:Name="button8" Content="Historico" HorizontalAlignment="Left" Margin="547,572,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black"                      />
     </Grid>
 </Page>
 

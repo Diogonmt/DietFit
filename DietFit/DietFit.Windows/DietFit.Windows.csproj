@@ -121,13 +121,16 @@
     </Compile>
     <Compile Include="Views\Ambiente.xaml.cs" />
     <Compile Include="Views\Autores.xaml.cs" />
+    <Compile Include="Views\Historico.xaml.cs">
+      <DependentUpon>Historico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PlanoFisico.xaml.cs">
+      <DependentUpon>PlanoFisico.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\PtPage.xaml.cs">
       <DependentUpon>PtPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\CriarConta.xaml.cs" />
-    <Compile Include="Views\PlanoFisico.xaml.cs">
-      <DependentUpon>PlanoFisico.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Views\Login.xaml.cs" />
     <Compile Include="Views\Menu.xaml.cs">
       <DependentUpon>Menu.xaml</DependentUpon>
@@ -174,6 +177,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Views\Historico.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PlanoFisico.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\PtPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -181,10 +192,6 @@
     <Page Include="Views\CriarConta.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Views\PlanoFisico.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Login.xaml">
       <Generator>MSBuild:Compile</Generator>
