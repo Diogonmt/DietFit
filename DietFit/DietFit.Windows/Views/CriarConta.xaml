@@ -78,7 +78,6 @@
                     <TextBlock x:Name="txt_Genero" Text="Gênero:" FontFamily="Arista 2.0"  FontSize="21.333" Padding="7"  HorizontalAlignment="Left" Margin="50,15,0,0" Height="40" />
                     <TextBlock x:Name="txt_Nascimento" Text="Data de Nascimento:" FontFamily="Arista 2.0" Padding="7"  FontSize="21.333"  HorizontalAlignment="Left" Margin="50,15,0,0" Height="40" />
                     <TextBlock x:Name="txt_Altura" Text="Altura(cm):" FontFamily="Arista 2.0"  FontSize="21.333" Padding="7" HorizontalAlignment="Left" Margin="50,15,0,0" Height="40" />
-                    <TextBlock x:Name="txt_Peso" Text="Peso(kg):" FontFamily="Arista 2.0"  FontSize="21.333" Padding="7" HorizontalAlignment="Left" Margin="50,15,0,0" Height="40"/>
                     <TextBlock x:Name="txt_email" Text="Correiro eletrónico:" FontFamily="Arista 2.0" Padding="7" FontSize="21.333"  HorizontalAlignment="Left" Margin="50,15,0,0" Height="40" />
                     <TextBlock x:Name="txt_pwd" Text="Password:" FontFamily="Arista 2.0"  FontSize="21.333" Padding="7"  HorizontalAlignment="Left" Margin="50,15,0,0" Height="40" />
                     <TextBlock x:Name="txt_pwdrepeat" Text="Repetir Password:" FontFamily="Arista 2.0" Padding="7" FontSize="21.333"  HorizontalAlignment="Left" Margin="50,15,0,0" Height="40"/>
@@ -93,7 +92,6 @@
                     <RadioButton x:Name="rb_GeneroM" Content="Masculino" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,-30,0,0"/>
                     <DatePicker Margin="0,20,0,0" HorizontalAlignment="Left"/>
                     <TextBox x:Name="tb_Altura" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="200" Margin="0,15,0,0" Height="40"/>
-                    <TextBox x:Name="tb_Peso" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="200" Margin="0,15,0,0" Height="40"/>
                     <TextBox x:Name="tb_Email" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="200" Margin="0,15,0,0" Height="40"/>
                     <PasswordBox x:Name="tb_Pwd" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="200" Margin="0,15,0,0" Height="40"/>
                     <PasswordBox x:Name="tb_PwdRepeat" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="200" Margin="0,15,0,0" Height="40"/>
@@ -106,7 +104,7 @@
             </Grid>
             <TextBlock x:Name="textErro" HorizontalAlignment="Left" Margin="182,274,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="131" Width="187" FontSize="18.667" Foreground="#FFFD0707" FontWeight="Bold"/>
             <Canvas Margin="766,651,400,80" Grid.Row="1"/>
-            <ComboBox x:Name="comboBox" Margin="907,645,259,92" Grid.Row="1" Width="200" Height="40"/>
+            <ComboBox x:Name="comboBox" Margin="766,595,400,142" Grid.Row="1" Width="200" Height="40"/>
 
 
         </Grid>

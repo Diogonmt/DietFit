@@ -125,7 +125,7 @@ namespace DietFit.Views
                 textErro.Text=("Palavras passe não coincidem");
             }
             else if (tb_User.Text.Equals("") || tb_Nome.Text.Equals("") || tb_Apelido.Text.Equals("")
-                || tb_Peso.Text.Equals("") || tb_Altura.Text.Equals("") || tb_Email.Text.Equals(""))
+                 || tb_Altura.Text.Equals("") || tb_Email.Text.Equals(""))
             {
                 textErro.Text=("Não preecheu todos os campos");
             }

@@ -31,7 +31,6 @@ namespace DietFit.Views
         private CriarPlanoTreinoController controller;
         private Appl app;
         private Fisico userPlano;
-        private Utilizador user;
         private bool dia1Clicked;
         private bool dia2Clicked;
         private bool dia3Clicked;
@@ -140,6 +139,10 @@ namespace DietFit.Views
         private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             controller.setUtilizador((String)listBox.SelectedItem);
+
+            textPrim.Text = controller.getUser().getPnome();
+            textObj.Text = controller.getUser().getObjetivo();
+
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
@@ -282,6 +285,41 @@ namespace DietFit.Views
         private void button8_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(Views.Historico), controller.getUser());
+        }
+
+        private void textObj_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            controller.getUser().setPeso(Double.Parse(textBox5.Text));
+        }
+
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            controller.getUser().setMassaM(Double.Parse(textBox.Text));
+        }
+
+        private void textBox1_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            controller.getUser().setImc(Double.Parse(textBox1.Text));
+        }
+
+        private void textBox2_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            controller.getUser().setMassaG(Double.Parse(textBox2.Text));
+        }
+
+        private void textBox3_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            controller.getUser().setMetablismo(Int32.Parse(textBox3.Text));
+        }
+
+        private void textBox4_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            controller.getUser().setIdadeM(Int32.Parse(textBox4.Text));
         }
     }
 }

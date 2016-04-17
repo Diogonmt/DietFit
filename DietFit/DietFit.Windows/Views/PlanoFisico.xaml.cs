@@ -31,6 +31,7 @@ namespace DietFit.Views
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
         private UtilizadorInfoController controller;
+        private Utilizador user;
 
         /// <summary>
         /// This can be changed to a strongly typed view model.
@@ -80,6 +81,14 @@ namespace DietFit.Views
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             controller = (UtilizadorInfoController)e.Parameter;
+
+            user = controller.getUser();
+            this.txt_Nome.Text = user.getPnome();
+            this.txt_Mail.Text = user.getMail();
+            this.txt_Peso.Text = user.getPeso().ToString();
+            this.txt_Objetivo.Text = user.getObjetivo();
+            this.textBlockmm.Text = user.getMassaM().ToString();
+            this.textBlockmg.Text = user.getMassaG().ToString();
         }
 
         void itemListView_SelectionChanged(object sender, SelectionChangedEventArgs e)

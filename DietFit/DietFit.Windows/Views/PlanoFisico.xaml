@@ -71,7 +71,7 @@
             AutomationProperties.AutomationId="ItemsListView"
             AutomationProperties.Name="Items"
             TabIndex="1"
-            Margin="-10,249,0,-245"
+            Margin="-10,147,0,-245"
             Padding="120,0,0,60"
             IsSwipeEnabled="False"
             SelectionChanged="ItemListView_SelectionChanged" Grid.Row="1">
@@ -83,10 +83,13 @@
             <Grid Height="43" Width="268">
                 <TextBlock x:Name="txt_Nome" Text="Nome" FontSize="32" TextAlignment="Center" Margin="-90,0,90,0" />
             </Grid>
-            <TextBlock x:Name="txt_Altura" TextWrapping="Wrap" Text="Altura" Height="68" SelectionChanged="textBlock_SelectionChanged" FontSize="33.333" HorizontalAlignment="Center"/>
             <TextBlock x:Name="txt_Peso" TextWrapping="Wrap" Text="Peso" HorizontalAlignment="Center" FontSize="33.333"/>
             <TextBlock x:Name="txt_Mail" TextWrapping="Wrap" Text="E-mail" FontSize="33.333" HorizontalAlignment="Center"/>
             <TextBlock x:Name="txt_Objetivo" TextWrapping="Wrap" Text="Objetivo" FontSize="33.333" HorizontalAlignment="Center" SelectionChanged="txt_Objetivo_SelectionChanged"/>
+            <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="Massa Muscular" FontSize="26.667" Width="222"/>
+            <TextBlock x:Name="textBlockmm" TextWrapping="Wrap" Text="..." Width="185" FontSize="26.667"/>
+            <TextBlock x:Name="textBlock1" TextWrapping="Wrap" Text="Massa Gorda" FontSize="26.667"/>
+            <TextBlock x:Name="textBlockmg" TextWrapping="Wrap" Text="..." FontSize="26.667"/>
         </ListView>
         <TextBox x:Name="textBoxex1" HorizontalAlignment="Left" Margin="384,45,0,0" TextWrapping="Wrap" Text="Exercício:" VerticalAlignment="Top" BorderBrush="Black" Width="123" Grid.Row="1" Grid.Column="1" Height="32"/>
         <TextBox x:Name="textBoxzm1" HorizontalAlignment="Left" Margin="384,77,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Zona muscular:" VerticalAlignment="Top" BorderBrush="Black" Grid.Column="1" Height="32" Width="123"/>

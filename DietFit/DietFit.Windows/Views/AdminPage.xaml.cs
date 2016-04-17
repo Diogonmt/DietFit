@@ -195,9 +195,10 @@ namespace DietFit.Views
             if (user != null)
             {
                 this.textPrim.Text = user.getPnome();
-                this.textUlt.Text = user.getUnome();
                 this.textPeso.Text = user.getPeso().ToString();
-                this.textAltura.Text = user.getAltura().ToString();
+                this.textMm.Text = user.getMassaM().ToString();
+                this.textMassaG.Text = user.getMassaG().ToString();
+                this.textBlockIm.Text = user.getIdadeM().ToString();
                 this.textObj.Text = user.getObjetivo();
             }
         }

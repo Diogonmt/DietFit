@@ -16,6 +16,11 @@ namespace DietFit.Model
         private String password;
         private String objetivo;
         private String eMail;
+        private double massaM;
+        private double imc;
+        private double massaG;
+        private int metabolismo;
+        private int idadeM;
         private Fisico planoTreino;
         private Fisico planoAnterior;
         private Plano plano;
@@ -34,6 +39,11 @@ namespace DietFit.Model
             username = "";
             password = "";
             objetivo = "";
+            massaM = 0;
+            massaG = 0;
+            metabolismo = 0;
+            idadeM = 0;
+            imc = 0;
             eMail = "";
             plano = new Plano();
             plano2 = new Plano();
@@ -76,6 +86,26 @@ namespace DietFit.Model
         {
             this.eMail = mail;
         }
+        public void setMassaM(double massaM)
+        {
+            this.massaM = massaM;
+        }
+        public void setImc(double imc)
+        {
+            this.imc = imc;
+        }
+        public void setMassaG(double massaG)
+        {
+            this.massaG = massaG;
+        }
+        public void setMetablismo(int metabolismo)
+        {
+            this.metabolismo = metabolismo;
+        }
+        public void setIdadeM(int idadeM)
+        {
+            this.idadeM = idadeM;
+        }
         public void setPlano(Plano plano)
         {
             this.plano = plano;
@@ -104,6 +134,26 @@ namespace DietFit.Model
         public String getPassword()
         {
             return this.password;
+        }
+        public double getMassaM()
+        {
+            return this.massaM;
+        }
+        public double getImc()
+        {
+            return this.imc;
+        }
+        public double getMassaG()
+        {
+            return this.massaG;
+        }
+        public int getMetabolismo()
+        {
+            return this.metabolismo;
+        }
+        public int getIdadeM()
+        {
+            return this.idadeM;
         }
         public Plano getPlano()
         {
