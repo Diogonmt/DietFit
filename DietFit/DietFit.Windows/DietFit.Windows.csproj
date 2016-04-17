@@ -121,8 +121,14 @@
     </Compile>
     <Compile Include="Views\Ambiente.xaml.cs" />
     <Compile Include="Views\Autores.xaml.cs" />
+    <Compile Include="Views\HistoricaDados.xaml.cs">
+      <DependentUpon>HistoricaDados.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Historico.xaml.cs">
       <DependentUpon>Historico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Observacao.xaml.cs">
+      <DependentUpon>Observacao.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\PlanoFisico.xaml.cs">
       <DependentUpon>PlanoFisico.xaml</DependentUpon>
@@ -177,7 +183,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Views\HistoricaDados.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Historico.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Observacao.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -175,5 +175,12 @@ namespace DietFit.Views
             this.textBlock4.Text = plano3.getJantar();
             this.textBlock5.Text = plano3.getCeia();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Utilizador[] args = new Utilizador[1];
+            args[0] = controller.getUser();
+            this.Frame.Navigate(typeof(Views.Observacao), args);
+        }
     }
 }

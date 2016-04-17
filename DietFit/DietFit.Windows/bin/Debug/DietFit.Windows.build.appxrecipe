@@ -88,8 +88,14 @@
     <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Autores.xbf">
       <PackagePath>Views\Autores.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\HistoricaDados.xbf">
+      <PackagePath>Views\HistoricaDados.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Historico.xbf">
       <PackagePath>Views\Historico.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Observacao.xbf">
+      <PackagePath>Views\Observacao.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\PlanoFisico.xbf">
       <PackagePath>Views\PlanoFisico.xbf</PackagePath>

@@ -72,6 +72,7 @@ namespace DietFit.Views
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
             this.navigationHelper.SaveState += navigationHelper_SaveState;
+           
         }
 
         private void textBoxex44_Copy1_TextChanged(object sender, TextChangedEventArgs e)
@@ -345,6 +346,14 @@ namespace DietFit.Views
             controller.getUser().setMassaG(Double.Parse(textBox2.Text));
             controller.getUser().setMetablismo(Int32.Parse(textBox3.Text));
             controller.getUser().setIdadeM(Int32.Parse(textBox4.Text));
+        }
+
+        private void button10_Click(object sender, RoutedEventArgs e)
+        {
+            Utilizador[] args = new Utilizador[2];
+            args[0] = controller.getUser();
+            args[1] = controller.getPT();
+            this.Frame.Navigate(typeof(Views.Observacao), args);
         }
     }
 }

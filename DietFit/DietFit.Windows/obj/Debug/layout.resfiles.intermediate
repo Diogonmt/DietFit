@@ -20,10 +20,12 @@ Views\AdminPage.xbf
 Views\Ambiente.xbf
 Views\Autores.xbf
 Views\CriarConta.xbf
+Views\HistoricaDados.xbf
 Views\Historico.xbf
 Views\Login.xbf
 Views\Menu.xbf
 Views\MyUserControl1.xbf
 Views\Notas.xbf
+Views\Observacao.xbf
 Views\PlanoFisico.xbf
 Views\PtPage.xbf

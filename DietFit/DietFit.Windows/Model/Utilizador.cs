@@ -36,6 +36,7 @@ namespace DietFit.Model
         private bool isnutricionista;
         private bool ispt;
         private String notas;
+        private String obs;
 
         public Utilizador()
         {
@@ -66,6 +67,7 @@ namespace DietFit.Model
             hiMassaG=0;
             hiIdadeM=0;
             hiMetabolismo=0;
+            obs = "";
     }
 
         public void setUsername(String username)
@@ -125,6 +127,10 @@ namespace DietFit.Model
         {
             this.hiIdadeM = this.idadeM;
             this.idadeM = idadeM;
+        }
+        public void setObs(String obs)
+        {
+            this.obs = obs;
         }
         public void setPlano(Plano plano)
         {
@@ -218,6 +224,10 @@ namespace DietFit.Model
         public String getObjetivo()
         {
             return this.objetivo;
+        }
+        public String getObs()
+        {
+            return this.obs;
         }
         public void setIsnutricionista(bool b)
         {

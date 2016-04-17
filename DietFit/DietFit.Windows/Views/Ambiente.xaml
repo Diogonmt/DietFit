@@ -64,6 +64,7 @@
         <TextBlock x:Name="textBlock3" Grid.Column="1" HorizontalAlignment="Left" Margin="52,484,0,0" TextWrapping="Wrap" Text="tbd" VerticalAlignment="Top" Height="62" Width="759" SelectionChanged="textBlock3_SelectionChanged" FontSize="18.667"/>
         <TextBlock x:Name="textBlock4" Grid.Column="1" HorizontalAlignment="Left" Margin="52,583,0,0" TextWrapping="Wrap" Text="tbd" VerticalAlignment="Top" Height="48" Width="759" FontSize="18.667"/>
         <TextBlock x:Name="textBlock5" Grid.Column="1" HorizontalAlignment="Left" Margin="55,673,0,0" TextWrapping="Wrap" Text="tbd" VerticalAlignment="Top" Height="64" Width="756" FontSize="18.667"/>
+        <Button x:Name="button" Content="Observações" Grid.Column="1" HorizontalAlignment="Left" Margin="811,636,0,0" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black" Click="button_Click"/>
 
 
 

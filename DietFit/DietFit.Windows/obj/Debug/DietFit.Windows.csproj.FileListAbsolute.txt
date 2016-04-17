@@ -296,3 +296,13 @@ C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Wi
 C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Historico.xaml
 C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Historico.xbf
 C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Historico.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\HistoricaDados.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\HistoricaDados.g.i.cs
+C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\HistoricaDados.g.cs
+C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\HistoricaDados.xaml
+C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\HistoricaDados.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Observacao.xbf
+C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Observacao.g.i.cs
+C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Observacao.g.cs
+C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Observacao.xaml
+C:\Users\Mário\Desktop\DietFit\DietFit Mario\DietFit\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Observacao.xbf

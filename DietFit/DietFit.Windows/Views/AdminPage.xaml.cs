@@ -239,5 +239,12 @@ namespace DietFit.Views
         {
             this.Frame.Navigate(typeof(Views.HistoricaDados), controller.getUtilizador());
         }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            Utilizador[] args = new Utilizador[1];
+            args[0] = controller.getUtilizador();
+            this.Frame.Navigate(typeof(Views.Observacao), args);
+        }
     }
 }

@@ -83,6 +83,7 @@
         <TextBlock x:Name="textBlockIm" HorizontalAlignment="Left" Margin="648,354,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Idade Metabólica" VerticalAlignment="Top" FontSize="20"/>
         <TextBlock x:Name="textBlockiM" HorizontalAlignment="Left" Margin="648,402,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="20"/>
         <TextBlock x:Name="textBlockIdM" HorizontalAlignment="Left" Margin="648,383,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
-        <Button x:Name="button1" Content="Histórico Dados" HorizontalAlignment="Left" Margin="153,544,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black" Click="button1_Click"/>
+        <Button x:Name="button1" Content="Histórico Dados" HorizontalAlignment="Left" Margin="69,544,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Observações" HorizontalAlignment="Left" Margin="321,544,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black" Click="button2_Click"/>
     </Grid>
 </Page>

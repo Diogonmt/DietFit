@@ -86,6 +86,7 @@
       <RootProperty Name="Style" />
       <RootProperty Name="IsHitTestVisible" />
       <RootProperty Name="SelectionHighlightColor" />
+      <RootProperty Name="Inlines" />
       <RootProperty Name="Padding" />
       <RootProperty Name="OpticalMarginAlignment" />
       <RootEvent Name="SelectionChanged" />
@@ -102,6 +103,7 @@
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="Background" />
+      <RootProperty Name="FontSize" />
       <RootEvent Name="TextChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
@@ -116,6 +118,7 @@
       <RootProperty Name="Style" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Opacity" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Name" />
       <RootEvent Name="Click" />
@@ -152,7 +155,12 @@
       <RootProperty Name="Stretch" />
     </RootType>
     <RootType FullName="DietFit.Views.Autores" />
+    <RootType FullName="Windows.UI.Xaml.Documents.Run">
+      <RootProperty Name="Text" />
+    </RootType>
+    <RootType FullName="DietFit.Views.HistoricaDados" />
     <RootType FullName="DietFit.Views.Historico" />
+    <RootType FullName="DietFit.Views.Observacao" />
     <RootType FullName="Windows.UI.Xaml.Data.CollectionViewSource">
       <RootProperty Name="Source" />
     </RootType>

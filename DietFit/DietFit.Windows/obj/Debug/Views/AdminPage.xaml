@@ -52,12 +52,11 @@
 				AutomationProperties.ItemType="Navigation Button"/>
         </Grid>
         <ListBox x:ConnectionId='1' x:Name="listBox" HorizontalAlignment="Left" Height="448" Margin="53,58,0,0" Grid.Row="1" VerticalAlignment="Top" Width="403"                                            />
-        <TextBlock x:Name="pNome" HorizontalAlignment="Left" Margin="648,83,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Primeiro Nome" VerticalAlignment="Top" Width="254" Height="37" FontSize="20"/>
-        <TextBlock x:Name="uNome" HorizontalAlignment="Left" Margin="648,155,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Último Nome" VerticalAlignment="Top" FontSize="20"/>
-        <TextBlock x:Name="cAltura" HorizontalAlignment="Left" Margin="648,224,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Altura" VerticalAlignment="Top" FontSize="20"/>
-        <TextBlock x:Name="cPeso" HorizontalAlignment="Left" Margin="648,284,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Peso" VerticalAlignment="Top" FontSize="20"/>
-        <TextBlock x:Name="cAltura1" HorizontalAlignment="Left" Margin="648,354,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Altura" VerticalAlignment="Top" Height="22" FontSize="20"/>
-        <TextBlock x:Name="cObjetivo" HorizontalAlignment="Left" Margin="648,422,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Objetivo" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="pNome" HorizontalAlignment="Left" Margin="648,68,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Primeiro Nome" VerticalAlignment="Top" Width="254" Height="37" FontSize="20"/>
+        <TextBlock x:Name="cMassaM" HorizontalAlignment="Left" Margin="648,155,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Massa Muscular" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="cPeso" HorizontalAlignment="Left" Margin="648,215,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Peso" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="cMassaG" HorizontalAlignment="Left" Margin="648,285,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Massa Gorda" VerticalAlignment="Top" Height="22" FontSize="20"/>
+        <TextBlock x:Name="cObjetivo" HorizontalAlignment="Left" Margin="648,444,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Objetivo" VerticalAlignment="Top" FontSize="20"/>
         <TextBlock x:Name="cPeqAlm" HorizontalAlignment="Left" Margin="1024,83,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Pequeno Almoço" VerticalAlignment="Top" FontSize="20"/>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="1024,116,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="332" Height="32"/>
         <TextBlock x:Name="cLanMan" HorizontalAlignment="Left" Margin="1024,164,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Lanche da Manha" VerticalAlignment="Top" FontSize="20"/>
@@ -71,17 +70,21 @@
         <TextBlock x:Name="cCeia" HorizontalAlignment="Left" Margin="1024,480,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Ceia" VerticalAlignment="Top" FontSize="20"/>
         <TextBox x:Name="textBox5" HorizontalAlignment="Left" Margin="1024,509,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontFamily="Global User Interface" Width="332"/>
         <Button x:ConnectionId='2' x:Name="okButton" Content="OK" HorizontalAlignment="Left" Margin="1304,583,0,0" Grid.Row="1" VerticalAlignment="Top"                       />
-        <TextBlock x:Name="textPrim" HorizontalAlignment="Left" Margin="648,116,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="32" Width="180" FontSize="18.667"/>
-        <TextBlock x:Name="textUlt" HorizontalAlignment="Left" Margin="648,184,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="35" Width="180" FontSize="18.667"/>
-        <TextBlock x:Name="textAltura" HorizontalAlignment="Left" Margin="648,253,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="31" Width="180"/>
-        <TextBlock x:Name="textPeso" HorizontalAlignment="Left" Margin="648,321,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="33" Width="180" FontSize="18.667"/>
-        <TextBlock x:Name="textAltura1" HorizontalAlignment="Left" Margin="648,381,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="36" Width="180" FontSize="18.667"/>
-        <TextBlock x:Name="textObj" HorizontalAlignment="Left" Margin="648,451,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="39" Width="180" FontSize="18.667"/>
+        <TextBlock x:Name="textPrim" HorizontalAlignment="Left" Margin="648,101,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="32" Width="180" FontSize="18.667"/>
+        <TextBlock x:Name="textMm" HorizontalAlignment="Left" Margin="648,184,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="31" Width="180"/>
+        <TextBlock x:Name="textPeso" HorizontalAlignment="Left" Margin="648,248,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="33" Width="180" FontSize="18.667"/>
+        <TextBlock x:Name="textMassaG" HorizontalAlignment="Left" Margin="648,312,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="36" Width="180" FontSize="18.667"/>
+        <TextBlock x:Name="textObj" HorizontalAlignment="Left" Margin="648,473,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="39" Width="180" FontSize="18.667"/>
         <Button x:ConnectionId='3' x:Name="dieta1" Content="Dieta 1" HorizontalAlignment="Left" Margin="1024,10,0,0" Grid.Row="1" VerticalAlignment="Top"                     />
         <Button x:ConnectionId='4' x:Name="dieta2" Content="Dieta 2" HorizontalAlignment="Left" Margin="1142,0,0,580" VerticalAlignment="Bottom"                      Grid.Row="1"/>
         <Button x:Name="dieta3" Content="Dieta3" HorizontalAlignment="Left" Margin="1259,10,0,0" Grid.Row="1" VerticalAlignment="Top"/>
         <Button x:ConnectionId='5' x:Name="buttonpL" Content="Ver plano físico" HorizontalAlignment="Left" Margin="557,541,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black"                       />
         <Button x:ConnectionId='6' x:Name="button" Content="Histórico Plano Físico" HorizontalAlignment="Left" Margin="753,541,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="#FF0C0C0C" Foreground="Black"                     />
+        <TextBlock x:Name="textBlockIm" HorizontalAlignment="Left" Margin="648,354,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Idade Metabólica" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="textBlockiM" HorizontalAlignment="Left" Margin="648,402,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="textBlockIdM" HorizontalAlignment="Left" Margin="648,383,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='7' x:Name="button1" Content="Histórico Dados" HorizontalAlignment="Left" Margin="69,544,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black"                      />
+        <Button x:ConnectionId='8' x:Name="button2" Content="Observações" HorizontalAlignment="Left" Margin="321,544,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black"                      />
     </Grid>
 </Page>
 
