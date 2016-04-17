@@ -21,6 +21,13 @@ namespace DietFit.Model
         private double massaG;
         private int metabolismo;
         private int idadeM;
+        private String hiPnome;
+        private double hiPeso;
+        private double hiMassaM;
+        private double hiImc;
+        private double hiMassaG;
+        private int hiIdadeM;
+        private int hiMetabolismo;
         private Fisico planoTreino;
         private Fisico planoAnterior;
         private Plano plano;
@@ -52,7 +59,14 @@ namespace DietFit.Model
             isnutricionista = false;
             ispt = false;
             notas = "";
-        }
+            hiPnome = "";
+            hiPeso=0;
+            hiMassaM=0;
+            hiImc=0;
+            hiMassaG=0;
+            hiIdadeM=0;
+            hiMetabolismo=0;
+    }
 
         public void setUsername(String username)
         {
@@ -60,6 +74,7 @@ namespace DietFit.Model
         }
         public void setPeso(double peso)
         {
+            this.hiPeso = this.peso;
             this.peso = peso;
         }
         public void setAltura(int altura)
@@ -88,22 +103,27 @@ namespace DietFit.Model
         }
         public void setMassaM(double massaM)
         {
+            this.hiMassaM = this.massaM;
             this.massaM = massaM;
         }
         public void setImc(double imc)
         {
+            this.hiImc = this.imc;
             this.imc = imc;
         }
         public void setMassaG(double massaG)
         {
+            this.hiMassaG = this.massaG;
             this.massaG = massaG;
         }
         public void setMetablismo(int metabolismo)
         {
+            this.hiMetabolismo = this.metabolismo;
             this.metabolismo = metabolismo;
         }
         public void setIdadeM(int idadeM)
         {
+            this.hiIdadeM = this.idadeM;
             this.idadeM = idadeM;
         }
         public void setPlano(Plano plano)
@@ -222,6 +242,30 @@ namespace DietFit.Model
         public String toString()
         {
             return this.pNome + " "+this.uNome;
+        }
+        public double getHiPeso()
+        {
+            return this.hiPeso;
+        }
+        public double getHiMassaM()
+        {
+            return this.hiMassaM;
+        }
+        public double getHiImc()
+        {
+            return this.hiImc;
+        }
+        public double getHiMassaG()
+        {
+            return this.hiMassaG;
+        }
+        public int getHiIdadeM()
+        {
+            return this.hiIdadeM;
+        }
+        public int getHiMetabolismo()
+        {
+            return this.hiMetabolismo;
         }
     }
 }

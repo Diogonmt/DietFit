@@ -234,5 +234,10 @@ namespace DietFit.Views
             UtilizadorInfoController c = new UtilizadorInfoController(this.app, this.controller.getUtilizador());
             this.Frame.Navigate(typeof(Views.PlanoFisico), c);
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Views.HistoricaDados), controller.getUtilizador());
+        }
     }
 }

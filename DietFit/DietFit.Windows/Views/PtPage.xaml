@@ -53,10 +53,10 @@
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
         </Grid>
         <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="448" Margin="68,85,0,0" Grid.Row="1" VerticalAlignment="Top" Width="356" SelectionChanged="listBox_SelectionChanged"/>
-        <TextBlock x:Name="pNome" HorizontalAlignment="Left" Margin="519,70,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Primeiro Nome" VerticalAlignment="Top" Width="254" Height="37" FontSize="20" SelectionHighlightColor="Black" Foreground="White"/>
+        <TextBlock x:Name="pNome" HorizontalAlignment="Left" Margin="519,70,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Primeiro Nome" VerticalAlignment="Top" Width="254" Height="37" FontSize="20" SelectionHighlightColor="Black" Foreground="White" SelectionChanged="pNome_SelectionChanged"/>
         <TextBlock x:Name="cPeso" HorizontalAlignment="Left" Margin="519,135,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Peso" VerticalAlignment="Top" FontSize="20"/>
         <TextBlock x:Name="cObjetivo" HorizontalAlignment="Left" Margin="519,499,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Objetivo" VerticalAlignment="Top" FontSize="20"/>
-        <TextBlock x:Name="textPrim" HorizontalAlignment="Left" Margin="519,103,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="32" Width="180" FontSize="18.667"/>
+        <TextBlock x:Name="textPrim" HorizontalAlignment="Left" Margin="519,103,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="32" Width="180" FontSize="18.667" SelectionChanged="textPrim_SelectionChanged"/>
         <TextBlock x:Name="textObj" HorizontalAlignment="Left" Margin="519,528,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="39" Width="180" FontSize="18.667" SelectionChanged="textObj_SelectionChanged"/>
         <Button x:Name="button1" Content="Dia 1" HorizontalAlignment="Left" Margin="740,125,0,0" Grid.Row="1" VerticalAlignment="Top" Background="#FFFFF9F9" Foreground="Black" Width="80" BorderBrush="Black" Click="button1_Click"/>
         <Button x:Name="button2" Content="Dia 2" HorizontalAlignment="Left" Margin="740,195,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" Foreground="Black" Width="80" BorderBrush="Black" Click="button2_Click"/>
@@ -102,18 +102,19 @@
         <TextBox x:Name="textBoxs66" HorizontalAlignment="Left" Margin="1025,592,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="313" BorderBrush="#FF0C0C0C"/>
         <Button x:Name="button" Content="Atualizar" HorizontalAlignment="Left" Margin="699,572,0,0" Grid.Row="1" VerticalAlignment="Top" BorderBrush="#FF0C0C0C" Background="White" Foreground="#FF0C0C0C" Click="button_Click" Width="121"/>
         <Button x:Name="button7" Content="Confirmar" HorizontalAlignment="Left" Margin="740,32,0,0" VerticalAlignment="Top" Width="121" Background="White" BorderBrush="Black" Foreground="Black" Grid.Row="1" Click="button7_Click"/>
-        <Button x:Name="button8" Content="Historico" HorizontalAlignment="Left" Margin="547,572,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black" Click="button8_Click"/>
+        <Button x:Name="button8" Content="Historico" HorizontalAlignment="Left" Margin="726,525,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black" Click="button8_Click"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="519,193,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Massa Muscular" VerticalAlignment="Top" FontSize="20"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="519,225,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="141" TextChanged="textBox_TextChanged"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="519,225,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141" TextChanged="textBox_TextChanged"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="519,257,0,0" Grid.Row="1" TextWrapping="Wrap" Text="IMC" VerticalAlignment="Top" FontSize="20"/>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="519,281,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="141" TextChanged="textBox1_TextChanged"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="519,281,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141" TextChanged="textBox1_TextChanged"/>
         <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="519,318,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Massa Gorda" VerticalAlignment="Top" FontSize="20"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="519,347,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="141" TextChanged="textBox2_TextChanged"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="519,347,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141" TextChanged="textBox2_TextChanged"/>
         <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="519,385,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Metabolismo" VerticalAlignment="Top" FontSize="20"/>
-        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Margin="519,409,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="141" TextChanged="textBox3_TextChanged"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Margin="519,409,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141" TextChanged="textBox3_TextChanged"/>
         <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="519,444,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Idade Metabolica" VerticalAlignment="Top" FontSize="20"/>
-        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Margin="519,467,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="141" TextChanged="textBox4_TextChanged"/>
-        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Margin="519,162,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="141" TextChanged="textBox5_TextChanged"/>
-        <Button x:Name="buttonHd" Content="Histórico Dados" HorizontalAlignment="Left" Margin="156,567,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="#FF0C0C0C" Foreground="#FF0C0C0C"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Margin="519,467,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141" TextChanged="textBox4_TextChanged"/>
+        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Margin="519,162,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141" TextChanged="textBox5_TextChanged"/>
+        <Button x:Name="buttonHd" Content="Histórico Dados" HorizontalAlignment="Left" Margin="156,567,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="#FF0C0C0C" Foreground="#FF0C0C0C" Click="buttonHd_Click"/>
+        <Button x:Name="button9" Content="OK" HorizontalAlignment="Left" Margin="519,569,0,23" Grid.Row="1" VerticalAlignment="Stretch" Background="White" BorderBrush="Black" Foreground="Black" Click="button9_Click"/>
     </Grid>
 </Page>

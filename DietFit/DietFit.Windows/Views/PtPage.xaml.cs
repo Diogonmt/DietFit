@@ -46,6 +46,16 @@ namespace DietFit.Views
             get { return this.defaultViewModel; }
         }
 
+        private void pNome_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void textPrim_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
         /// <summary>
         /// NavigationHelper is used on each page to aid in navigation and 
         /// process lifetime management
@@ -294,31 +304,46 @@ namespace DietFit.Views
 
         private void textBox5_TextChanged(object sender, TextChangedEventArgs e)
         {
-            controller.getUser().setPeso(Double.Parse(textBox5.Text));
+           
         }
 
         private void textBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            controller.getUser().setMassaM(Double.Parse(textBox.Text));
+            
         }
 
         private void textBox1_TextChanged(object sender, TextChangedEventArgs e)
         {
-            controller.getUser().setImc(Double.Parse(textBox1.Text));
+            
         }
 
         private void textBox2_TextChanged(object sender, TextChangedEventArgs e)
         {
-            controller.getUser().setMassaG(Double.Parse(textBox2.Text));
+            
         }
 
         private void textBox3_TextChanged(object sender, TextChangedEventArgs e)
         {
-            controller.getUser().setMetablismo(Int32.Parse(textBox3.Text));
+            
         }
 
         private void textBox4_TextChanged(object sender, TextChangedEventArgs e)
         {
+            
+        }
+
+        private void buttonHd_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Views.HistoricaDados), controller.getUser());
+        }
+
+        private void button9_Click(object sender, RoutedEventArgs e)
+        {
+            controller.getUser().setPeso(Double.Parse(textBox5.Text));
+            controller.getUser().setMassaM(Double.Parse(textBox.Text));
+            controller.getUser().setImc(Double.Parse(textBox1.Text));
+            controller.getUser().setMassaG(Double.Parse(textBox2.Text));
+            controller.getUser().setMetablismo(Int32.Parse(textBox3.Text));
             controller.getUser().setIdadeM(Int32.Parse(textBox4.Text));
         }
     }
