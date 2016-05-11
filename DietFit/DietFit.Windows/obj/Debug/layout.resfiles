@@ -1,3 +1,4 @@
+Assets\8034fitness.jpg
 Assets\dietfit.png
 Assets\DietFit_Logo.scale-100.png
 Assets\diogo.jpg
@@ -22,6 +23,7 @@ Views\Autores.xbf
 Views\CriarConta.xbf
 Views\HistoricaDados.xbf
 Views\Historico.xbf
+Views\HistóricoAlimentar.xbf
 Views\Login.xbf
 Views\Menu.xbf
 Views\MyUserControl1.xbf

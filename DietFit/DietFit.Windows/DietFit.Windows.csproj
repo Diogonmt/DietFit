@@ -127,6 +127,9 @@
     <Compile Include="Views\Historico.xaml.cs">
       <DependentUpon>Historico.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\HistóricoAlimentar.xaml.cs">
+      <DependentUpon>HistóricoAlimentar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Observacao.xaml.cs">
       <DependentUpon>Observacao.xaml</DependentUpon>
     </Compile>
@@ -153,6 +156,7 @@
     <None Include="DietFit.Windows_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\8034fitness.jpg" />
     <Content Include="Assets\dietfit.png" />
     <Content Include="Assets\DietFit_Logo.scale-100.png" />
     <Content Include="Assets\diogo.jpg" />
@@ -188,6 +192,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Historico.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\HistóricoAlimentar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
