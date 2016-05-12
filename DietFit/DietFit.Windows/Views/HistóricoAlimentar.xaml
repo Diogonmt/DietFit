@@ -68,19 +68,19 @@
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
                     Content="Dieta 1"
-                    Padding="10" />
+                    Padding="10" Click="btn_dieta1_Click" />
             <Button x:Name="btn_dieta2"
                     Margin="20,20,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
                     Content="Dieta 2"
-                    Padding="10" />
+                    Padding="10" Click="btn_dieta2_Click" />
             <Button x:Name="btn_dieta3"
                     Margin="20,20,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
                     Content="Dieta 3"
-                    Padding="10" />
+                    Padding="10" Click="btn_dieta3_Click" />
 
         </StackPanel>
 
@@ -95,7 +95,7 @@
                        FontSize="20"
                        Text="Pequeno Alomoço"
                        TextWrapping="Wrap" />
-            <TextBox x:Name="tb_pequenoAlomoco"
+            <TextBox x:Name="tb_pequenoAlmoco"
                      Width="332"
                      Margin="648,0,0,0"
                      HorizontalAlignment="Left"

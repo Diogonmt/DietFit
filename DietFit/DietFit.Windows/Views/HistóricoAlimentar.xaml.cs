@@ -1,4 +1,5 @@
 ﻿using DietFit.Common;
+using DietFit.Model;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -26,6 +27,8 @@ namespace DietFit.Views
 
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
+        private Utilizador user;
+       
 
         /// <summary>
         /// This can be changed to a strongly typed view model.
@@ -93,7 +96,7 @@ namespace DietFit.Views
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            navigationHelper.OnNavigatedTo(e);
+            user = (Utilizador)e.Parameter;
         }
 
         protected override void OnNavigatedFrom(NavigationEventArgs e)
@@ -102,5 +105,38 @@ namespace DietFit.Views
         }
 
         #endregion
+
+        private void btn_dieta1_Click(object sender, RoutedEventArgs e)
+        {
+            Plano planoH = new Plano();
+            tb_pequenoAlmoco.Text=user.getPlanoH().getPalmoço();
+            tb_lancheManha.Text=user.getPlanoH().getLmanha();
+            tb_almoco.Text=user.getPlanoH().getAlmoço();
+            tb_lacheTarde.Text=user.getPlanoH().getLtarde();
+            tb_jantar.Text=user.getPlanoH().getJantar();
+            tb_ceia.Text=user.getPlanoH().getCeia();
+        }
+
+        private void btn_dieta2_Click(object sender, RoutedEventArgs e)
+        {
+            Plano planoH2 = new Plano();
+            tb_pequenoAlmoco.Text = user.getPlanoH2().getPalmoço();
+            tb_lancheManha.Text = user.getPlanoH2().getLmanha();
+            tb_almoco.Text = user.getPlanoH2().getAlmoço();
+            tb_lacheTarde.Text = user.getPlanoH2().getLtarde();
+            tb_jantar.Text = user.getPlanoH2().getJantar();
+            tb_ceia.Text = user.getPlanoH2().getCeia();
+        }
+
+        private void btn_dieta3_Click(object sender, RoutedEventArgs e)
+        {
+            Plano planoH3 = new Plano();
+            tb_pequenoAlmoco.Text = user.getPlanoH3().getPalmoço();
+            tb_lancheManha.Text = user.getPlanoH3().getLmanha();
+            tb_almoco.Text = user.getPlanoH3().getAlmoço();
+            tb_lacheTarde.Text = user.getPlanoH3().getLtarde();
+            tb_jantar.Text = user.getPlanoH3().getJantar();
+            tb_ceia.Text = user.getPlanoH3().getCeia();
+        }
     }
 }

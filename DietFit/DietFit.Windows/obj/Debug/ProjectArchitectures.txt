@@ -1,1 +1,1 @@
-C:\Users\Marcos Azevedo\Source\Repos\DietFit\DietFit\DietFit.Windows\DietFit.Windows.csproj;neutral
+C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\DietFit.Windows.csproj;neutral

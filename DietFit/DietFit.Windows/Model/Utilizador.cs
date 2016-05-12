@@ -33,6 +33,9 @@ namespace DietFit.Model
         private Plano plano;
         private Plano plano2;
         private Plano plano3;
+        private Plano planoH;
+        private Plano planoH2;
+        private Plano planoH3;
         private bool isnutricionista;
         private bool ispt;
         private String notas;
@@ -134,14 +137,17 @@ namespace DietFit.Model
         }
         public void setPlano(Plano plano)
         {
+            this.planoH = this.plano;
             this.plano = plano;
         }
         public void setPlano2(Plano plano2)
         {
+            this.planoH2 = this.plano2;
             this.plano2 = plano2;
         }
         public void setPlano3(Plano plano3)
         {
+            this.planoH3 = this.plano3;
             this.plano3 = plano3;
         }
         public void setPlanoTreino(Fisico planoTreino)
@@ -276,6 +282,18 @@ namespace DietFit.Model
         public int getHiMetabolismo()
         {
             return this.hiMetabolismo;
+        }
+        public Plano getPlanoH()
+        {
+            return this.planoH;
+        }
+        public Plano getPlanoH2()
+        {
+            return this.planoH2;
+        }
+        public Plano getPlanoH3()
+        {
+            return this.planoH3;
         }
     }
 }

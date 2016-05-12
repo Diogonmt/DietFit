@@ -174,7 +174,7 @@ namespace DietFit.Views
 
                     new Windows.UI.Popups.MessageDialog("Plano alimentar inserido");
                 }
-                textBox.Text = "";
+                 textBox.Text = "";
                 textBox1.Text = "";
                 textBox2.Text = "";
                 textBox3.Text = "";
@@ -219,9 +219,7 @@ namespace DietFit.Views
         }
         private void dieta3_Click(object sender, RoutedEventArgs e)
         {
-            dieta1WasClicked = false;
-            dieta2WasClicked = false;
-            dieta3WasClicked = true;
+            
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
@@ -245,6 +243,18 @@ namespace DietFit.Views
             Utilizador[] args = new Utilizador[1];
             args[0] = controller.getUtilizador();
             this.Frame.Navigate(typeof(Views.Observacao), args);
+        }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Views.HistóricoAlimentar), controller.getUtilizador());
+        }
+
+        private void dieta3_Click_1(object sender, RoutedEventArgs e)
+        {
+            dieta1WasClicked = false;
+            dieta2WasClicked = false;
+            dieta3WasClicked = true;
         }
     }
 }

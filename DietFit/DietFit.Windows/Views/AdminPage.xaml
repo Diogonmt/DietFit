@@ -285,10 +285,10 @@
                 Margin="1259,10,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
-                Content="Dieta3" />
+                Content="Dieta3" Click="dieta3_Click_1" />
         <Button x:Name="buttonpL"
                 Grid.Row="1"
-                Margin="557,541,0,0"
+                Margin="589,544,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 Background="White"
@@ -298,7 +298,7 @@
                 Foreground="Black" />
         <Button x:Name="button"
                 Grid.Row="1"
-                Margin="753,541,0,0"
+                Margin="753,544,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 Background="White"
@@ -341,7 +341,7 @@
                 Foreground="Black" />
         <Button x:Name="button2"
                 Grid.Row="1"
-                Margin="321,544,0,0"
+                Margin="239,544,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 Background="White"
@@ -349,5 +349,6 @@
                 Click="button2_Click"
                 Content="Observações"
                 Foreground="Black" />
+        <Button x:Name="button3" Content="Historico Alimentar" HorizontalAlignment="Left" Margin="394,544,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black" Click="button3_Click"/>
     </Grid>
 </Page>
