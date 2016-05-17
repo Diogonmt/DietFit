@@ -500,3 +500,13 @@ C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\qualifier
 C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\MarcarConsulta.xbf
+C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\MenuN.xbf
+C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MarcarConsulta.g.i.cs
+C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MarcarConsulta.g.cs
+C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MenuN.g.i.cs
+C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MenuN.g.cs
+C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MarcarConsulta.xaml
+C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MenuN.xaml
+C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MarcarConsulta.xbf
+C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MenuN.xbf

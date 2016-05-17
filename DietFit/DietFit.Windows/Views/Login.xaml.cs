@@ -115,8 +115,8 @@ namespace DietFit.Views
                 {
                     if (u.getIsnutricionista())
                     {
-                        CriarPlanoNutricionalController cpnc = new CriarPlanoNutricionalController(app, u);
-                        this.Frame.Navigate(typeof(Views.AdminPage), cpnc);
+                        UserApp userApp = new UserApp(u, app);
+                       this.Frame.Navigate(typeof(Views.MenuN), userApp);
                     }
                     else if(u.getIspt())
                     {

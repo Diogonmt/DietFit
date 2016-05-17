@@ -25,7 +25,9 @@ Views\HistoricaDados.xbf
 Views\Historico.xbf
 Views\HistóricoAlimentar.xbf
 Views\Login.xbf
+Views\MarcarConsulta.xbf
 Views\Menu.xbf
+Views\MenuN.xbf
 Views\MyUserControl1.xbf
 Views\Notas.xbf
 Views\Observacao.xbf

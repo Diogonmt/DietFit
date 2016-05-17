@@ -1,6 +1,6 @@
 ﻿using DietFit.Common;
-using DietFit.Model;
 using DietFit.Controllers;
+using DietFit.Model;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -23,12 +23,15 @@ namespace DietFit.Views
     /// <summary>
     /// A basic page that provides characteristics common to most applications.
     /// </summary>
-    public sealed partial class MarcarConsulta : Page
+    public sealed partial class MenuN : Page
     {
 
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
-        private CriarConsultaController controller;
+        private Appl app;
+        private Utilizador u;
+        private CriarPlanoNutricionalController controller;
+
         /// <summary>
         /// This can be changed to a strongly typed view model.
         /// </summary>
@@ -45,8 +48,9 @@ namespace DietFit.Views
         {
             get { return this.navigationHelper; }
         }
-        
-        public MarcarConsulta()
+
+
+        public MenuN()
         {
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
@@ -94,8 +98,8 @@ namespace DietFit.Views
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            this.controller = (CriarConsultaController)e.Parameter;   
-            fillList();
+            this.app = ((UserApp)e.Parameter).getApp();
+            this.u = ((UserApp)e.Parameter).getUser();
         }
 
         protected override void OnNavigatedFrom(NavigationEventArgs e)
@@ -105,30 +109,17 @@ namespace DietFit.Views
 
         #endregion
 
-
-        private void fillList()
-        {
-            foreach (Utilizador u in controller.getUtilizadores())
-            {
-                if (!u.getIsnutricionista() && !u.getIspt())
-                {
-                    listBox.Items.Add(u.getUserName());
-                }
-            }
-        }
-
-       
-
-        private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            
-        }
-
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            controller.SetUser((String)listBox.SelectedItem);
-            
-            textBlock.Text = "Consulta Marcada";
+
+            CriarPlanoNutricionalController cpn = new CriarPlanoNutricionalController(app, u);
+            this.Frame.Navigate(typeof(Views.AdminPage), cpn);
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            CriarConsultaController cc = new CriarConsultaController(app, u);
+            this.Frame.Navigate(typeof(Views.MarcarConsulta), cc);
         }
     }
 }

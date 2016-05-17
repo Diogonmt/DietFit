@@ -54,6 +54,11 @@ namespace DietFit.Controllers
         {
             return app;
         }
+       
 
+        internal List<Utilizador> getUtilizadores()
+        {
+            return this.app.getUtilizadores();
+        }
     }
 }

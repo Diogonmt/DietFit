@@ -62,7 +62,7 @@ namespace DietFit.Views
 
         private void fillList()
         {
-            foreach (Utilizador u in app.getUtilizadores())
+            foreach (Utilizador u in controller.getUtilizadores())
             {
                 if (!u.getIsnutricionista()&&!u.getIspt())
                 {

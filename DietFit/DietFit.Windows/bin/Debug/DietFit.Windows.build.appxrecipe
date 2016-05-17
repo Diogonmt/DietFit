@@ -100,6 +100,12 @@
     <AppxPackagedFile Include="C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\HistóricoAlimentar.xbf">
       <PackagePath>Views\HistóricoAlimentar.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\MarcarConsulta.xbf">
+      <PackagePath>Views\MarcarConsulta.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\MenuN.xbf">
+      <PackagePath>Views\MenuN.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Observacao.xbf">
       <PackagePath>Views\Observacao.xbf</PackagePath>
     </AppxPackagedFile>

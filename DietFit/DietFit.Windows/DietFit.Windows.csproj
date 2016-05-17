@@ -106,6 +106,7 @@
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\CriarConsultaController.cs" />
     <Compile Include="Controllers\CriarContaController.cs" />
     <Compile Include="Controllers\CriarPlanoNutricionalController.cs" />
     <Compile Include="Controllers\CriarPlanoTreinoController.cs" />
@@ -116,6 +117,7 @@
     <Compile Include="Model\Fisico.cs" />
     <Compile Include="Model\Plano.cs" />
     <Compile Include="Model\RepositorioConsulta.cs" />
+    <Compile Include="Model\UserApp.cs" />
     <Compile Include="Model\Utilizador.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\AdminPage.xaml.cs">
@@ -134,6 +136,9 @@
     </Compile>
     <Compile Include="Views\MarcarConsulta.xaml.cs">
       <DependentUpon>MarcarConsulta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MenuN.xaml.cs">
+      <DependentUpon>MenuN.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Observacao.xaml.cs">
       <DependentUpon>Observacao.xaml</DependentUpon>
@@ -205,6 +210,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\MarcarConsulta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MenuN.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
