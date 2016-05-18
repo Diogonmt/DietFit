@@ -37,6 +37,118 @@
 
 
         <!--  Back button and page title  -->
+        <StackPanel Grid.Row="1">
+            <StackPanel.Background>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/fundo.png"/>
+            </StackPanel.Background>
+
+            <TextBlock x:Name="txt_pequenoAlmoco"
+        		Width="254"
+        		Height="37"
+        		Margin="648,10,0,0"
+        		HorizontalAlignment="Left"
+        		VerticalAlignment="Top"
+        		FontSize="20"
+        		Text="Pequeno Alomoço"
+        		TextWrapping="Wrap" />
+            <TextBox x:Name="tb_pequenoAlmoco"
+        		Width="332"
+        		Margin="648,0,0,0"
+        		HorizontalAlignment="Left"
+        		VerticalAlignment="Top"
+        		TextWrapping="Wrap" />
+
+            <TextBlock x:Name="txt_lancheManha"
+        		Grid.Row="1"
+        		Width="254"
+        		Height="37"
+        		Margin="648,10,0,0"
+        		HorizontalAlignment="Left"
+        		VerticalAlignment="Top"
+        		FontSize="20"
+        		Text="Lanche da Manhã"
+        		TextWrapping="Wrap" />
+            <TextBox x:Name="tb_lancheManha"
+        		Width="332"
+        		Margin="648,0,0,0"
+        		HorizontalAlignment="Left"
+        		VerticalAlignment="Top"
+        		TextWrapping="Wrap" />
+
+            <TextBlock x:Name="txt_almoco"
+        		Grid.Row="1"
+        		Width="254"
+        		Height="37"
+        		Margin="648,10,0,0"
+        		HorizontalAlignment="Left"
+        		VerticalAlignment="Top"
+        		FontSize="20"
+        		Text="Almoço"
+        		TextWrapping="Wrap" />
+            <TextBox x:Name="tb_almoco"
+        		Width="332"
+        		Margin="648,0,0,0"
+        		HorizontalAlignment="Left"
+        		VerticalAlignment="Top"
+        		TextWrapping="Wrap" />
+
+            <TextBlock x:Name="txt_lancheTarde"
+        		Grid.Row="1"
+        		Width="254"
+        		Height="37"
+        		Margin="648,10,0,0"
+        		HorizontalAlignment="Left"
+        		VerticalAlignment="Top"
+        		FontSize="20"
+        		Text="Lanche de Tarde"
+        		TextWrapping="Wrap" />
+            <TextBox x:Name="tb_lacheTarde"
+        		Width="332"
+        		Margin="648,0,0,0"
+        		HorizontalAlignment="Left"
+        		VerticalAlignment="Top"
+        		TextWrapping="Wrap" />
+
+            <TextBlock x:Name="txt_jantar"
+        		Grid.Row="1"
+        		Width="254"
+        		Height="37"
+        		Margin="648,10,0,0"
+        		HorizontalAlignment="Left"
+        		VerticalAlignment="Top"
+        		FontSize="20"
+        		Text="Jantar"
+        		TextWrapping="Wrap" />
+            <TextBox x:Name="tb_jantar"
+        		Width="332"
+        		Margin="648,0,0,0"
+        		HorizontalAlignment="Left"
+        		VerticalAlignment="Top"
+        		TextWrapping="Wrap" />
+
+            <TextBlock x:Name="txt_ceia"
+        		Grid.Row="1"
+        		Width="254"
+        		Height="37"
+        		Margin="648,10,0,0"
+        		HorizontalAlignment="Left"
+        		VerticalAlignment="Top"
+        		FontSize="20"
+        		Text="Ceia"
+        		TextWrapping="Wrap" />
+            <TextBox x:Name="tb_ceia"
+        		Width="332"
+        		Margin="648,0,0,0"
+        		HorizontalAlignment="Left"
+        		VerticalAlignment="Top"
+        		TextWrapping="Wrap" />
+
+        </StackPanel>
+
+
+
+
+        <!--  Back button and page title  -->
         <Grid Background="Black">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="120" />
@@ -48,8 +160,7 @@
                     AutomationProperties.AutomationId="BackButton"
                     AutomationProperties.ItemType="Navigation Button"
                     AutomationProperties.Name="Back"
-                    Command="{Binding NavigationHelper.GoBackCommand,
-                                      ElementName=pageRoot}"
+                    Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
                     Style="{StaticResource NavigationBackButtonNormalStyle}" />
             <TextBlock x:Name="pageTitle"
                        Grid.Column="1"
@@ -81,114 +192,6 @@
                     VerticalAlignment="Top"
                     Content="Dieta 3"
                     Padding="10" Click="btn_dieta3_Click" />
-
-        </StackPanel>
-
-        <StackPanel Grid.Row="1">
-            <StackPanel.Background>
-                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/fundo.png"/>
-            </StackPanel.Background>
-
-            <TextBlock x:Name="txt_pequenoAlmoco"
-                       Width="254"
-                       Height="37"
-                       Margin="648,10,0,0"
-                       HorizontalAlignment="Left"
-                       VerticalAlignment="Top"
-                       FontSize="20"
-                       Text="Pequeno Alomoço"
-                       TextWrapping="Wrap" />
-            <TextBox x:Name="tb_pequenoAlmoco"
-                     Width="332"
-                     Margin="648,0,0,0"
-                     HorizontalAlignment="Left"
-                     VerticalAlignment="Top"
-                     TextWrapping="Wrap" />
-
-            <TextBlock x:Name="txt_lancheManha"
-                       Grid.Row="1"
-                       Width="254"
-                       Height="37"
-                       Margin="648,10,0,0"
-                       HorizontalAlignment="Left"
-                       VerticalAlignment="Top"
-                       FontSize="20"
-                       Text="Lanche da Manhã"
-                       TextWrapping="Wrap" />
-            <TextBox x:Name="tb_lancheManha"
-                     Width="332"
-                     Margin="648,0,0,0"
-                     HorizontalAlignment="Left"
-                     VerticalAlignment="Top"
-                     TextWrapping="Wrap" />
-
-            <TextBlock x:Name="txt_almoco"
-                       Grid.Row="1"
-                       Width="254"
-                       Height="37"
-                       Margin="648,10,0,0"
-                       HorizontalAlignment="Left"
-                       VerticalAlignment="Top"
-                       FontSize="20"
-                       Text="Almoço"
-                       TextWrapping="Wrap" />
-            <TextBox x:Name="tb_almoco"
-                     Width="332"
-                     Margin="648,0,0,0"
-                     HorizontalAlignment="Left"
-                     VerticalAlignment="Top"
-                     TextWrapping="Wrap" />
-
-            <TextBlock x:Name="txt_lancheTarde"
-                       Grid.Row="1"
-                       Width="254"
-                       Height="37"
-                       Margin="648,10,0,0"
-                       HorizontalAlignment="Left"
-                       VerticalAlignment="Top"
-                       FontSize="20"
-                       Text="Lanche de Tarde"
-                       TextWrapping="Wrap" />
-            <TextBox x:Name="tb_lacheTarde"
-                     Width="332"
-                     Margin="648,0,0,0"
-                     HorizontalAlignment="Left"
-                     VerticalAlignment="Top"
-                     TextWrapping="Wrap" />
-
-            <TextBlock x:Name="txt_jantar"
-                       Grid.Row="1"
-                       Width="254"
-                       Height="37"
-                       Margin="648,10,0,0"
-                       HorizontalAlignment="Left"
-                       VerticalAlignment="Top"
-                       FontSize="20"
-                       Text="Jantar"
-                       TextWrapping="Wrap" />
-            <TextBox x:Name="tb_jantar"
-                     Width="332"
-                     Margin="648,0,0,0"
-                     HorizontalAlignment="Left"
-                     VerticalAlignment="Top"
-                     TextWrapping="Wrap" />
-
-            <TextBlock x:Name="txt_ceia"
-                       Grid.Row="1"
-                       Width="254"
-                       Height="37"
-                       Margin="648,10,0,0"
-                       HorizontalAlignment="Left"
-                       VerticalAlignment="Top"
-                       FontSize="20"
-                       Text="Ceia"
-                       TextWrapping="Wrap" />
-            <TextBox x:Name="tb_ceia"
-                     Width="332"
-                     Margin="648,0,0,0"
-                     HorizontalAlignment="Left"
-                     VerticalAlignment="Top"
-                     TextWrapping="Wrap" />
 
         </StackPanel>
 

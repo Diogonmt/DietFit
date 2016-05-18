@@ -28,7 +28,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\bin\Debug\DietFit.Windows.exe">
       <PackagePath>DietFit.Windows.exe</PackagePath>
-      <Modified>2016-05-17T23:16:01.206</Modified>
+      <Modified>2016-05-18T09:58:45.843</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\Assets\8034fitness.jpg">
       <PackagePath>Assets\8034fitness.jpg</PackagePath>
