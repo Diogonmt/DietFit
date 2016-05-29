@@ -17,7 +17,9 @@ namespace DietFit.Views
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
         private global::Windows.UI.Xaml.Controls.Page pageRoot; 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
-        private global::Windows.UI.Xaml.Controls.TextBlock textBlock; 
+        private global::Windows.UI.Xaml.Controls.TextBox textBox; 
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
+        private global::Windows.UI.Xaml.Controls.Button button; 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
         private global::Windows.UI.Xaml.Controls.Button backButton; 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
@@ -36,7 +38,8 @@ namespace DietFit.Views
             global::Windows.UI.Xaml.Application.LoadComponent(this, new global::System.Uri("ms-appx:///Views/Notas.xaml"), global::Windows.UI.Xaml.Controls.Primitives.ComponentResourceLocation.Application);
  
             pageRoot = (global::Windows.UI.Xaml.Controls.Page)this.FindName("pageRoot");
-            textBlock = (global::Windows.UI.Xaml.Controls.TextBlock)this.FindName("textBlock");
+            textBox = (global::Windows.UI.Xaml.Controls.TextBox)this.FindName("textBox");
+            button = (global::Windows.UI.Xaml.Controls.Button)this.FindName("button");
             backButton = (global::Windows.UI.Xaml.Controls.Button)this.FindName("backButton");
             pageTitle = (global::Windows.UI.Xaml.Controls.TextBlock)this.FindName("pageTitle");
         }

@@ -127,6 +127,9 @@
     </Compile>
     <Compile Include="Views\Ambiente.xaml.cs" />
     <Compile Include="Views\Autores.xaml.cs" />
+    <Compile Include="Views\Consulta.xaml.cs">
+      <DependentUpon>Consulta.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\HistoricaDados.xaml.cs">
       <DependentUpon>HistoricaDados.xaml</DependentUpon>
     </Compile>
@@ -198,6 +201,10 @@
     <Page Include="Views\Autores.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Consulta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\HistoricaDados.xaml">
       <SubType>Designer</SubType>

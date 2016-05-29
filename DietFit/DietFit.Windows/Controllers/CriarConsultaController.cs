@@ -28,9 +28,9 @@ namespace DietFit.Controllers
         {
             return app.getUtilizadores();
         }
-        //public bool SetConsulta(//Enviar a data)
-        //{
-        //    // new Consulta(nutricionista, u, data);
-        //}
+        ////public bool SetConsulta(//Enviar a data)
+        ////{
+        //// new Consulta(nutricionista, u, data);
+        ////}
     }
 }

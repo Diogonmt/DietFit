@@ -52,15 +52,15 @@
             <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
     			IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
         </Grid>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="187,398,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Plano Alimentar" VerticalAlignment="Top" Height="39" Width="246" FontSize="32" FontWeight="Bold" Foreground="#FF4B4B4B"/>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="713,398,0,0" Grid.Row="1" TextWrapping="Wrap" Text="  Contactar Nutricionsta" VerticalAlignment="Top" Foreground="#FF4B4B4B" Height="69" Width="194" FontSize="32" FontWeight="Bold"/>
-        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="1152,398,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Plano Físico" VerticalAlignment="Top" Height="39" Width="185" FontSize="32" FontWeight="Bold" Foreground="#FF4B4B4B"/>
-        <Button x:Name="pNotas" Content="" HorizontalAlignment="Left" Margin="672,57,0,0" Grid.Row="1" VerticalAlignment="Top" Width="264" Height="271" Click="pNotas_Click">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="13,425,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Plano Alimentar" VerticalAlignment="Top" Height="39" Width="246" FontSize="32" FontWeight="Bold" Foreground="#FF4B4B4B"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="401,425,0,0" Grid.Row="1" TextWrapping="Wrap" Text="  Contactar Nutricionsta" VerticalAlignment="Top" Foreground="#FF4B4B4B" Height="69" Width="194" FontSize="32" FontWeight="Bold"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="780,425,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Plano Físico" VerticalAlignment="Top" Height="39" Width="185" FontSize="32" FontWeight="Bold" Foreground="#FF4B4B4B"/>
+        <Button x:Name="pNotas" Content="" HorizontalAlignment="Left" Margin="360,84,0,0" Grid.Row="1" VerticalAlignment="Top" Width="264" Height="271" Click="pNotas_Click">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/notas.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="pMotivacao" Content="" HorizontalAlignment="Left" Margin="1101,57,-7,0" Grid.Row="1" VerticalAlignment="Top" Width="272" Height="271" Click="pMotivacao_Click">
+        <Button x:Name="pMotivacao" Content="" HorizontalAlignment="Left" Margin="729,84,0,0" Grid.Row="1" VerticalAlignment="Top" Width="272" Height="271" Click="pMotivacao_Click">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/motivacao.png"/>
             </Button.Background>
@@ -68,7 +68,7 @@
                 <ImageBrush Stretch="Fill" ImageSource="Assets/motivacao.png"/>
             </Button.BorderBrush>
         </Button>
-        <Button x:Name="button"  HorizontalAlignment="Left" Margin="184,57,0,0" Grid.Row="1" VerticalAlignment="Top" Height="271" Width="252" Click="pImagem_Click">
+        <Button x:Name="button"  HorizontalAlignment="Left" Margin="10,84,0,0" Grid.Row="1" VerticalAlignment="Top" Height="271" Width="252" Click="pImagem_Click">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/planoalimentar.png"/>
             </Button.Background>
@@ -77,5 +77,7 @@
                 <ImageBrush Stretch="Fill" ImageSource="Assets/planoalimentar.png"/>
             </Button.BorderBrush>
         </Button>
+        <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="1074,84,0,0" Grid.Row="1" VerticalAlignment="Top" Height="271" Width="272"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="1149,425,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Consuta" VerticalAlignment="Top" FontSize="32" Foreground="#FF3C3B3B" FontWeight="Bold"/>
     </Grid>
 </Page>

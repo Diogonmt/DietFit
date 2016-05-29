@@ -29,6 +29,10 @@ namespace DietFit.Views
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
         private global::Windows.UI.Xaml.Controls.Button button; 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
+        private global::Windows.UI.Xaml.Controls.Button button1; 
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
+        private global::Windows.UI.Xaml.Controls.TextBlock textBlock3; 
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
         private global::Windows.UI.Xaml.Controls.Button backButton; 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
         private global::Windows.UI.Xaml.Controls.TextBlock pageTitle; 
@@ -52,6 +56,8 @@ namespace DietFit.Views
             pNotas = (global::Windows.UI.Xaml.Controls.Button)this.FindName("pNotas");
             pMotivacao = (global::Windows.UI.Xaml.Controls.Button)this.FindName("pMotivacao");
             button = (global::Windows.UI.Xaml.Controls.Button)this.FindName("button");
+            button1 = (global::Windows.UI.Xaml.Controls.Button)this.FindName("button1");
+            textBlock3 = (global::Windows.UI.Xaml.Controls.TextBlock)this.FindName("textBlock3");
             backButton = (global::Windows.UI.Xaml.Controls.Button)this.FindName("backButton");
             pageTitle = (global::Windows.UI.Xaml.Controls.TextBlock)this.FindName("pageTitle");
         }
