@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="428e4381-9238-4294-8f9b-7e1a9a1908b6" Publisher="CN=Mário" Version="1.0.0.0" ProcessorArchitecture="neutral" />
+  <Identity Name="428e4381-9238-4294-8f9b-7e1a9a1908b6" Publisher="CN=Mário" Version="1.0.1.1" ProcessorArchitecture="neutral" />
   <Properties>
     <DisplayName>DietFit.Windows</DisplayName>
     <PublisherDisplayName>Mário</PublisherDisplayName>

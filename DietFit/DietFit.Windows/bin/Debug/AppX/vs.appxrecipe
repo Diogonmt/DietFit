@@ -10,25 +10,25 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>428e4381-9238-4294-8f9b-7e1a9a1908b6</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>7F4CC5CEF782959DD5B766990A6BBB92E75A653B3155F388D907C7F563867456</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>428e4381-9238-4294-8f9b-7e1a9a1908b6_1.0.0.0_neutral__rwpppjqwzpzr0</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>870270836427723F569CB02F21C90515BAF7DD840FF5CE33217CA083A2C5AACE</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>428e4381-9238-4294-8f9b-7e1a9a1908b6_1.0.1.1_neutral__rwpppjqwzpzr0</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>428e4381-9238-4294-8f9b-7e1a9a1908b6_rwpppjqwzpzr0!App</RegisteredUserModeAppID>
     <RegisteredPackageID>428e4381-9238-4294-8f9b-7e1a9a1908b6</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=Mário</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredVersion>1.0.1.1</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-05-17T23:04:41.359</Modified>
+      <Modified>2016-05-18T14:31:22.777</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\bin\Debug\DietFit.Windows.exe">
       <PackagePath>DietFit.Windows.exe</PackagePath>
-      <Modified>2016-05-18T09:58:45.843</Modified>
+      <Modified>2016-05-18T14:29:22.027</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\Assets\8034fitness.jpg">
       <PackagePath>Assets\8034fitness.jpg</PackagePath>
@@ -82,7 +82,7 @@
     <AppxPackagedFile Include="C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-05-11T16:54:37.037</Modified>
+      <Modified>2016-05-18T14:30:51.518</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
@@ -132,7 +132,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\HistóricoAlimentar.xbf">
       <PackagePath>Views\HistóricoAlimentar.xbf</PackagePath>
-      <Modified>2016-05-17T23:04:37.399</Modified>
+      <Modified>2016-05-18T14:29:20.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\MarcarConsulta.xbf">
       <PackagePath>Views\MarcarConsulta.xbf</PackagePath>
@@ -176,7 +176,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-05-17T23:04:40.586</Modified>
+      <Modified>2016-05-18T14:31:22.402</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
