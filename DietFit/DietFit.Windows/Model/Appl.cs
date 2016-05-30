@@ -9,11 +9,13 @@ namespace DietFit.Model
     public class Appl
     {
         //
-        private static List<Utilizador> utilizadores;
+        RepositorioConsulta consultas;
+        private List<Utilizador> utilizadores;
 
         public Appl()
         {
             utilizadores = new List<Utilizador>();
+            consultas = new RepositorioConsulta();
 
         }
 
@@ -50,6 +52,11 @@ namespace DietFit.Model
                 }
             }
             return null;
+        }
+
+        public RepositorioConsulta getConsultas()
+        {
+            return this.consultas;
         }
     }
 }

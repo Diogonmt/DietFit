@@ -52,6 +52,21 @@ namespace DietFit.Views
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
             this.navigationHelper.SaveState += navigationHelper_SaveState;
+            comboBox.Items.Add("07");
+            comboBox.Items.Add("08");
+            comboBox.Items.Add("09");
+            comboBox.Items.Add("10");
+            comboBox.Items.Add("11");
+            comboBox.Items.Add("12");
+            comboBox.Items.Add("13");
+            comboBox.Items.Add("14");
+            comboBox.Items.Add("15");
+            comboBox.Items.Add("16");
+            comboBox.Items.Add("17");
+            comboBox.Items.Add("18");
+            comboBox1.Items.Add("00");
+            comboBox1.Items.Add("30");
+
         }
 
         /// <summary>
@@ -126,9 +141,7 @@ namespace DietFit.Views
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            controller.SetUser((String)listBox.SelectedItem);
-            
-            textBlock.Text = "Consulta Marcada";
+           
         }
     }
 }

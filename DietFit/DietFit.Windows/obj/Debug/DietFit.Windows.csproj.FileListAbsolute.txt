@@ -510,3 +510,13 @@ C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Mar
 C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MenuN.xaml
 C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MarcarConsulta.xbf
 C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\MenuN.xbf
+C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Consulta.g.i.cs
+C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Consulta.g.cs
+C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Contactos.g.i.cs
+C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Contactos.g.cs
+C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Consulta.xaml
+C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Contactos.xaml
+C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Consulta.xbf
+C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\obj\Debug\Views\Contactos.xbf
+C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Consulta.xbf
+C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Contactos.xbf

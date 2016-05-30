@@ -35,10 +35,7 @@ namespace DietFit.Model
                 return false;
             }
         }
-        public void findbyUser(List<Consulta> User)
-        {
-
-        }
+       
 
     
     }

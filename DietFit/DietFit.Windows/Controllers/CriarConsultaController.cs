@@ -10,27 +10,26 @@ namespace DietFit.Controllers
     public class CriarConsultaController
     {
         Appl app;
-        Utilizador nutricionista, u;
-        Consulta consulta;
+        Utilizador nutricionista;
 
-        public CriarConsultaController(Appl app, Utilizador u)
+        public CriarConsultaController(Appl app, Utilizador nutricionista)
         {
+            this.nutricionista = nutricionista;
             this.app = app;
-            this.nutricionista = u;
         }
 
-        public void SetUser(String username)
-        {
-            this.u= this.app.getUtilizadorByUser(username);
-        }
+       
 
         public List<Utilizador> getUtilizadores()
         {
             return app.getUtilizadores();
         }
-        ////public bool SetConsulta(//Enviar a data)
-        ////{
-        //// new Consulta(nutricionista, u, data);
-        ////}
+
+        public bool marcarConsulta(Utilizador user, DateTime date)
+        {
+            Consulta consuta = new Consulta(nutricionista, user, date);
+            return true; 
+        }
+       
     }
 }

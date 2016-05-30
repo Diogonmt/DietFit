@@ -61,8 +61,7 @@ namespace DietFit.Views
         {
             controller = (UtilizadorInfoController)e.Parameter;
             user = controller.getUser();
-
-            this.textBlock.Text = user.getNotas();
+            
         }
 
         /// <summary>
@@ -117,7 +116,7 @@ namespace DietFit.Views
 
         private void textBlock_SelectionChanged(object sender, RoutedEventArgs e)
         {
-            user.setNotas(textBlock.Text);
+            
         }
     }
 }

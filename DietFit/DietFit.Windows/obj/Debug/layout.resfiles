@@ -20,6 +20,8 @@ DietFit.Windows.xr.xml
 Views\AdminPage.xbf
 Views\Ambiente.xbf
 Views\Autores.xbf
+Views\Consulta.xbf
+Views\Contactos.xbf
 Views\CriarConta.xbf
 Views\HistoricaDados.xbf
 Views\Historico.xbf

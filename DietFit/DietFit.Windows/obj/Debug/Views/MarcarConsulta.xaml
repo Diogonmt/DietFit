@@ -58,6 +58,7 @@
         <DatePicker x:Name="dp" HorizontalAlignment="Left" Margin="587,172,0,0" Grid.Row="1" VerticalAlignment="Top"/>
         <Button x:ConnectionId='2' x:Name="button" Content="Marcar" HorizontalAlignment="Left" Margin="584,248,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black"                     />
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="1034,132,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="35" Width="197" Foreground="Black"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="915,172,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120"/>
     </Grid>
 </Page>
 
