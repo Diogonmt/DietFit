@@ -161,7 +161,13 @@ namespace DietFit.Views
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            DateTime date =new DateTime(Convert.ToInt32(comboBox4), comboBox3.SelectedIndex + 1, Convert.ToInt32(comboBox2), Convert.ToInt32(comboBox), Convert.ToInt32(comboBox1), 0);
+            DateTime date =new DateTime(Convert.ToInt32(comboBox4.SelectedValue), comboBox3.SelectedIndex + 1, Convert.ToInt32(comboBox2.SelectedValue), Convert.ToInt32(comboBox.SelectedValue), Convert.ToInt32(comboBox1.SelectedValue), 0);
+            textBox2.Text = date.ToString();
+        }
+
+        private void textBox2_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

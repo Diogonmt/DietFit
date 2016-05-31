@@ -86,6 +86,7 @@
       <RootProperty Name="FontWeight" />
       <RootProperty Name="Style" />
       <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="SelectionHighlightColor" />
       <RootProperty Name="Inlines" />
       <RootProperty Name="Padding" />
@@ -157,11 +158,6 @@
       <RootProperty Name="Stretch" />
     </RootType>
     <RootType FullName="DietFit.Views.Autores" />
-    <RootType FullName="Windows.UI.Xaml.Controls.DatePicker">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
-    </RootType>
     <RootType FullName="DietFit.Views.Consulta" />
     <RootType FullName="DietFit.Views.Contactos" />
     <RootType FullName="Windows.UI.Xaml.Documents.Run">
@@ -239,6 +235,10 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.DatePicker">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox">
       <RootProperty Name="HorizontalAlignment" />

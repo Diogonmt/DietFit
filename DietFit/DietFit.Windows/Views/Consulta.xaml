@@ -54,11 +54,6 @@
         </Grid>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="107,79,0,0" Grid.Row="1" TextWrapping="Wrap" Text="A sua consulta foi marcada para o dia " VerticalAlignment="Top" FontWeight="Bold" FontSize="18.667" Foreground="Black"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="107,168,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Se a data não for do seu agrado dirija-se á página de contacto com o nutricionista e avise o quanto antes, para a consulta ser adiada" VerticalAlignment="Top" FontSize="18.667" FontWeight="Bold" Foreground="Black"/>
-        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="466,79,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="18.667" Foreground="Black"/>
-        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="548,79,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="18.667" Foreground="Black"/>
-        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="630,79,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="18.667" Foreground="Black"/>
-        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="794,79,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="18.667" Foreground="Black"/>
-        <TextBlock x:Name="textBlock6" HorizontalAlignment="Left" Margin="885,79,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="18.667" Foreground="#FF0C0C0C"/>
-        <TextBlock x:Name="textBlock7" HorizontalAlignment="Left" Margin="727,79,0,0" Grid.Row="1" TextWrapping="Wrap" Text="pelas" VerticalAlignment="Top" FontSize="18.667" RenderTransformOrigin="0.419,-0.136" Foreground="Black"/>
+        <TextBlock x:Name="textBlock6" HorizontalAlignment="Left" Margin="463,79,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="18.667" Foreground="#FF0C0C0C"/>
     </Grid>
 </Page>
