@@ -20,7 +20,7 @@
         * Row 0 contains the back button and page title
         * Row 1 contains the rest of the page layout
     -->
-    <Grid>
+    <Grid Margin="4,0,-4,0">
         <Grid.Background>
             <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/fundo.png"/>
         </Grid.Background>
@@ -55,10 +55,14 @@
         <ListBox x:ConnectionId='1' x:Name="listBox" HorizontalAlignment="Left" Height="372" Margin="112,132,0,0" Grid.Row="1" VerticalAlignment="Top" Width="372"                                            />
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="112,76,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Cliente:" VerticalAlignment="Top" Width="133" FontSize="24" BorderBrush="Black"/>
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="587,76,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Data:" VerticalAlignment="Top" FontSize="24" BorderBrush="Black"/>
-        <DatePicker x:Name="dp" HorizontalAlignment="Left" Margin="587,172,0,0" Grid.Row="1" VerticalAlignment="Top"/>
         <Button x:ConnectionId='2' x:Name="button" Content="Marcar" HorizontalAlignment="Left" Margin="584,248,0,0" Grid.Row="1" VerticalAlignment="Top" Background="White" BorderBrush="Black" Foreground="Black"                     />
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="1034,132,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="35" Width="197" Foreground="Black"/>
-        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="915,172,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="936,172,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="1075,172,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="1061,167,0,0" Grid.Row="1" TextWrapping="Wrap" Text=":" VerticalAlignment="Top" FontSize="32" FontWeight="Bold"/>
+        <ComboBox x:Name="comboBox2" HorizontalAlignment="Left" Margin="542,172,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="comboBox3" HorizontalAlignment="Left" Margin="667,172,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="comboBox4" HorizontalAlignment="Left" Margin="792,172,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120"/>
     </Grid>
 </Page>
 

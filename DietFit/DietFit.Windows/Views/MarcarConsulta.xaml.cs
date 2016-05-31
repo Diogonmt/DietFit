@@ -66,6 +66,26 @@ namespace DietFit.Views
             comboBox.Items.Add("18");
             comboBox1.Items.Add("00");
             comboBox1.Items.Add("30");
+            for (int i = 2016; i < 2050; i++)
+            {
+                comboBox4.Items.Add(i.ToString());
+            }
+            for (int i = 1; i < 32; i++)
+            {
+                comboBox2.Items.Add(i.ToString());
+            }
+            comboBox3.Items.Add("Janeiro");
+            comboBox3.Items.Add("Fevereiro");
+            comboBox3.Items.Add("Março");
+            comboBox3.Items.Add("Abril");
+            comboBox3.Items.Add("Maio");
+            comboBox3.Items.Add("Junho");
+            comboBox3.Items.Add("Julho");
+            comboBox3.Items.Add("Agosto");
+            comboBox3.Items.Add("Setembro");
+            comboBox3.Items.Add("Outubro");
+            comboBox3.Items.Add("Novembro");
+            comboBox3.Items.Add("Dezembro");
 
         }
 
@@ -141,7 +161,7 @@ namespace DietFit.Views
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-           
+            DateTime date =new DateTime(Convert.ToInt32(comboBox4), comboBox3.SelectedIndex + 1, Convert.ToInt32(comboBox2), Convert.ToInt32(comboBox), Convert.ToInt32(comboBox1), 0);
         }
     }
 }
