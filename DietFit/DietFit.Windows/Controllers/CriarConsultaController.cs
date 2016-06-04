@@ -18,6 +18,7 @@ namespace DietFit.Controllers
             this.app = app;
         }
 
+
        
 
         public List<Utilizador> getUtilizadores()
@@ -25,10 +26,11 @@ namespace DietFit.Controllers
             return app.getUtilizadores();
         }
 
-        public bool marcarConsulta(Utilizador user, DateTime date)
+        public bool marcarConsulta(String username, DateTime date)
         {
-            Consulta consuta = new Consulta(nutricionista, user, date);
-            return true; 
+            Consulta consulta = new Consulta(nutricionista, app.getUtilizadorByUser(username), date);
+            app.getConsultas().addConsulta(consulta);
+            return true;
         }
        
     }

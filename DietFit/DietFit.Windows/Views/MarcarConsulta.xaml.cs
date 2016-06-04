@@ -29,6 +29,8 @@ namespace DietFit.Views
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
         private CriarConsultaController controller;
+        private Utilizador user;
+        private Appl app;
         /// <summary>
         /// This can be changed to a strongly typed view model.
         /// </summary>
@@ -162,7 +164,7 @@ namespace DietFit.Views
         private void button_Click(object sender, RoutedEventArgs e)
         {
             DateTime date =new DateTime(Convert.ToInt32(comboBox4.SelectedValue), comboBox3.SelectedIndex + 1, Convert.ToInt32(comboBox2.SelectedValue), Convert.ToInt32(comboBox.SelectedValue), Convert.ToInt32(comboBox1.SelectedValue), 0);
-            textBox2.Text = date.ToString();
+            controller.marcarConsulta((String)listBox.SelectedItem, date);
         }
 
         private void textBox2_TextChanged(object sender, TextChangedEventArgs e)

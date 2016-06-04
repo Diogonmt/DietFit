@@ -35,7 +35,20 @@ namespace DietFit.Model
                 return false;
             }
         }
-       
+       public List<Consulta> getConsultaByUser(Utilizador user)
+        {
+            List <Consulta> c = new List<Consulta>();
+
+            foreach(Consulta consulta in consultas)
+            {
+                if (consulta.getUser().Equals(user))
+                {
+                    c.Add(consulta);
+                }
+            }
+
+            return c;
+        }
 
     
     }

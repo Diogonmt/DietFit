@@ -43,7 +43,7 @@
                 <ColumnDefinition Width="120"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button x:ConnectionId='4' x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+            <Button x:ConnectionId='5' x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
     			Style="{StaticResource NavigationBackButtonNormalStyle}"
     			VerticalAlignment="Top"
     			AutomationProperties.Name="Back"
@@ -77,7 +77,7 @@
                 <ImageBrush Stretch="Fill" ImageSource="Assets/planoalimentar.png"/>
             </Button.BorderBrush>
         </Button>
-        <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="1074,84,0,0" Grid.Row="1" VerticalAlignment="Top" Height="271" Width="272"/>
+        <Button x:ConnectionId='4' x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="1074,84,0,0" Grid.Row="1" VerticalAlignment="Top" Height="271" Width="272"                      />
         <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="1149,425,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Consuta" VerticalAlignment="Top" FontSize="32" Foreground="#FF3C3B3B" FontWeight="Bold"/>
     </Grid>
 </Page>

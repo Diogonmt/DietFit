@@ -77,7 +77,7 @@
                 <ImageBrush Stretch="Fill" ImageSource="Assets/planoalimentar.png"/>
             </Button.BorderBrush>
         </Button>
-        <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="1074,84,0,0" Grid.Row="1" VerticalAlignment="Top" Height="271" Width="272"/>
+        <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="1074,84,0,0" Grid.Row="1" VerticalAlignment="Top" Height="271" Width="272" Click="button1_Click"/>
         <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="1149,425,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Consuta" VerticalAlignment="Top" FontSize="32" Foreground="#FF3C3B3B" FontWeight="Bold"/>
     </Grid>
 </Page>

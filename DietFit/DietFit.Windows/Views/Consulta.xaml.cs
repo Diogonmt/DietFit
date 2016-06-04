@@ -1,4 +1,6 @@
 ﻿using DietFit.Common;
+using DietFit.Controllers;
+using DietFit.Model;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -26,6 +28,9 @@ namespace DietFit.Views
 
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
+        private List<Model.Consulta> consultas;
+        private Utilizador user;
+        
 
         /// <summary>
         /// This can be changed to a strongly typed view model.
@@ -51,6 +56,16 @@ namespace DietFit.Views
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
             this.navigationHelper.SaveState += navigationHelper_SaveState;
+        }
+
+        private void fillList()
+        {
+
+            foreach (Model.Consulta c in consultas)
+            {
+                listBox.Items.Add(c.getDate());
+
+            }
         }
 
         /// <summary>
@@ -93,7 +108,8 @@ namespace DietFit.Views
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            navigationHelper.OnNavigatedTo(e);
+            consultas = (List<Model.Consulta>)e.Parameter;
+            fillList();
         }
 
         protected override void OnNavigatedFrom(NavigationEventArgs e)
@@ -102,5 +118,12 @@ namespace DietFit.Views
         }
 
         #endregion
+
+
+        private void textBlock6_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+        
     }
 }

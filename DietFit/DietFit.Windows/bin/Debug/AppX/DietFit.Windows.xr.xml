@@ -86,7 +86,6 @@
       <RootProperty Name="FontWeight" />
       <RootProperty Name="Style" />
       <RootProperty Name="IsHitTestVisible" />
-      <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="SelectionHighlightColor" />
       <RootProperty Name="Inlines" />
       <RootProperty Name="Padding" />

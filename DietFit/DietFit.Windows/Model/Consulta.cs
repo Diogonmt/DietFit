@@ -19,5 +19,19 @@ namespace DietFit.Model
             this.cliente = cliente;
             this.data = data;
         }
+
+
+        public DateTime getDate()
+        {
+            return data;
+        }
+
+
+        public Utilizador getUser()
+        {
+            return cliente;
+        }
+
+
     }
 }

@@ -63,6 +63,5 @@
         <ComboBox x:Name="comboBox2" HorizontalAlignment="Left" Margin="542,172,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120"/>
         <ComboBox x:Name="comboBox3" HorizontalAlignment="Left" Margin="667,172,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120"/>
         <ComboBox x:Name="comboBox4" HorizontalAlignment="Left" Margin="792,172,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="740,314,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" TextChanged="textBox2_TextChanged"/>
     </Grid>
 </Page>

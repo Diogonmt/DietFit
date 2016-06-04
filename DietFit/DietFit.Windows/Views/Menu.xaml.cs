@@ -30,6 +30,7 @@ namespace DietFit.Views
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
         private UtilizadorInfoController controller;
 
+
         /// <summary>
         /// This can be changed to a strongly typed view model.
         /// </summary>
@@ -122,6 +123,11 @@ namespace DietFit.Views
         private void pMotivacao_Click(object sender, RoutedEventArgs e)
         { 
             this.Frame.Navigate(typeof(Views.PlanoFisico), controller);
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Views.Consulta), this.controller.getApp().getConsultas().getConsultaByUser(this.controller.getUser()));
         }
     }
 }
