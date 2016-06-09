@@ -11,6 +11,8 @@ namespace DietFit.Controllers
     {
         Appl app;
         Utilizador nutricionista;
+        EstadoConsulta estado;
+        DateTime date;
 
         public CriarConsultaController(Appl app, Utilizador nutricionista)
         {
@@ -18,7 +20,7 @@ namespace DietFit.Controllers
             this.app = app;
         }
 
-
+        
        
 
         public List<Utilizador> getUtilizadores()
@@ -31,6 +33,15 @@ namespace DietFit.Controllers
             Consulta consulta = new Consulta(nutricionista, app.getUtilizadorByUser(username), date);
             app.getConsultas().addConsulta(consulta);
             return true;
+        }
+
+        public Consulta getConsultabyDateandUser(DateTime date, Utilizador user)
+        {
+            return app.getConsultas().getConsultabyUserandDate(date, user);
+        }
+        public Utilizador getUtilizadorbyUsername(String username)
+        {
+            return app.getUtilizadorByUser(username);
         }
        
     }

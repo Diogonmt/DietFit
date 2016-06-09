@@ -63,7 +63,8 @@ namespace DietFit.Views
 
             foreach (Model.Consulta c in consultas)
             {
-                listBox.Items.Add(c.getDate());
+                String conteudo=c.getDate().ToString()+c.getState();
+                listBox.Items.Add(conteudo);
 
             }
         }
@@ -124,6 +125,10 @@ namespace DietFit.Views
         {
 
         }
-        
+
+        private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

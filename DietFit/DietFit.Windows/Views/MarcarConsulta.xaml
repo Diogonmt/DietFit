@@ -63,5 +63,6 @@
         <ComboBox x:Name="comboBox2" HorizontalAlignment="Left" Margin="542,172,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120"/>
         <ComboBox x:Name="comboBox3" HorizontalAlignment="Left" Margin="667,172,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120"/>
         <ComboBox x:Name="comboBox4" HorizontalAlignment="Left" Margin="792,172,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="button1" Content="Consulta Efetuada" HorizontalAlignment="Left" Margin="539,330,0,0" Grid.Row="1" VerticalAlignment="Top" Click="button1_Click"/>
     </Grid>
 </Page>

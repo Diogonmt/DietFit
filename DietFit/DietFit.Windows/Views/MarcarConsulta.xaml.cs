@@ -31,6 +31,7 @@ namespace DietFit.Views
         private CriarConsultaController controller;
         private Utilizador user;
         private Appl app;
+        private EstadoConsulta estado;
         /// <summary>
         /// This can be changed to a strongly typed view model.
         /// </summary>
@@ -170,6 +171,14 @@ namespace DietFit.Views
         private void textBox2_TextChanged(object sender, TextChangedEventArgs e)
         {
 
+        }
+       
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            DateTime date = new DateTime(Convert.ToInt32(comboBox4.SelectedValue), comboBox3.SelectedIndex + 1, Convert.ToInt32(comboBox2.SelectedValue), Convert.ToInt32(comboBox.SelectedValue), Convert.ToInt32(comboBox1.SelectedValue), 0);
+            Utilizador user = controller.getUtilizadorbyUsername((String)listBox.SelectedItem);
+            controller.getConsultabyDateandUser(date, user).consultaFeita();
+            
         }
     }
 }
