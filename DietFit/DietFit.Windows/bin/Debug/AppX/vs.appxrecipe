@@ -28,7 +28,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\bin\Debug\DietFit.Windows.exe">
       <PackagePath>DietFit.Windows.exe</PackagePath>
-      <Modified>2016-06-09T23:48:27.463</Modified>
+      <Modified>2016-06-10T19:03:22.660</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\Assets\8034fitness.jpg">
       <PackagePath>Assets\8034fitness.jpg</PackagePath>
@@ -124,7 +124,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Consulta.xbf">
       <PackagePath>Views\Consulta.xbf</PackagePath>
-      <Modified>2016-06-09T23:17:46.026</Modified>
+      <Modified>2016-06-10T18:51:51.843</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mário\Source\Repos\DietFit\DietFit\DietFit.Windows\bin\Debug\Views\Contactos.xbf">
       <PackagePath>Views\Contactos.xbf</PackagePath>

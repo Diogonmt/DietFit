@@ -30,6 +30,7 @@ namespace DietFit.Views
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
         private List<Model.Consulta> consultas;
         private Utilizador user;
+        private Consulta consulta;
         
 
         /// <summary>
@@ -63,7 +64,7 @@ namespace DietFit.Views
 
             foreach (Model.Consulta c in consultas)
             {
-                String conteudo=c.getDate().ToString()+c.getState();
+                String conteudo=c.getDate().ToString()+ " " +c.getState();
                 listBox.Items.Add(conteudo);
 
             }
@@ -128,6 +129,25 @@ namespace DietFit.Views
 
         private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            String temp = (String)listBox.SelectedItem;
+            String data = temp.Split(' ')[0] + " " + temp.Split(' ')[1] + " " + temp.Split(' ')[2];
+            foreach (Model.Consulta consulta in consultas)
+            {
+                if (consulta.getDate().ToString().Equals(data))
+                {
+                    consultas.Remove(consulta);
+                    consulta.cancelarConsulta();
+                    consultas.Add(consulta);
+                    break;
+                }
+            }
+            listBox.Items.Clear();
+            fillList();
 
         }
     }
