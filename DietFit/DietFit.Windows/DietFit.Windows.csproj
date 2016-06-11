@@ -116,6 +116,7 @@
     <Compile Include="Controllers\UtilizadorInfoController.cs" />
     <Compile Include="Model\Appl.cs" />
     <Compile Include="Model\Consulta.cs" />
+    <Compile Include="Model\ContactoNutricionista.cs" />
     <Compile Include="Model\EstadoConsulta.cs" />
     <Compile Include="Model\Exercicio.cs" />
     <Compile Include="Model\Fisico.cs" />

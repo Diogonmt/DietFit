@@ -30,6 +30,9 @@ namespace DietFit.Views
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
         private UtilizadorInfoController controller;
         private Utilizador user;
+        private Utilizador nutricionista;
+        private ContactoNutricionista contacto;
+        
 
         /// <summary>
         /// This can be changed to a strongly typed view model.
@@ -117,6 +120,11 @@ namespace DietFit.Views
         private void textBlock_SelectionChanged(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            contacto.addMensagem(textBox.Text);
         }
     }
 }

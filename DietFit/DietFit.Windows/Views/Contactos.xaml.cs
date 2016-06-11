@@ -13,6 +13,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using DietFit.Model;
+using DietFit.Controllers;
 
 // The Basic Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234237
 
@@ -26,6 +28,7 @@ namespace DietFit.Views
 
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
+        private ContactoController controller;
 
         /// <summary>
         /// This can be changed to a strongly typed view model.
@@ -102,5 +105,21 @@ namespace DietFit.Views
         }
 
         #endregion
+
+        private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void fillList()
+        {
+            foreach (Utilizador u in controller.getUtilizadores())
+            {
+                if (!u.getIsnutricionista() && !u.getIspt())
+                {
+                    listBox.Items.Add(u.getUserName());
+                }
+            }
+        }
     }
 }
