@@ -122,6 +122,7 @@
     <Compile Include="Model\Fisico.cs" />
     <Compile Include="Model\Plano.cs" />
     <Compile Include="Model\RepositorioConsulta.cs" />
+    <Compile Include="Model\RepositorioMensagens.cs" />
     <Compile Include="Model\UserApp.cs" />
     <Compile Include="Model\Utilizador.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

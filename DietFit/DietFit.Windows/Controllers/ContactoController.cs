@@ -11,6 +11,7 @@ namespace DietFit.Controllers
     {
         Appl app;
         Utilizador nutricionista;
+        Utilizador user;
 
 
         public ContactoController(Appl app, Utilizador nutricionista)
@@ -27,6 +28,11 @@ namespace DietFit.Controllers
         public Utilizador getUtilizadorbyUsername(String username)
         {
             return app.getUtilizadorByUser(username);
+        }
+
+        public void setUtilizador(String username)
+        {
+            this.user = this.app.getUtilizadorByUser(username);
         }
     }
 }
