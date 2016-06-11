@@ -108,6 +108,7 @@
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\ContactoController.cs" />
     <Compile Include="Controllers\CriarConsultaController.cs" />
     <Compile Include="Controllers\CriarContaController.cs" />
     <Compile Include="Controllers\CriarPlanoNutricionalController.cs" />
