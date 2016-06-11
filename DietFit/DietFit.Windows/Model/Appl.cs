@@ -9,13 +9,15 @@ namespace DietFit.Model
     public class Appl
     {
         //
-        RepositorioConsulta consultas;
+        private RepositorioConsulta consultas;
         private List<Utilizador> utilizadores;
+        private RepositorioMensagens mensagens;
 
         public Appl()
         {
             utilizadores = new List<Utilizador>();
             consultas = new RepositorioConsulta();
+            mensagens = new RepositorioMensagens();
 
         }
 
@@ -28,6 +30,20 @@ namespace DietFit.Model
         {
             return utilizadores;
         }
+        public List<Utilizador> getNutricionista()
+        {
+            List<Utilizador> nutricionistas = new List<Utilizador>();
+            foreach (Utilizador u in utilizadores)
+            {
+                if (u.getIsnutricionista())
+                {
+                    nutricionistas.Add(u);
+                }
+            }
+            return nutricionistas;
+        }
+       
+
 
         public Utilizador getUtilizadorByUser(String username)
         {
@@ -57,6 +73,11 @@ namespace DietFit.Model
         public RepositorioConsulta getConsultas()
         {
             return this.consultas;
+        }
+
+        public RepositorioMensagens getMensagens()
+        {
+            return this.mensagens;
         }
     }
 }

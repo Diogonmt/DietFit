@@ -20,9 +20,18 @@ namespace DietFit.Controllers
             this.app = app;
         }
 
+        public List<Utilizador> getNutricionista()
+        {
+            return app.getNutricionista();
+        }
+
         public List<Utilizador> getUtilizadores()
         {
             return app.getUtilizadores();
+        }
+        public String getMensagem(Utilizador user)
+        {
+            return this.app.getMensagens().getMensagemByUsername(user, this.nutricionista).getMensagem();
         }
 
         public Utilizador getUtilizadorbyUsername(String username)

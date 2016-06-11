@@ -31,7 +31,6 @@ namespace DietFit.Views
         private UtilizadorInfoController controller;
         private Utilizador user;
         private Utilizador nutricionista;
-        private ContactoNutricionista contacto;
         
 
         /// <summary>
@@ -64,7 +63,8 @@ namespace DietFit.Views
         {
             controller = (UtilizadorInfoController)e.Parameter;
             user = controller.getUser();
-            
+            fillList();
+
         }
 
         /// <summary>
@@ -124,7 +124,29 @@ namespace DietFit.Views
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            contacto.addMensagem(textBox.Text);
+            try{ 
+                controller.getApp().getMensagens().getMensagemByUsername(user, nutricionista).addMensagem(textBox.Text);
+            }catch (NullReferenceException ex)
+            {
+                ContactoNutricionista cn = new ContactoNutricionista(nutricionista, user, textBox.Text);
+                controller.getApp().getMensagens().addMensagem(cn);
+            }
+        }
+
+        private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            nutricionista = controller.getApp().getUtilizadorByUser((String)listBox.SelectedItem);
+        }
+
+        private void fillList()
+        {
+            foreach (Utilizador nutricionista in controller.getApp().getNutricionista())
+            {
+                if (nutricionista.getIsnutricionista())
+                {
+                    listBox.Items.Add(nutricionista.getUserName());
+                }
+            }
         }
     }
 }

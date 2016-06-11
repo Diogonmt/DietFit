@@ -29,8 +29,6 @@ namespace DietFit.Views
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
         private ContactoController controller;
-        private Appl app;
-        private ContactoNutricionista c;
 
         /// <summary>
         /// This can be changed to a strongly typed view model.
@@ -111,11 +109,11 @@ namespace DietFit.Views
 
         private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Utilizador user = app.getUtilizadorByUser((String)listBox.SelectedItem);
+            Utilizador user = controller.getUtilizadorbyUsername((String)listBox.SelectedItem);
             controller.setUtilizador((String)listBox.SelectedItem);
             if (user != null)
             {
-                textBox.Text = c.getMensagem();
+                textBox.Text = controller.getMensagem(user);
             }
         }
 

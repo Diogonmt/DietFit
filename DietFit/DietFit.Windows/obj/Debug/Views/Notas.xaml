@@ -49,11 +49,12 @@
                         AutomationProperties.Name="Back"
                         AutomationProperties.AutomationId="BackButton"
                         AutomationProperties.ItemType="Navigation Button"/>
-            <TextBlock x:ConnectionId='2' x:Name="pageTitle" Text="Contactar Nutricionista" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+            <TextBlock x:ConnectionId='3' x:Name="pageTitle" Text="Contactar Nutricionista" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"                                              />
         </Grid>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="152,99,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="346" Width="1005"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="439,99,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="346" Width="718"/>
         <Button x:ConnectionId='1' x:Name="button" Content="Enviar" HorizontalAlignment="Left" Margin="1018,500,0,0" Grid.Row="1" VerticalAlignment="Top"                     />
+        <ListBox x:ConnectionId='2' x:Name="listBox" HorizontalAlignment="Left" Height="346" Margin="86,99,0,0" Grid.Row="1" VerticalAlignment="Top" Width="238"                                            />
     </Grid>
 </Page>
 

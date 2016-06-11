@@ -53,7 +53,7 @@
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
         </Grid>
         <ListBox x:ConnectionId='1' x:Name="listBox" HorizontalAlignment="Left" Height="385" Margin="76,133,0,0" Grid.Row="1" VerticalAlignment="Top" Width="332"                                            />
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="617,133,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="385" Width="562"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="617,133,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="385" Width="562" IsReadOnly="True"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="76,82,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Cliente:" VerticalAlignment="Top" Height="28" Width="198" Foreground="Black" FontSize="21.333" FontWeight="Bold"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="617,84,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Mensagem:" VerticalAlignment="Top" Foreground="Black" FontSize="21.333" FontWeight="Bold"/>
     </Grid>

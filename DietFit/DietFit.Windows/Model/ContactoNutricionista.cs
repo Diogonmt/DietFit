@@ -7,7 +7,7 @@ using DietFit.Model;
 
 namespace DietFit.Model
 {
-    class ContactoNutricionista
+    public class ContactoNutricionista
     {
         Utilizador nutricionista;
         Utilizador cliente;
@@ -28,6 +28,16 @@ namespace DietFit.Model
         public void addMensagem( String mensagem)
         {
             this.mensagem += "\n\r" + mensagem;
+        }
+
+        public Utilizador getUser()
+        {
+            return cliente;
+        }
+
+        public Utilizador getNutricionista()
+        {
+            return nutricionista;
         }
     }
 }

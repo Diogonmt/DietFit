@@ -52,7 +52,8 @@
             <TextBlock x:Name="pageTitle" Text="Contactar Nutricionista" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" SelectionChanged="pageTitle_SelectionChanged"/>
         </Grid>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="152,99,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="346" Width="1005"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="439,99,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="346" Width="718"/>
         <Button x:Name="button" Content="Enviar" HorizontalAlignment="Left" Margin="1018,500,0,0" Grid.Row="1" VerticalAlignment="Top" Click="button_Click"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="346" Margin="86,99,0,0" Grid.Row="1" VerticalAlignment="Top" Width="238" SelectionChanged="listBox_SelectionChanged"/>
     </Grid>
 </Page>
