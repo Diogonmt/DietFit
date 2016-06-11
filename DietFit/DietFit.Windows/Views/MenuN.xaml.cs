@@ -121,5 +121,11 @@ namespace DietFit.Views
             CriarConsultaController cc = new CriarConsultaController(app, u);
             this.Frame.Navigate(typeof(Views.MarcarConsulta), cc);
         }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            ContactoController ctc = new ContactoController(app, u);
+            this.Frame.Navigate(typeof(Views.Contactos), ctc);
+        }
     }
 }
