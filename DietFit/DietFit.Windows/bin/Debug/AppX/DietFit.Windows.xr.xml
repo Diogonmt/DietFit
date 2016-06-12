@@ -113,12 +113,12 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Content" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Background" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="Command" />
       <RootProperty Name="Style" />
-      <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootProperty Name="Padding" />
       <RootProperty Name="Opacity" />

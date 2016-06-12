@@ -216,7 +216,7 @@
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                                       
-                Content="OK" />
+                Content="OK" Height="38" />
         <TextBlock x:Name="textPrim"
                    Grid.Row="1"
                    Width="180"

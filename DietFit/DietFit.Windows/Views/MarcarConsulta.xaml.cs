@@ -29,9 +29,6 @@ namespace DietFit.Views
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
         private CriarConsultaController controller;
-        private Utilizador user;
-        private Appl app;
-        private EstadoConsulta estado;
         /// <summary>
         /// This can be changed to a strongly typed view model.
         /// </summary>
@@ -166,6 +163,18 @@ namespace DietFit.Views
         {
             DateTime date =new DateTime(Convert.ToInt32(comboBox4.SelectedValue), comboBox3.SelectedIndex + 1, Convert.ToInt32(comboBox2.SelectedValue), Convert.ToInt32(comboBox.SelectedValue), Convert.ToInt32(comboBox1.SelectedValue), 0);
             controller.marcarConsulta((String)listBox.SelectedItem, date);
+            Alerta alerta;
+            try
+            {
+                alerta = controller.getApp().getAlertas().getAlertaByUsername(controller.getApp().getUtilizadorByUser((String)listBox.SelectedItem));
+                alerta.addAlerta("Consulta marcada por " + controller.getNutricionista().getPnome() + " em " + DateTime.Today.ToString());
+            }
+            catch (NullReferenceException ex)
+            {
+                String mensagem = "Consulta marcada por " + this.controller.getNutricionista().getPnome() + " em " + DateTime.Today.ToString();
+                alerta = new Alerta(controller.getApp().getUtilizadorByUser((String)listBox.SelectedItem), mensagem);
+                controller.getApp().getAlertas().addAlerta(alerta);
+            }
         }
 
         private void textBox2_TextChanged(object sender, TextChangedEventArgs e)

@@ -159,6 +159,34 @@ namespace DietFit.Views
         private void button_Click(object sender, RoutedEventArgs e)
         {
             controller.setPlano(this.userPlano);
+            Alerta alerta;
+            try {
+                alerta = this.app.getAlertas().getAlertaByUsername(controller.getUser());
+                alerta.addAlerta("Plano atualizado por " + this.controller.getPT().getPnome() + " em " + DateTime.Today.ToString());
+            }catch(NullReferenceException ex)
+            {
+                String mensagem = "Plano atualizado por " + this.controller.getPT().getPnome() + " em " + DateTime.Today.ToString();
+                alerta = new Alerta(controller.getUser(), mensagem);
+                app.getAlertas().addAlerta(alerta);
+            }
+
+            List<Utilizador>nutricionistas = controller.getApp().getNutricionista();
+
+            foreach (Utilizador n in nutricionistas)
+            {
+                Alerta alert;
+                try
+                {
+                    alert = this.app.getAlertas().getAlertaByUsername(n);
+                    alert.addAlerta("Plano atualizado por " + this.controller.getPT().getPnome() + " em " + DateTime.Today.ToString() + " a "+ controller.getUser().getPnome());
+                }
+                catch (NullReferenceException ex)
+                {
+                    String mensagem = "Plano atualizado por " + this.controller.getPT().getPnome() + " em " + DateTime.Today.ToString() + " a " + controller.getUser().getPnome();
+                    alert = new Alerta(n, mensagem);
+                    app.getAlertas().addAlerta(alert);
+                }
+            }
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)

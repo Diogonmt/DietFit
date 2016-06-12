@@ -12,12 +12,14 @@ namespace DietFit.Model
         private RepositorioConsulta consultas;
         private List<Utilizador> utilizadores;
         private RepositorioMensagens mensagens;
+        private RepositorioAlertas alertas;
 
         public Appl()
         {
             utilizadores = new List<Utilizador>();
             consultas = new RepositorioConsulta();
             mensagens = new RepositorioMensagens();
+            alertas = new RepositorioAlertas();
 
         }
 
@@ -78,6 +80,11 @@ namespace DietFit.Model
         public RepositorioMensagens getMensagens()
         {
             return this.mensagens;
+        }
+
+        public RepositorioAlertas getAlertas()
+        {
+            return this.alertas;
         }
     }
 }

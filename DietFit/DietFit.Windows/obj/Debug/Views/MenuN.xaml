@@ -52,20 +52,21 @@
             <TextBlock x:Name="pageTitle" Text="Menu" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
         </Grid>
-        <Button x:ConnectionId='1' x:Name="button" Content="" HorizontalAlignment="Left" Margin="96,160,0,0" Grid.Row="1" VerticalAlignment="Top" Height="212" Width="214"                     >
+        <Button x:ConnectionId='1' x:Name="button" Content="" HorizontalAlignment="Left" Margin="96,40,0,0" Grid.Row="1" VerticalAlignment="Top" Height="212" Width="214"                     >
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/planoalimentar.png"/>
             </Button.Background>
         </Button>
-        <Button x:ConnectionId='2' x:Name="button1" Content="" HorizontalAlignment="Left" Margin="602,160,0,0" Grid.Row="1" VerticalAlignment="Top" Height="212" Width="214"                      >
+        <Button x:ConnectionId='2' x:Name="button1" Content="" HorizontalAlignment="Left" Margin="602,40,0,0" Grid.Row="1" VerticalAlignment="Top" Height="212" Width="214"                      >
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/notas.png"/>
             </Button.Background>
         </Button>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="99,433,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Plano alimentar" VerticalAlignment="Top" Foreground="#FF494848" FontSize="32" FontWeight="Bold"/>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="605,433,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Marcar Consulta" VerticalAlignment="Top" FontSize="32" FontWeight="Bold" Foreground="#FF464646"/>
-        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="1065,433,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Contactos" VerticalAlignment="Top" Foreground="#FF464646" FontSize="32" FontWeight="Bold"/>
-        <Button x:ConnectionId='3' x:Name="button2" Content="Button" HorizontalAlignment="Left" Margin="1032,160,0,0" Grid.Row="1" VerticalAlignment="Top" Height="212" Width="215"                      />
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="99,313,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Plano alimentar" VerticalAlignment="Top" Foreground="#FF494848" FontSize="32" FontWeight="Bold"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="605,313,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Marcar Consulta" VerticalAlignment="Top" FontSize="32" FontWeight="Bold" Foreground="#FF464646"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="1065,313,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Contactos" VerticalAlignment="Top" Foreground="#FF464646" FontSize="32" FontWeight="Bold"/>
+        <Button x:ConnectionId='3' x:Name="button2" Content="Button" HorizontalAlignment="Left" Margin="1032,40,0,0" Grid.Row="1" VerticalAlignment="Top" Height="212" Width="215"                      />
+        <TextBox x:ConnectionId='4' x:Name="textBox" HorizontalAlignment="Left" Margin="766,424,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="156" Width="478"                                   IsReadOnly="True"/>
     </Grid>
 </Page>
 

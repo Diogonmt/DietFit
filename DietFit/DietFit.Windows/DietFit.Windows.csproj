@@ -114,6 +114,7 @@
     <Compile Include="Controllers\CriarPlanoNutricionalController.cs" />
     <Compile Include="Controllers\CriarPlanoTreinoController.cs" />
     <Compile Include="Controllers\UtilizadorInfoController.cs" />
+    <Compile Include="Model\Alerta.cs" />
     <Compile Include="Model\Appl.cs" />
     <Compile Include="Model\Consulta.cs" />
     <Compile Include="Model\ContactoNutricionista.cs" />
@@ -121,6 +122,7 @@
     <Compile Include="Model\Exercicio.cs" />
     <Compile Include="Model\Fisico.cs" />
     <Compile Include="Model\Plano.cs" />
+    <Compile Include="Model\RepositorioAlertas.cs" />
     <Compile Include="Model\RepositorioConsulta.cs" />
     <Compile Include="Model\RepositorioMensagens.cs" />
     <Compile Include="Model\UserApp.cs" />

@@ -43,6 +43,14 @@ namespace DietFit.Controllers
         {
             return app.getUtilizadorByUser(username);
         }
-       
+        public Utilizador getNutricionista()
+        {
+            return this.nutricionista;
+        }
+        public Appl getApp()
+        {
+            return this.app;
+        }
+
     }
 }

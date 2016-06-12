@@ -100,6 +100,13 @@ namespace DietFit.Views
         {
             this.app = ((UserApp)e.Parameter).getApp();
             this.u = ((UserApp)e.Parameter).getUser();
+            try {
+                this.textBox.Text = this.app.getAlertas().getAlertaByUsername(u).getAlerta();
+            }catch(NullReferenceException ex)
+            {
+
+            }
+
         }
 
         protected override void OnNavigatedFrom(NavigationEventArgs e)
@@ -126,6 +133,11 @@ namespace DietFit.Views
         {
             ContactoController ctc = new ContactoController(app, u);
             this.Frame.Navigate(typeof(Views.Contactos), ctc);
+        }
+
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

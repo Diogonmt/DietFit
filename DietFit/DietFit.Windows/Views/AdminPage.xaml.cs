@@ -186,6 +186,18 @@ namespace DietFit.Views
             {
                 new Windows.UI.Popups.MessageDialog("Insira um utilizador");
             }
+            Alerta alerta;
+            try
+            {
+                alerta = this.app.getAlertas().getAlertaByUsername(controller.getUtilizador());
+                alerta.addAlerta("Plano atualizado por " + this.controller.getNutricionista().getPnome() + " em " + DateTime.Today.ToString());
+            }
+            catch (NullReferenceException ex)
+            {
+                String mensagem = "Plano atualizado por " + this.controller.getNutricionista().getPnome() + " em " + DateTime.Today.ToString();
+                alerta = new Alerta(controller.getUtilizador(), mensagem);
+                app.getAlertas().addAlerta(alerta);
+            }
         }
 
         private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)

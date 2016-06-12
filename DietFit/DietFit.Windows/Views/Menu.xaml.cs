@@ -60,6 +60,14 @@ namespace DietFit.Views
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             controller = (UtilizadorInfoController)e.Parameter;
+            try
+            {
+                this.textBox.Text = this.controller.getApp().getAlertas().getAlertaByUsername(controller.getUser()).getAlerta();
+            }
+            catch (NullReferenceException ex)
+            {
+
+            }
         }
 
         /// <summary>
@@ -128,6 +136,11 @@ namespace DietFit.Views
         private void button1_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(Views.Consulta), this.controller.getApp().getConsultas().getConsultaByUser(this.controller.getUser()));
+        }
+
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

@@ -131,6 +131,19 @@ namespace DietFit.Views
                 ContactoNutricionista cn = new ContactoNutricionista(nutricionista, user, textBox.Text);
                 controller.getApp().getMensagens().addMensagem(cn);
             }
+
+            Alerta alerta;
+            try
+            {
+                alerta = controller.getApp().getAlertas().getAlertaByUsername(nutricionista);
+                alerta.addAlerta("Mensagem enviada por " + this.user.getPnome() + " em " + DateTime.Today.ToString());
+            }
+            catch (NullReferenceException ex)
+            {
+                String mensagem = "Mensagem enviada por " + this.user.getPnome() + " em " + DateTime.Today.ToString();
+                alerta = new Alerta(nutricionista, mensagem);
+                controller.getApp().getAlertas().addAlerta(alerta);
+            }
         }
 
         private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
